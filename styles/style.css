@@ -7,7 +7,7 @@ body {
 header {
 	position: absolute;
 	z-index: 20;
-	height: 20vh;
+	height: 30vh;
 	width: 100%;
 	background-image: url(../images/castel-component.svg);
 	background-repeat: no-repeat;
@@ -26,10 +26,6 @@ header {
 	display: flex;
 }
 .door {
-	background-image: url(../images/door.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-position: top center;
 	width: 50%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.4);
