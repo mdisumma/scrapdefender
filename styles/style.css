@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+}
+header {
+	position: absolute;
+	z-index: 20;
+	height: 20vh;
+	width: 100%;
+	background-image: url(../images/castel-component.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: fixed;
+	z-index: 20;
+}
+#frame {
+	width: 100%;
+	height: 80vh;
+	top: 20vh;
+}
+#doors {
+	width: 100vw;
+	display: flex;
+}
+.door {
+	background-image: url(../images/door.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: top center;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: fixed;
+	z-index: 5;
+}
+
+.leftOpen {
+	top: 0;
+	left: -50%;
+	transition: 0.5s ease-out;
+}
+.left {
+	top: 0;
+	left: 0;
+	transition: 0.5s ease-out;
+}
+.rightOpen {
+	top: 0;
+	right: -50%;
+	transition: 0.5s ease-out;
+}
+.right {
+	top: 0;
+	right: 0;
+	transition: 0.5s ease-out;
+}
