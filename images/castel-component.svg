@@ -1,12 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920.61 196.39">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920.61 196.54">
   <defs>
     <style>
       .cls-1 {
         fill: #666;
       }
 
-      .cls-1, .cls-2, .cls-3 {
+      .cls-1, .cls-2, .cls-3, .cls-4 {
         stroke: #4d4d4d;
+      }
+
+      .cls-1, .cls-2 {
         stroke-miterlimit: 10;
       }
 
@@ -16,6 +19,15 @@
 
       .cls-3 {
         fill: #ccc;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        fill: #b3b3b3;
       }
     </style>
   </defs>
@@ -913,6 +925,17 @@
         <rect class="cls-3" x="545.04" y="131.25" width="62.43" height="37.02"/>
         <rect class="cls-3" x="736.78" y="131.25" width="62.43" height="37.02"/>
         <rect class="cls-3" x="928.5" y="131.25" width="62.43" height="37.02"/>
+        <polygon class="cls-4" points="216.42 195.94 169.54 195.94 161.72 168.15 224.15 168.15 216.42 195.94"/>
+        <polygon class="cls-4" points="24.64 195.94 0.92 195.94 0.92 168.15 32.37 168.15 24.64 195.94"/>
+        <polygon class="cls-4" points="408 195.94 361.12 195.94 353.29 168.15 415.73 168.15 408 195.94"/>
+        <polygon class="cls-4" points="599.78 196.04 552.9 196.04 545.07 168.25 607.51 168.25 599.78 196.04"/>
+        <polygon class="cls-4" points="791.56 196.04 744.68 196.04 736.85 168.25 799.28 168.25 791.56 196.04"/>
+        <polygon class="cls-4" points="983.34 196.04 936.46 196.04 928.63 168.25 991.07 168.25 983.34 196.04"/>
+        <polygon class="cls-4" points="1174.82 195.94 1127.94 195.94 1120.11 168.15 1182.54 168.15 1174.82 195.94"/>
+        <polygon class="cls-4" points="1366.9 195.64 1320.02 195.64 1312.19 167.85 1374.62 167.85 1366.9 195.64"/>
+        <polygon class="cls-4" points="1558.18 196.04 1511.3 196.04 1503.47 168.25 1565.9 168.25 1558.18 196.04"/>
+        <polygon class="cls-4" points="1749.96 195.94 1703.08 195.94 1695.25 168.15 1757.68 168.15 1749.96 195.94"/>
+        <polygon class="cls-4" points="1920.04 195.88 1894.66 195.94 1886.83 168.15 1919.92 168.13 1920.04 195.88"/>
         <rect class="cls-3" x="1120.04" y="131.25" width="62.43" height="37.02"/>
         <rect class="cls-3" x="1311.92" y="131.25" width="62.43" height="37.02"/>
         <rect class="cls-3" x="1503.57" y="131.25" width="62.43" height="37.02"/>
