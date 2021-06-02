@@ -37,9 +37,11 @@ body {
 
 .gateUp {
 	transform: translateY(-70%);
-	transition-duration: 2s ease-out;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
 }
 .gateDown {
 	transform: translateY(0);
-	transition-duration: 2s ease-out;
+	transition-duration: 3s;
+	transition-timing-function: ease-out;
 }
