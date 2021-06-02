@@ -4,10 +4,6 @@ body {
 	padding: 0;
 	width: 100vw;
 	height: 100vh;
-	background-image: url(../images/castel-component.svg);
-	/* background-repeat: no-repeat; */
-	background-size: auto 100vh;
-	background-position: center top;
 }
 
 #frame {
@@ -15,6 +11,10 @@ body {
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
+	background-image: url(../images/castel-component.svg);
+	/* background-repeat: no-repeat; */
+	background-size: auto 100vh;
+	background-position: center top;
 }
 .side {
 	width: 10vw;
@@ -26,38 +26,20 @@ body {
 	position: relative;
 	z-index: 7;
 }
-#doors {
-	width: 70vw;
-	margin-top: 30vh;
-	display: flex;
-}
-.door {
-	width: 80vw;
-	margin-top: 20vh;
-	width: 50%;
-	height: 100%;
+#door {
+	width: 100vw;
+	height: 100vh;
 	background-color: rgba(0, 0, 0, 0.4);
-	position: fixed;
-	z-index: 5;
+	position: absolute;
+	top: 0;
+	z-index: -10;
 }
 
-.leftOpen {
-	top: 0;
-	left: -50%;
-	transition: 0.5s ease-out;
+.gateUp {
+	transform: translateY(-70%);
+	transition-duration: 2s;
 }
-.left {
-	top: 0;
-	left: 0;
-	transition: 0.5s ease-out;
-}
-.rightOpen {
-	top: 0;
-	right: -50%;
-	transition: 0.5s ease-out;
-}
-.right {
-	top: 0;
-	right: 0;
-	transition: 0.5s ease-out;
+.gateDown {
+	transform: translateY(0);
+	transition-duration: 2s;
 }
