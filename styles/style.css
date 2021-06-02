@@ -31,34 +31,47 @@ header {
 }
 /* door */
 .door {
+	margin-top: 20vh;
 	height: 100vh;
 	width: 50vw;
-	background-image: url(../images/slide.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top;
 	position: absolute;
-	z-index: -2;
+	z-index: -10;
 }
 
 .leftOpen {
+	background-image: url(../images/slideL.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
 	top: 0;
 	left: -50%;
 	transition: 0.5s ease-out;
 }
 .left {
+	background-image: url(../images/slideL.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
 	top: 0;
-	left: 0;
+	left: 5px;
 	transition: 0.5s ease-out;
 }
 
 .rightOpen {
+	background-image: url(../images/slideR.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
 	top: 0;
 	right: -50%;
 	transition: 0.5s ease-out;
 }
 .right {
+	background-image: url(../images/slideR.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
 	top: 0;
-	right: 0;
+	right: 5px;
 	transition: 0.5s ease-out;
 }
