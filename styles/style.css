@@ -5,12 +5,12 @@ body {
 	height: 100vh;
 }
 header {
-	height: 25vh;
+	height: 200px;
 	width: 100vw;
 	background-image: url(../images/castel-component.svg);
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: top;
+	/* background-repeat: no-repeat; */
+	background-size: auto 200px;
+	background-position: center;
 	position: absolute;
 	top: 0;
 	z-index: -1;
@@ -36,7 +36,7 @@ header {
 	background-image: url(../images/slide.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 	position: absolute;
 	z-index: -2;
 }
