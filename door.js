@@ -1,7 +1,8 @@
+const click = document.querySelector("body");
+const title = document.querySelector("h1");
 const doorLeft = document.querySelector(".left");
 const doorRight = document.querySelector(".right");
-const click = document.querySelector("body");
-
+console.log(title.classList);
 const sound = document.querySelector("audio");
 
 click.addEventListener("click", (e) => {
@@ -14,6 +15,7 @@ click.addEventListener("click", (e) => {
 function doorControl() {
 	doorLeft.classList.toggle("left");
 	doorRight.classList.toggle("right");
+	title.classList.toggle("titleDown");
 }
 function playSound() {
 	sound.play();
