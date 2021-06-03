@@ -51,7 +51,7 @@ header {
 .leftOpen {
 	top: 0;
 	left: -50%;
-	transition: 1.5s ease-out;
+	transition: 2s ease-out;
 }
 .left {
 	top: 0;
