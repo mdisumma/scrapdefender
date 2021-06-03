@@ -3,12 +3,12 @@ body {
 	padding: 0;
 }
 header {
-	height: 20vh;
+	height: 150px;
 	width: 100vw;
 	background-image: url(../images/castel-component.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	/* background-repeat: no-repeat; */
+	background-size: auto 150px;
+	background-position: bottom;
 	position: absolute;
 	top: 0;
 	z-index: -1;
@@ -39,47 +39,49 @@ header {
 }
 /* door */
 .door {
-	margin-top: 20vh;
+	margin-top: 150px;
 	height: 100vh;
 	width: 50vw;
 	position: fixed;
 	z-index: -10;
+	background-size: 100%;
+	background-image: url(../images/brik.svg);
 }
 
 .leftOpen {
-	background-image: url(../images/slideL.svg);
+	/* background-image: url(../images/slideL.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top;
+	background-position: top; */
 	top: 0;
 	left: -50%;
-	transition: 0.5s ease-out;
+	transition: 1s ease-out;
 }
 .left {
-	background-image: url(../images/slideL.svg);
+	/* background-image: url(../images/slideL.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top;
+	background-position: top; */
 	top: 0;
-	left: 5px;
-	transition: 0.5s ease-out;
+	left: 100px;
+	transition: 1s ease-out;
 }
 
 .rightOpen {
-	background-image: url(../images/slideR.svg);
+	/* background-image: url(../images/slideR.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top;
+	background-position: top; */
 	top: 0;
 	right: -50%;
-	transition: 0.5s ease-out;
+	transition: 1s ease-out;
 }
 .right {
-	background-image: url(../images/slideR.svg);
+	/* background-image: url(../images/slideR.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top;
+	background-position: top; */
 	top: 0;
-	right: 5px;
-	transition: 0.5s ease-out;
+	right: 100px;
+	transition: 1s ease-out;
 }
