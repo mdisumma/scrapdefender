@@ -49,38 +49,23 @@ header {
 }
 
 .leftOpen {
-	/* background-image: url(../images/slideL.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top; */
 	top: 0;
 	left: -50%;
 	transition: 1s ease-out;
 }
 .left {
-	/* background-image: url(../images/slideL.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top; */
 	top: 0;
 	left: 100px;
 	transition: 1s ease-out;
 }
 
 .rightOpen {
-	/* background-image: url(../images/slideR.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top; */
 	top: 0;
 	right: -50%;
 	transition: 1s ease-out;
 }
 .right {
-	/* background-image: url(../images/slideR.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top; */
+	background-position: top;
 	top: 0;
 	right: 100px;
 	transition: 1s ease-out;
