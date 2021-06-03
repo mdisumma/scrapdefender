@@ -23,7 +23,6 @@ h1 {
 	font-size: 80px;
 	text-shadow: 2px 2px rgb(75, 75, 75);
 }
-
 .titleUp {
 	transform: translateY(-150%) scale(0.5);
 	opacity: 0.5;
