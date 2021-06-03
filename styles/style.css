@@ -71,7 +71,7 @@ h1 {
 	position: fixed;
 	z-index: -10;
 	background-size: 100%;
-	background-image: url(../images/brik.svg);
+	background-image: url(../images/slide-short.svg);
 }
 
 .leftOpen {
@@ -95,4 +95,10 @@ h1 {
 	top: 0;
 	right: 20px;
 	transition: 1.5s ease-out;
+}
+
+@media only screen and (min-width: 960px) {
+	.door {
+		background-image: url(../images/brik.svg);
+	}
 }
