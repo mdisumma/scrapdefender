@@ -55,7 +55,7 @@ header {
 }
 .left {
 	top: 0;
-	left: 100px;
+	left: 20px;
 	transition: 0.5s ease-out;
 }
 
@@ -67,6 +67,6 @@ header {
 .right {
 	background-position: top;
 	top: 0;
-	right: 100px;
+	right: 20px;
 	transition: 0.5s ease-out;
 }
