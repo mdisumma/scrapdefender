@@ -79,7 +79,7 @@ h1 {
 }
 .left {
 	top: 0;
-	left: 20px;
+	left: 30px;
 	transition: 1.5s ease-out;
 }
 
@@ -91,7 +91,7 @@ h1 {
 .right {
 	background-position: top;
 	top: 0;
-	right: 20px;
+	right: 30px;
 	transition: 1.5s ease-out;
 }
 
@@ -101,5 +101,17 @@ h1 {
 	}
 	.side {
 		width: 10vw;
+	}
+	.right {
+		background-position: top;
+		top: 0;
+		right: 20px;
+		transition: 1.5s ease-out;
+	}
+	.right {
+		background-position: top;
+		top: 0;
+		right: 30px;
+		transition: 1.5s ease-out;
 	}
 }
