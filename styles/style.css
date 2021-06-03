@@ -26,6 +26,7 @@ h1 {
 
 .titleUp {
 	transform: translateY(-150%) scale(0.5);
+	opacity: 0;
 	transition-duration: 1.5s;
 	transition-timing-function: ease-in;
 }
