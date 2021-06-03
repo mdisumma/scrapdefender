@@ -2,19 +2,21 @@ const doorLeft = document.querySelector(".left");
 const doorRight = document.querySelector(".right");
 const click = document.querySelector("body");
 
-const about = document.querySelector("#about");
-const play = document.querySelector("#unity-container");
-const support = document.querySelector("#support");
+const sound = document.querySelector("audio");
 
 click.addEventListener("click", (e) => {
 	console.log(click);
-
+	console.log(sound);
+	playSound();
 	doorControl(e);
 });
 
 function doorControl() {
 	doorLeft.classList.toggle("left");
 	doorRight.classList.toggle("right");
+}
+function playSound() {
+	sound.play();
 }
 
 // const navTrigger = document.querySelector("#navTrigger");

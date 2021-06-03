@@ -51,22 +51,22 @@ header {
 .leftOpen {
 	top: 0;
 	left: -50%;
-	transition: 0.5s ease-out;
+	transition: 2s ease-out;
 }
 .left {
 	top: 0;
 	left: 20px;
-	transition: 0.5s ease-out;
+	transition: 2s ease-out;
 }
 
 .rightOpen {
 	top: 0;
 	right: -50%;
-	transition: 0.5s ease-out;
+	transition: 2s ease-out;
 }
 .right {
 	background-position: top;
 	top: 0;
 	right: 20px;
-	transition: 0.5s ease-out;
+	transition: 2s ease-out;
 }
