@@ -17,8 +17,9 @@ nav {
 	background-color: rgb(75, 75, 75);
 }
 .navContainer {
-	margin: 0 150px;
-	padding: 0 1em;
+	margin: 0 auto;
+	max-width: 70vw;
+	padding: 0 150px;
 	color: white;
 	display: flex;
 	justify-content: space-between;
