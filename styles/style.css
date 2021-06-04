@@ -39,7 +39,6 @@ header p {
 	color: white;
 	text-shadow: 5px 5px rgb(75, 75, 75);
 }
-}
 .titleUp {
 	transform: translateY(-150%) scale(0.5);
 	opacity: 0.5;
