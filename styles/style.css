@@ -88,6 +88,8 @@ header p {
 	width: 130px;
 	height: 100%;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
@@ -108,16 +110,23 @@ header p {
 /* torch */
 #torchElement {
 	display: block;
-	margin: 0 auto;
-	width: 50px;
+	height: 130px;
+}
+.sideL #torchElement {
+	transform: translateX(-20%);
+}
+.sideR #torchElement {
+	transform: translateX(20%);
 }
 .torch {
-	fill: rgb(50, 50, 50);
+	fill: rgb(75, 75, 75);
 }
 #fireLeft {
+	margin-right: 40px;
 	animation: torchElement 1s infinite;
 }
 #fireRight {
+	padding-right: 20px;
 	animation: torchElement 1s infinite 0.5s;
 }
 .yellow {
