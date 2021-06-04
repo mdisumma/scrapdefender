@@ -1,20 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
-
+/* global */
 body {
 	margin: 0;
 	padding: 0;
 }
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+/* navigation */
+nav {
+	background-color: rgb(75, 75, 75);
+}
+.navContainer {
+	margin: 0 150px;
+	padding: 0 1em;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	/* align-items: top; */
+}
+/* submission form */
+#mc_embed_signup_scroll {
+	padding: 0;
+	display: flex;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+}
+nav ul li {
+	padding: 0 1em;
+}
 
 header {
-	height: 150px;
+	height: 140px;
 	width: 100vw;
 	background-image: url(../images/castel-component.svg);
 	/* background-repeat: no-repeat; */
-	background-size: auto 150px;
+	background-size: auto 140px;
 	background-position: bottom;
 	position: absolute;
-	top: 0;
-	z-index: -5;
+	top: 50px;
+	z-index: 0;
 }
 .headerNone {
 	opacity: 0;
@@ -58,7 +90,7 @@ header p {
 	justify-content: space-between;
 }
 .side {
-	width: 150px;
+	width: 130px;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -117,16 +149,17 @@ footer {
 	z-index: 15;
 	bottom: 0;
 }
-footer ul {
+ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	display: flex;
+	align-items: center;
 	justify-content: center;
 }
-/* footer ul li {
-	padding: 10px 30px;
-} */
+footer ul li {
+	padding: 0px 30px;
+}
 footer ul li a {
 	padding: 10px 30px;
 	display: inline-block;
