@@ -112,7 +112,7 @@ header p {
 	width: 50px;
 }
 .torch {
-	fill: rgb(75, 75, 75);
+	fill: rgb(50, 50, 50);
 }
 #fireLeft {
 	animation: torchElement 1s infinite;
