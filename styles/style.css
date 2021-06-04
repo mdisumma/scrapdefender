@@ -84,15 +84,10 @@ header p {
 	text-shadow: 5px 5px rgb(75, 75, 75);
 }
 
-#frame {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: space-between;
-}
 .side {
 	width: 130px;
 	height: 100%;
+	display: flex;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
@@ -109,6 +104,41 @@ header p {
 	background-image: url(../images/castel-sideR.svg);
 	top: 0;
 	right: 0;
+}
+/* torch */
+#torchElement {
+	display: block;
+	margin: 0 auto;
+	width: 50px;
+}
+.torch {
+	fill: #1a1a1a;
+}
+#fireLeft {
+	animation: torchElement 1s infinite;
+}
+#fireRight {
+	animation: torchElement 1s infinite 0.5s;
+}
+.yellow {
+	fill: #ff0;
+}
+
+.opacity {
+	fill: #ff00089f;
+	opacity: 0.71;
+}
+
+.red {
+	fill: red;
+}
+@keyframes torchElement {
+	0% {
+		opacity: 0.3;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 /* door */
 .door {
