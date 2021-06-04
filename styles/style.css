@@ -124,10 +124,14 @@ footer ul {
 	display: flex;
 	justify-content: center;
 }
-footer ul li {
+/* footer ul li {
+	padding: 10px 30px;
+} */
+footer ul li a {
+	padding: 10px 30px;
+	display: inline-block;
 	font-size: 2em;
 	color: white;
-	padding: 10px 30px;
 }
 
 @media only screen and (min-width: 1300px) {
