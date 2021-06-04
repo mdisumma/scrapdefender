@@ -1,4 +1,5 @@
 const click = document.querySelector("body");
+const header = document.querySelector(".header");
 const title = document.querySelector("h1");
 const doorLeft = document.querySelector(".left");
 const doorRight = document.querySelector(".right");
@@ -16,6 +17,7 @@ function doorControl() {
 	doorLeft.classList.toggle("left");
 	doorRight.classList.toggle("right");
 	title.classList.toggle("titleDown");
+	header.classList.toggle("headerDisplay");
 }
 function playSound() {
 	sound.play();
