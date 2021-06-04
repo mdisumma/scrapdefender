@@ -26,7 +26,8 @@ h1 {
 	text-align: center;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
-	font-size: 40px;
+	padding-top: 40px;
+	font-size: 50px;
 	text-shadow: 5px 5px rgb(75, 75, 75);
 }
 .titleUp {
@@ -101,9 +102,10 @@ h1 {
 	transition: 1.5s ease-out;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
 	h1 {
-		font-size: 80px;
+		padding-top: 0;
+		font-size: 90px;
 	}
 	header img {
 		width: 350px;
