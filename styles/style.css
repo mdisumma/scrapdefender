@@ -19,14 +19,14 @@ header img {
 	padding-top: 200px;
 	display: block;
 	margin: 0 auto;
-	width: 300px;
+	width: 250px;
 }
 h1 {
 	font-family: "Reggae One", cursive;
 	text-align: center;
 	text-transform: uppercase;
 	color: rgb(255, 255, 255);
-	font-size: 60px;
+	font-size: 40px;
 	text-shadow: 5px 5px rgb(75, 75, 75);
 }
 .titleUp {
@@ -104,6 +104,9 @@ h1 {
 @media only screen and (min-width: 1200px) {
 	h1 {
 		font-size: 80px;
+	}
+	header img {
+		width: 350px;
 	}
 	.door {
 		background-image: url(../images/brik.svg);
