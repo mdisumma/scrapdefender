@@ -169,21 +169,21 @@
     </ul>
     </ul>
   </footer>
-  <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-  <script>
-    (function (f, a, t, h, o, m) {
-      a[h] = a[h] || function () {
-        (a[h].q = a[h].q || []).push(arguments)
-      };
-      o = f.createElement('script'),
-        m = f.getElementsByTagName('script')[0];
-      o.async = 1; o.src = t; o.id = 'fathom-script';
-      m.parentNode.insertBefore(o, m)
-    })(document, window, '//46.101.36.185/tracker.js', 'fathom');
-    fathom('set', 'siteId', 'NRTNL');
-    fathom('trackPageview');
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+      var u = "https://riffraffstudiosnetlifyapp.matomo.cloud/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
+      _paq.push(['setSiteId', '3']);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript'; g.async = true; g.src = '//cdn.matomo.cloud/riffraffstudiosnetlifyapp.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g, s);
+    })();
   </script>
-  <!-- / Fathom -->
+  <!-- End Matomo Code -->
 </body>
 
 </html>
