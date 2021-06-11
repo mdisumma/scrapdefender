@@ -1,9 +1,9 @@
 /* navigation */
 nav {
-	color: $brandText;
+	color: $textColor;
 	box-sizing: border-box;
 	width: 100vw;
-	background-color: rgb(75, 75, 75);
+	background-color: $black;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -17,10 +17,14 @@ nav {
 	justify-content: flex-start;
 	align-items: center;
 }
-.button {
+.audioSwich {
 	background-color: transparent;
 	border: none;
-	color: $brandText;
+	color: $textColor;
+}
+.audioSwich:hover {
+	transform: scale(1.3);
+	color: $textColorOver;
 }
 .audioOn {
 	display: block;
@@ -38,17 +42,28 @@ nav ul li {
 nav ul li:hover {
 	cursor: pointer;
 	transform: scale(1.3);
+	color: $textColorOver;
 }
 #mc_embed_signup_scroll {
 	padding: 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	color: $brandText;
+	color: $textColor;
 }
 #mc_embed_signup_scroll label {
+	color: $textColorOver;
 	font-family: "Reggae One", cursive;
 	width: 100%;
+}
+
+#mc_embed_signup input.button {
+	background-color: rgb(75, 75, 75);
+	padding: 0;
+}
+#mc_embed_signup input.button:hover {
+	border: 1px solid $textColorOver;
+	color: $textColorOver;
 }
 
 /* side tower */
@@ -78,7 +93,7 @@ nav ul li:hover {
 }
 
 footer {
-	background-color: rgb(75, 75, 75);
+	background-color: $black;
 	width: 100%;
 	position: fixed;
 	z-index: 15;
