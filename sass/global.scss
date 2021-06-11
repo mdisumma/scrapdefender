@@ -28,7 +28,18 @@ h2 {
 	color: $textColorOver;
 	text-align: center;
 }
-
+#character {
+	margin: 0 auto;
+}
+#character img {
+	width: 150px;
+	display: block;
+}
+.characterIcons {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
 main {
 	color: white;
 	min-height: 100vh;
