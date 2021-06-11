@@ -51,6 +51,10 @@ main {
   background-color: #4b4b4b;
 }
 
+video {
+  width: 60vw;
+}
+
 /* header */
 header {
   height: 140px;
