@@ -2,6 +2,7 @@
 $textColor: white;
 $textColorOver: rgb(255, 238, 0);
 $black: rgb(50, 50, 50);
+$header: "Reggae One", cursive;
 
 body {
 	margin: 0;
@@ -23,12 +24,15 @@ a:hover {
 h2 {
 	margin: 0;
 	padding: 0;
+	font-family: $header;
+	color: $textColorOver;
+	text-align: center;
 }
 
 main {
 	color: white;
 	min-height: 100vh;
-	padding: 300px 150px 0 150px;
+	padding: 250px 150px 0 150px;
 	background-size: 100%;
 	background-color: rgb(75, 75, 75);
 }
