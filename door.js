@@ -4,7 +4,7 @@ const title = document.querySelector("h1");
 const doorLeft = document.querySelector(".left");
 const doorRight = document.querySelector(".right");
 
-const soundToogle = document.querySelector(".button");
+const soundToogle = document.querySelector(".audioSwich");
 const sound = document.querySelector("audio");
 
 click.addEventListener("click", (e) => {

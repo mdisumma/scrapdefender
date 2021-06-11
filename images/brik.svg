@@ -5,7 +5,7 @@
         fill: gray;
         stroke: #4d4d4d;
         stroke-miterlimit: 10;
-        stroke-width: 0.8px;
+        stroke-width: 1px;
       }
     </style>
   </defs>
