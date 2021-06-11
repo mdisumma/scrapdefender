@@ -137,6 +137,11 @@ nav ul li {
   padding: 0 1em;
 }
 
+nav ul li:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
 #mc_embed_signup_scroll {
   padding: 0;
   display: flex;
