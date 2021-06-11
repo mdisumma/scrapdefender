@@ -1,0 +1,58 @@
+<svg id="Layer_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.31 311.12">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.6;
+      }
+
+      .cls-2 {
+        fill: #4d4d4d;
+      }
+
+      .cls-3 {
+        fill: #b3b3b3;
+      }
+
+      .cls-4 {
+        fill: #1a1a1a;
+        stroke: #666;
+        stroke-miterlimit: 10;
+        stroke-width: 5.31px;
+      }
+
+      .cls-5 {
+        fill: #333;
+      }
+
+      .cls-6 {
+        font-size: 42.93px;
+        fill: #fe0;
+        font-family: ReggaeOne-Regular, Reggae One;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="146.61" cy="157.58" r="123.8"/>
+    <circle class="cls-2" cx="134.61" cy="148.58" r="123.8"/>
+    <ellipse class="cls-3" cx="134.61" cy="128.84" rx="81.61" ry="58.2"/>
+    <path class="cls-4" d="M424.48,361.35c-22.86,1.61-59.83,46.43-82.06,40.88-16.61-4.15-13.56-40.69,9.52-39.12,23.35,1.58,64.12,46.87,85.65,37.71C457,392.58,443.35,360,424.48,361.35Z" transform="translate(-254.13 -244.5)"/>
+    <path class="cls-5" d="M389.29,263.26A130.11,130.11,0,1,0,519.4,393.37,130.11,130.11,0,0,0,389.29,263.26Zm0,198.83A68.73,68.73,0,1,1,458,393.37,68.73,68.73,0,0,1,389.29,462.09Z" transform="translate(-254.13 -244.5)"/>
+    <g>
+      <text class="cls-6" transform="matrix(0.35, -0.94, 0.94, 0.35, 55.6, 135.41)">S</text>
+      <text class="cls-6" transform="matrix(0.71, -0.71, 0.71, 0.71, 67.84, 104.19)">C</text>
+      <text class="cls-6" transform="matrix(0.93, -0.36, 0.36, 0.93, 92.62, 80.44)">R</text>
+      <text class="cls-6" transform="translate(125.01 68.74) rotate(4.53)">A</text>
+      <text class="cls-6" transform="translate(159.83 72.29) rotate(29)">P</text>
+      <text class="cls-6" transform="translate(188.39 90.18) rotate(47.76)"> </text>
+      <text class="cls-6" transform="translate(23.57 187.71) rotate(62.32)">D</text>
+      <text class="cls-6" transform="matrix(0.79, 0.61, -0.61, 0.79, 51.6, 231.79)">E</text>
+      <text class="cls-6" transform="matrix(0.96, 0.27, -0.27, 0.96, 89.98, 257.29)">F</text>
+      <text class="cls-6" transform="translate(133.39 266.35) rotate(-6.51)">E</text>
+      <text class="cls-6" transform="translate(179.93 257.76) rotate(-30.84)">N</text>
+      <text class="cls-6" transform="matrix(0.54, -0.84, 0.84, 0.54, 223.31, 226.84)">D</text>
+      <text class="cls-6" transform="translate(248.04 180.94) rotate(-81.28)">E</text>
+      <text class="cls-6" transform="matrix(-0.26, -0.97, 0.97, -0.26, 251.81, 134.14)">R</text>
+      <text class="cls-6" transform="matrix(-0.55, -0.83, 0.83, -0.55, 236.35, 90.53)"> </text>
+    </g>
+  </g>
+</svg>
