@@ -1,0 +1,105 @@
+/* torch */
+#torchElement {
+	display: block;
+	height: 130px;
+}
+.sideL #torchElement {
+	transform: translateX(-20%);
+}
+.sideR #torchElement {
+	transform: translateX(20%);
+}
+.torch {
+	fill: rgb(75, 75, 75);
+}
+#fireLeft {
+	margin-right: 40px;
+	animation: torchElement 1s infinite;
+}
+#fireRight {
+	padding-right: 20px;
+	animation: torchElement 1s infinite 0.5s;
+}
+.yellow {
+	fill: #ff0;
+}
+
+.opacity {
+	fill: #ff00089f;
+	opacity: 0.71;
+}
+
+.red {
+	fill: red;
+}
+@keyframes torchElement {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* door */
+.door {
+	margin-top: 100px;
+	height: 100vh;
+	width: 50vw;
+	position: fixed;
+	z-index: -10;
+	background-size: 100%;
+	background-image: url(../images/slide-short.svg);
+}
+
+.leftOpen {
+	top: 0;
+	left: -40%;
+	transition: 1.5s ease-out;
+}
+.left {
+	top: 0;
+	left: 20px;
+	transition: 1.5s ease-out;
+}
+
+.rightOpen {
+	top: 0;
+	right: -40%;
+	transition: 1.5s ease-out;
+}
+.right {
+	background-position: top;
+	top: 0;
+	right: 20px;
+	transition: 1.5s ease-out;
+}
+footer {
+	background-color: rgb(75, 75, 75);
+	width: 100%;
+	position: absolute;
+	z-index: 15;
+	bottom: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+footer ul li {
+	padding: 0px 30px;
+}
+footer ul li a {
+	padding: 10px 30px;
+	display: inline-block;
+	font-size: 2em;
+	color: white;
+}
+@media only screen and (min-width: 1300px) {
+	.door {
+		background-image: url(../images/brik.svg);
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "scrapdefender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "door.js",
+  "scripts": {
+    "start": "sass sass/main.scss:styles/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdisumma/scrapdefender.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdisumma/scrapdefender/issues"
+  },
+  "homepage": "https://github.com/mdisumma/scrapdefender#readme"
+}
