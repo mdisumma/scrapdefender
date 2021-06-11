@@ -9,19 +9,19 @@
         stroke: #1a1a1a;
       }
 
-      .cls-1, .cls-10, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-2, .cls-3, .cls-4, .cls-5 {
+      .cls-1, .cls-10, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-2, .cls-21, .cls-3, .cls-4, .cls-5 {
         stroke-miterlimit: 10;
       }
 
-      .cls-1 {
-        stroke-width: 3.01px;
+      .cls-1, .cls-20 {
+        stroke-width: 2px;
       }
 
-      .cls-2 {
+      .cls-2, .cls-20 {
         fill: none;
       }
 
-      .cls-10, .cls-16, .cls-2, .cls-3, .cls-4, .cls-6, .cls-7, .cls-8, .cls-9 {
+      .cls-10, .cls-16, .cls-2, .cls-20, .cls-3, .cls-4, .cls-6, .cls-7, .cls-8, .cls-9 {
         stroke: #333;
       }
 
@@ -29,19 +29,15 @@
         fill: #666;
       }
 
-      .cls-4 {
+      .cls-19, .cls-4 {
         fill: gray;
       }
 
-      .cls-18, .cls-5 {
+      .cls-5 {
         fill: #4d4d4d;
       }
 
-      .cls-5 {
-        stroke-width: 2.86px;
-      }
-
-      .cls-6, .cls-7, .cls-8, .cls-9 {
+      .cls-20, .cls-6, .cls-7, .cls-8, .cls-9 {
         stroke-linecap: round;
         stroke-linejoin: round;
       }
@@ -50,7 +46,7 @@
         fill: #999;
       }
 
-      .cls-9 {
+      .cls-18, .cls-9 {
         fill: #b3b3b3;
       }
 
@@ -75,10 +71,16 @@
       }
 
       .cls-18 {
-        stroke-width: 1.45px;
+        stroke-width: 0.95px;
       }
 
-      .cls-19 {
+      .cls-21 {
+        fill: #1a1a1a;
+        stroke: #666;
+        stroke-width: 5.31px;
+      }
+
+      .cls-22 {
         font-size: 42.93px;
         fill: #fff;
         font-family: ReggaeOne-Regular, Reggae One;
@@ -283,23 +285,39 @@
   </g>
   <g id="Layer_4" data-name="Layer 4">
     <g>
-      <path class="cls-18" d="M389.29,263.26A130.11,130.11,0,1,0,519.4,393.37,130.11,130.11,0,0,0,389.29,263.26Zm0,198.83A68.73,68.73,0,1,1,458,393.37,68.73,68.73,0,0,1,389.29,462.09Z"/>
+      <circle class="cls-18" cx="388.74" cy="393.08" r="123.8"/>
+      <path class="cls-19" d="M388.76,464.23c-17.5,0-66.87-22.36-66.87-22.36V421.52c0-3.12,1.7-7.38,4.8-7.07,15.68,1.55,47.78-22.6,61.92-22.23,14.35.38,46.9,27.09,62.32,25.81,3.38-.28,5.05,4.5,5.05,7.9v15.3S406.38,464.18,388.76,464.23Z"/>
       <g>
-        <text class="cls-19" transform="matrix(0.35, -0.94, 0.94, 0.35, 309.73, 379.91)">S</text>
-        <text class="cls-19" transform="matrix(0.71, -0.71, 0.71, 0.71, 321.97, 348.69)">C</text>
-        <text class="cls-19" transform="matrix(0.93, -0.36, 0.36, 0.93, 346.75, 324.94)">R</text>
-        <text class="cls-19" transform="translate(379.14 313.23) rotate(4.53)">A</text>
-        <text class="cls-19" transform="translate(413.96 316.78) rotate(29)">P</text>
-        <text class="cls-19" transform="translate(442.52 334.68) rotate(47.76)"> </text>
-        <text class="cls-19" transform="translate(277.7 432.2) rotate(62.32)">D</text>
-        <text class="cls-19" transform="matrix(0.79, 0.61, -0.61, 0.79, 305.73, 476.29)">E</text>
-        <text class="cls-19" transform="matrix(0.96, 0.27, -0.27, 0.96, 344.1, 501.79)">F</text>
-        <text class="cls-19" transform="translate(387.52 510.85) rotate(-6.51)">E</text>
-        <text class="cls-19" transform="translate(434.06 502.25) rotate(-30.84)">N</text>
-        <text class="cls-19" transform="matrix(0.54, -0.84, 0.84, 0.54, 477.44, 471.34)">D</text>
-        <text class="cls-19" transform="translate(502.17 425.44) rotate(-81.28)">E</text>
-        <text class="cls-19" transform="matrix(-0.26, -0.97, 0.97, -0.26, 505.94, 378.64)">R</text>
-        <text class="cls-19" transform="matrix(-0.55, -0.83, 0.83, -0.55, 490.48, 335.03)"> </text>
+        <line class="cls-20" x1="388.84" y1="405.58" x2="388.84" y2="446.29"/>
+        <line class="cls-20" x1="381.89" y1="407.73" x2="381.89" y2="444.43"/>
+        <line class="cls-20" x1="374.95" y1="409.6" x2="374.95" y2="442.57"/>
+        <line class="cls-20" x1="368" y1="411.46" x2="368" y2="440.7"/>
+        <line class="cls-20" x1="361.05" y1="413.32" x2="361.05" y2="438.75"/>
+        <line class="cls-20" x1="354.1" y1="415.19" x2="354.1" y2="436.78"/>
+        <line class="cls-20" x1="396.82" y1="407.73" x2="396.82" y2="444.43"/>
+        <line class="cls-20" x1="403.77" y1="409.6" x2="403.77" y2="442.57"/>
+        <line class="cls-20" x1="410.72" y1="411.46" x2="410.72" y2="440.7"/>
+        <line class="cls-20" x1="417.66" y1="413.32" x2="417.66" y2="438.75"/>
+        <line class="cls-20" x1="424.61" y1="415.19" x2="424.61" y2="436.78"/>
+      </g>
+      <path class="cls-21" d="M424.48,355.35c-22.86,1.61-59.83,46.43-82.06,40.88-16.61-4.15-13.56-40.69,9.52-39.12,23.35,1.58,64.12,46.87,85.65,37.71C457,386.58,443.35,354,424.48,355.35Z"/>
+      <path class="cls-5" d="M389.29,263.26A130.11,130.11,0,1,0,519.4,393.37,130.11,130.11,0,0,0,389.29,263.26Zm0,198.83A68.73,68.73,0,1,1,458,393.37,68.73,68.73,0,0,1,389.29,462.09Z"/>
+      <g>
+        <text class="cls-22" transform="matrix(0.35, -0.94, 0.94, 0.35, 309.73, 379.91)">S</text>
+        <text class="cls-22" transform="matrix(0.71, -0.71, 0.71, 0.71, 321.97, 348.69)">C</text>
+        <text class="cls-22" transform="matrix(0.93, -0.36, 0.36, 0.93, 346.75, 324.94)">R</text>
+        <text class="cls-22" transform="translate(379.14 313.23) rotate(4.53)">A</text>
+        <text class="cls-22" transform="translate(413.96 316.78) rotate(29)">P</text>
+        <text class="cls-22" transform="translate(442.52 334.68) rotate(47.76)"> </text>
+        <text class="cls-22" transform="translate(277.7 432.2) rotate(62.32)">D</text>
+        <text class="cls-22" transform="matrix(0.79, 0.61, -0.61, 0.79, 305.73, 476.29)">E</text>
+        <text class="cls-22" transform="matrix(0.96, 0.27, -0.27, 0.96, 344.1, 501.79)">F</text>
+        <text class="cls-22" transform="translate(387.52 510.85) rotate(-6.51)">E</text>
+        <text class="cls-22" transform="translate(434.06 502.25) rotate(-30.84)">N</text>
+        <text class="cls-22" transform="matrix(0.54, -0.84, 0.84, 0.54, 477.44, 471.34)">D</text>
+        <text class="cls-22" transform="translate(502.17 425.44) rotate(-81.28)">E</text>
+        <text class="cls-22" transform="matrix(-0.26, -0.97, 0.97, -0.26, 505.94, 378.64)">R</text>
+        <text class="cls-22" transform="matrix(-0.55, -0.83, 0.83, -0.55, 490.48, 335.03)"> </text>
       </g>
     </g>
   </g>
