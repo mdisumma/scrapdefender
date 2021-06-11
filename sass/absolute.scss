@@ -1,6 +1,6 @@
 /* navigation */
 nav {
-	color: rgb(255, 242, 0);
+	color: $brandText;
 	box-sizing: border-box;
 	width: 100vw;
 	background-color: rgb(75, 75, 75);
@@ -20,7 +20,7 @@ nav {
 .button {
 	background-color: transparent;
 	border: none;
-	color: rgb(255, 242, 0);
+	color: $brandText;
 }
 .audioOn {
 	display: block;
@@ -40,7 +40,7 @@ nav ul li {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	color: rgb(255, 242, 0);
+	color: $brandText;
 }
 #mc_embed_signup_scroll label {
 	font-family: "Reggae One", cursive;
