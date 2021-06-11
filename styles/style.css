@@ -15,15 +15,29 @@ a {
 /* navigation */
 nav {
 	background-color: rgb(75, 75, 75);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* max-width: 70vw; */
+	padding: 0 150px;
 }
 .navContainer {
-	margin: 0 auto;
-	max-width: 70vw;
-	padding: 0 150px;
+	margin: 0;
 	color: white;
 	display: flex;
 	justify-content: space-between;
-	/* align-items: top; */
+	align-items: center;
+}
+.audioButton {
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+.audioOn {
+	display: block;
+}
+.audioOff {
+	display: none;
 }
 /* submission form */
 #mc_embed_signup_scroll {
@@ -32,7 +46,7 @@ nav {
 }
 nav ul {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 }
 nav ul li {
 	padding: 0 1em;
@@ -94,6 +108,7 @@ header p {
 	background-size: cover;
 	position: absolute;
 	z-index: 20;
+	/* display: none; */
 }
 .sideL {
 	background-position: right;
@@ -208,6 +223,9 @@ footer ul li a {
 }
 
 @media only screen and (min-width: 1300px) {
+	nav {
+		padding: 0 15vw;
+	}
 	header h1 {
 		padding-top: 0;
 		font-size: 70px;
