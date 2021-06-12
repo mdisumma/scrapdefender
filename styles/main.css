@@ -5,12 +5,28 @@ body {
 }
 
 ul {
-  list-style: none;
   margin: 0;
   padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-a {
+ul li {
+  font-family: "Reggae One", cursive;
+  font-size: 1em;
+  padding: 0.5em 2em;
+}
+
+ul li:hover {
+  transform: scale(1.3);
+}
+
+ul li a {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2em;
   text-decoration: none;
   color: #ffee00;
 }
@@ -20,11 +36,28 @@ a:hover {
   color: #ffee00;
 }
 
+h1 {
+  font-family: "Reggae One", cursive;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  color: white;
+  text-shadow: 5px 5px #4b4b4b;
+}
+
 h2 {
   text-transform: uppercase;
   font-family: "Reggae One", cursive;
   color: #ffee00;
   text-align: center;
+}
+
+main {
+  color: white;
+  min-height: 100vh;
+  background-size: 100%;
+  background-color: #4b4b4b;
+  padding: 200px 10vw 100px 10vw;
 }
 
 section {
@@ -50,24 +83,9 @@ section img {
 section video {
   display: block;
   margin: 0 auto;
-}
-
-main {
-  color: white;
-  min-height: 100vh;
-  background-size: 100%;
-  background-color: #4b4b4b;
-}
-
-video {
   max-width: 500px;
 }
 
-@media only screen and (min-width: 420px) {
-  main {
-    padding: 200px 10vw 0 10vw;
-  }
-}
 /* header */
 header {
   background-image: url(../images/castel-component.svg);
@@ -80,21 +98,15 @@ header {
   color: #ffee00;
 }
 
-header h1 {
-  font-family: "Reggae One", cursive;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 3em;
-  color: white;
-  text-shadow: 5px 5px #4b4b4b;
-}
-
 /* navigation */
 nav {
   color: #ffee00;
   box-sizing: border-box;
   width: 100vw;
   background-color: #323232;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15vw;
 }
 
 .navContainer {
@@ -123,25 +135,9 @@ nav {
   display: none;
 }
 
-nav ul {
-  display: flex;
-}
-
-nav ul li {
-  font-family: "Reggae One", cursive;
-  font-size: 1em;
-  padding: 0 1em;
-}
-
-nav ul li:hover {
-  cursor: pointer;
-  transform: scale(1.3);
-  color: #ffee00;
-}
-
 form {
   margin: 0 auto;
-  width: 60%;
+  width: 100%;
 }
 
 #mc_embed_signup_scroll {
@@ -171,7 +167,7 @@ form {
 
 /* side tower */
 .side {
-  width: 130px;
+  width: 10vw;
   height: 100%;
   display: flex;
   align-items: center;
@@ -204,40 +200,6 @@ footer {
   bottom: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-footer ul li {
-  padding: 0px 30px;
-}
-
-footer ul li a {
-  padding: 10px 10px;
-  display: inline-block;
-  font-size: 2em;
-}
-
-@media only screen and (min-width: 420px) {
-  nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15vw;
-  }
-
-  form {
-    width: 100%;
-  }
-
-  .side {
-    width: 10vw;
-  }
-}
 /* torch */
 #torchElement {
   display: block;
