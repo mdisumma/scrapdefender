@@ -26,14 +26,11 @@ h2 {
 	color: $textColor;
 	text-align: center;
 }
-article {
-	margin: 0;
-}
 section {
 	padding: 1em;
-	margin: 2em 150px;
+	margin: 2em;
 	border-radius: 10px;
-	background-color: rgb(50, 50, 50);
+	background-color: rgba(50, 50, 50, 0.8);
 }
 section:hover {
 	border: 1px solid $textColor;
@@ -55,7 +52,7 @@ section video {
 main {
 	color: white;
 	min-height: 100vh;
-	padding: 250px 0px 150px 0px;
+	// padding: 250px 0px 150px 0px;
 	background-size: 100%;
 	background-color: rgb(75, 75, 75);
 }
@@ -63,15 +60,8 @@ video {
 	max-width: 500px;
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 420px) {
 	main {
-		padding: 300px 15vw 0 15vw;
-	}
-	header h1 {
-		padding-top: 0;
-		font-size: 70px;
-	}
-	header img {
-		width: 350px;
+		padding: 200px 10vw 0 10vw;
 	}
 }

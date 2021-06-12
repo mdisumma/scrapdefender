@@ -2,7 +2,7 @@
 header {
 	background-image: url(../images/castel-component.svg);
 	background-repeat: repeat-x;
-	background-size: auto 250px;
+	background-size: auto 150px;
 	background-position: bottom;
 	position: fixed;
 	top: 0px;
@@ -13,7 +13,7 @@ header h1 {
 	font-family: "Reggae One", cursive;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 50px;
+	font-size: 3em;
 	text-shadow: 5px 5px rgb(75, 75, 75);
 }
 
@@ -23,16 +23,11 @@ nav {
 	box-sizing: border-box;
 	width: 100vw;
 	background-color: $black;
-	// display: flex;
-	// justify-content: space-between;
-	// align-items: center;
 }
 .navContainer {
-	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	display: none;
 }
 .audioSwich {
 	font-size: 1.3em;
@@ -54,7 +49,7 @@ nav ul {
 	display: flex;
 }
 nav ul li {
-	font-size: 2em;
+	font-size: 1em;
 	padding: 0 1em;
 }
 nav ul li:hover {
@@ -62,13 +57,15 @@ nav ul li:hover {
 	transform: scale(1.3);
 	color: $textColor;
 }
-#mc_embed_signup_scroll {
-	padding: 0 1em;
-	width: 60%;
+form {
 	margin: 0 auto;
+	width: 60%;
+}
+#mc_embed_signup_scroll {
+	width: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: flex-end;
 	color: $textColor;
 }
 #mc_embed_signup_scroll label {
@@ -132,16 +129,20 @@ footer ul li {
 	padding: 0px 30px;
 }
 footer ul li a {
-	padding: 10px 30px;
+	padding: 10px 10px;
 	display: inline-block;
-	font-size: 3em;
+	font-size: 2em;
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 420px) {
 	nav {
+		display: flex;
+		justify-content: space-between;
 		padding: 0 15vw;
 	}
-
+	form {
+		width: 100%;
+	}
 	.side {
 		width: 10vw;
 	}
