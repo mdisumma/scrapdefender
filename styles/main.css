@@ -112,7 +112,7 @@ header nav {
   color: #ffee00;
   box-sizing: border-box;
   width: 100vw;
-  background-color: #323232;
+  background-color: rgba(50, 50, 50, 0.8);
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-between;
@@ -194,7 +194,7 @@ header nav .navContainer .audioOff {
 }
 
 footer {
-  background-color: #323232;
+  background-color: rgba(50, 50, 50, 0.8);
   width: 100%;
   position: fixed;
   z-index: 15;
