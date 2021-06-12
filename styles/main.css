@@ -12,7 +12,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #ffee00;
 }
 
 a:hover {
@@ -80,7 +80,7 @@ header {
   position: fixed;
   top: 50px;
   z-index: 6;
-  color: white;
+  color: #ffee00;
 }
 
 .headerNone {
@@ -135,7 +135,7 @@ header p {
 }
 /* navigation */
 nav {
-  color: white;
+  color: #ffee00;
   box-sizing: border-box;
   width: 100vw;
   background-color: #323232;
@@ -158,7 +158,7 @@ nav {
   font-size: 1.3em;
   background-color: transparent;
   border: none;
-  color: white;
+  color: #ffee00;
 }
 
 .audioSwich:hover {
@@ -194,7 +194,7 @@ nav ul li:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  color: #ffee00;
 }
 
 #mc_embed_signup_scroll label {
@@ -204,6 +204,7 @@ nav ul li:hover {
 }
 
 #mc_embed_signup input.button {
+  color: #ffee00;
   background-color: #4b4b4b;
   padding: 0;
 }
