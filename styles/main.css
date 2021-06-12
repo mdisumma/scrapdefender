@@ -56,7 +56,10 @@ main {
   color: white;
   min-height: 100vh;
   background-size: 100%;
-  background-color: #4b4b4b;
+  background-image: url(../images/brick-pattern-dark.svg);
+  background-repeat: repeat;
+  background-size: auto 100px;
+  background-position: bottom;
   padding: 200px 10vw 100px 10vw;
 }
 
