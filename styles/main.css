@@ -28,13 +28,12 @@ h2 {
 }
 
 article {
-  margin: 0 auto;
-  max-width: 600px;
+  margin: 0;
 }
 
 section {
   padding: 1em;
-  margin: 2em auto;
+  margin: 2em 150px;
   border-radius: 10px;
   background-color: #323232;
 }
@@ -60,63 +59,13 @@ section video {
 main {
   color: white;
   min-height: 100vh;
-  padding: 250px 150px 100px 150px;
+  padding: 250px 0px 150px 0px;
   background-size: 100%;
   background-color: #4b4b4b;
 }
 
 video {
   max-width: 500px;
-}
-
-/* header */
-header {
-  height: 140px;
-  width: 100vw;
-  background-image: url(../images/castel-component.svg);
-  /* background-repeat: no-repeat; */
-  background-size: auto 140px;
-  background-position: bottom;
-  position: fixed;
-  top: 50px;
-  z-index: 6;
-  color: #ffee00;
-}
-
-.headerNone {
-  opacity: 0;
-  transition-duration: 1.5s;
-}
-
-.headerDisplay {
-  padding-top: 200px;
-  opacity: 1;
-  transition-duration: 1.5s;
-}
-
-header h1 {
-  font-family: "Reggae One", cursive;
-  text-align: center;
-  text-transform: uppercase;
-  padding-top: 40px;
-  font-size: 50px;
-  text-shadow: 5px 5px #4b4b4b;
-}
-
-header img {
-  display: block;
-  margin: 0 auto;
-  width: 250px;
-  padding: 10px;
-}
-
-header p {
-  font-size: 2em;
-  text-align: center;
-  display: block;
-  width: 50vw;
-  margin: 2em auto;
-  text-shadow: 5px 5px #4b4b4b;
 }
 
 @media only screen and (min-width: 1300px) {
@@ -133,18 +82,32 @@ header p {
     width: 350px;
   }
 }
+/* header */
+header {
+  background-image: url(../images/castel-component.svg);
+  background-repeat: repeat-x;
+  background-size: auto 250px;
+  background-position: bottom;
+  position: fixed;
+  top: 0px;
+  z-index: 6;
+  color: #ffee00;
+}
+
+header h1 {
+  font-family: "Reggae One", cursive;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-shadow: 5px 5px #4b4b4b;
+}
+
 /* navigation */
 nav {
   color: #ffee00;
   box-sizing: border-box;
   width: 100vw;
   background-color: #323232;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 150px;
-  position: fixed;
-  top: 0;
 }
 
 .navContainer {
@@ -152,6 +115,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  display: none;
 }
 
 .audioSwich {
@@ -176,10 +140,10 @@ nav {
 
 nav ul {
   display: flex;
-  align-items: flex-start;
 }
 
 nav ul li {
+  font-size: 2em;
   padding: 0 1em;
 }
 
@@ -190,7 +154,9 @@ nav ul li:hover {
 }
 
 #mc_embed_signup_scroll {
-  padding: 0;
+  padding: 0 1em;
+  width: 60%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -198,9 +164,9 @@ nav ul li:hover {
 }
 
 #mc_embed_signup_scroll label {
+  width: 100%;
   color: #ffee00;
   font-family: "Reggae One", cursive;
-  width: 100%;
 }
 
 #mc_embed_signup input.button {
@@ -335,6 +301,7 @@ footer ul li a {
   z-index: 5;
   background-size: 100%;
   background-image: url(../images/slide-short.svg);
+  display: none;
 }
 
 .leftOpen {

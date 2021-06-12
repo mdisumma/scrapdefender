@@ -1,21 +1,38 @@
+/* header */
+header {
+	background-image: url(../images/castel-component.svg);
+	background-repeat: repeat-x;
+	background-size: auto 250px;
+	background-position: bottom;
+	position: fixed;
+	top: 0px;
+	z-index: 6;
+	color: $textColor;
+}
+header h1 {
+	font-family: "Reggae One", cursive;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+	text-shadow: 5px 5px rgb(75, 75, 75);
+}
+
 /* navigation */
 nav {
 	color: $textColor;
 	box-sizing: border-box;
 	width: 100vw;
 	background-color: $black;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0 150px;
-	position: fixed;
-	top: 0;
+	// display: flex;
+	// justify-content: space-between;
+	// align-items: center;
 }
 .navContainer {
 	margin: 0;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	display: none;
 }
 .audioSwich {
 	font-size: 1.3em;
@@ -35,9 +52,9 @@ nav {
 }
 nav ul {
 	display: flex;
-	align-items: flex-start;
 }
 nav ul li {
+	font-size: 2em;
 	padding: 0 1em;
 }
 nav ul li:hover {
@@ -46,16 +63,18 @@ nav ul li:hover {
 	color: $textColor;
 }
 #mc_embed_signup_scroll {
-	padding: 0;
+	padding: 0 1em;
+	width: 60%;
+	margin: 0 auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	color: $textColor;
 }
 #mc_embed_signup_scroll label {
+	width: 100%;
 	color: $textColor;
 	font-family: "Reggae One", cursive;
-	width: 100%;
 }
 
 #mc_embed_signup input.button {

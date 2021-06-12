@@ -1,0 +1,13 @@
+<svg id="brick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101 64.04">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b3b3b3;
+        stroke: #4d4d4d;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="0.5" y="0.5" width="66.71" height="31.6"/>
+  <polygon class="cls-1" points="100.5 63.54 33.79 63.54 33.79 32.1 100.5 31.95 100.5 63.54"/>
+</svg>
