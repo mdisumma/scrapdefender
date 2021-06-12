@@ -5,7 +5,7 @@ header {
 	background-size: auto 150px;
 	background-position: bottom;
 	position: fixed;
-	top: 0px;
+	top: 0;
 	z-index: 6;
 	color: $textColor;
 }
@@ -17,16 +17,17 @@ nav {
 	width: 100vw;
 	background-color: $black;
 	display: flex;
+	flex-wrap: wrap-reverse;
 	justify-content: space-between;
-	padding: 0 15vw;
+	padding: 0 12vw;
 }
 .navContainer {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 }
 .audioSwich {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	background-color: transparent;
 	border: none;
 	color: $textColor;
@@ -42,15 +43,13 @@ nav {
 	display: none;
 }
 
-form {
-	margin: 0 auto;
-	width: 100%;
-}
+// MailChimp
 #mc_embed_signup_scroll {
 	width: 100%;
 	display: flex;
+	flex-wrap: nowrap;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	color: $textColor;
 }
 #mc_embed_signup_scroll label {
@@ -60,8 +59,8 @@ form {
 }
 
 #mc_embed_signup input.button {
-	color: $textColor;
 	background-color: rgb(75, 75, 75);
+	color: $textColor;
 	padding: 0;
 }
 #mc_embed_signup input.button:hover {
@@ -103,5 +102,11 @@ footer {
 	bottom: 0;
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (max-width: 600px) {
+	nav {
+		justify-content: center;
+		#mc_embed_signup_scroll {
+			flex-wrap: wrap;
+		}
+	}
 }
