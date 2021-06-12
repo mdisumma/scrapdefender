@@ -1,0 +1,47 @@
+<svg id="Layer_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 279.86 284.33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d4d4d;
+      }
+
+      .cls-2 {
+        fill: #b3b3b3;
+      }
+
+      .cls-3 {
+        fill: #333;
+      }
+
+      .cls-4 {
+        fill: #1a1a1a;
+        stroke: gray;
+        stroke-miterlimit: 10;
+        stroke-width: 6.64px;
+      }
+
+      .cls-5 {
+        font-size: 44.16px;
+        fill: #fe0;
+        font-family: ReggaeOne-Regular, Reggae One;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="149.2" cy="153.94" r="123.8"/>
+    <ellipse class="cls-2" cx="149.2" cy="134.19" rx="81.61" ry="58.2"/>
+    <path class="cls-3" d="M389.29,263.26A130.11,130.11,0,1,0,519.4,393.37,130.11,130.11,0,0,0,389.29,263.26Zm0,198.83A68.73,68.73,0,1,1,458,393.37,68.73,68.73,0,0,1,389.29,462.09Z" transform="translate(-239.54 -239.14)"/>
+    <path id="_20" class="cls-4" d="M443.38,380.59,388.79,385a11.43,11.43,0,0,1-1.85,0l-53.21-4.42a11.27,11.27,0,0,1-10.34-11.23v0a11.28,11.28,0,0,1,11.27-11.27H442.47a11.28,11.28,0,0,1,11.27,11.27h0A11.27,11.27,0,0,1,443.38,380.59Z" transform="translate(-239.54 -239.14)"/>
+    <g id="George">
+      <text class="cls-5" transform="translate(66.67 160.72) rotate(-82.41)">G</text>
+      <text class="cls-5" transform="matrix(0.53, -0.85, 0.85, 0.53, 72.73, 123.58)">E</text>
+      <text class="cls-5" transform="matrix(0.84, -0.54, 0.54, 0.84, 90.54, 95.37)">O</text>
+      <text class="cls-5" transform="matrix(0.99, -0.12, 0.12, 0.99, 123.7, 75.39)">R</text>
+      <text class="cls-5" transform="matrix(0.95, 0.32, -0.32, 0.95, 158.9, 71.57)">G</text>
+      <text class="cls-5" transform="translate(194.21 84.65) rotate(43.37)">E</text>
+      <text class="cls-5" transform="translate(217.45 109.02) rotate(61.89)"> </text>
+      <text class="cls-5" transform="translate(182.17 270.13) rotate(-21.07)">-</text>
+      <text class="cls-5" transform="matrix(0.81, -0.59, 0.59, 0.81, 213.91, 255.67)"> </text>
+    </g>
+  </g>
+</svg>

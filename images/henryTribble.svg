@@ -1,0 +1,70 @@
+<svg id="Layer_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.05 318.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d4d4d;
+      }
+
+      .cls-2 {
+        fill: #b3b3b3;
+      }
+
+      .cls-3 {
+        fill: gray;
+      }
+
+      .cls-4 {
+        fill: #1a1a1a;
+      }
+
+      .cls-5 {
+        fill: #333;
+      }
+
+      .cls-6 {
+        fill: #666;
+      }
+
+      .cls-7 {
+        font-size: 44.16px;
+        fill: #fe0;
+        font-family: ReggaeOne-Regular, Reggae One;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="138.71" cy="152.89" r="123.8"/>
+    <ellipse class="cls-2" cx="138.71" cy="133.15" rx="81.61" ry="58.2"/>
+    <g id="_0">
+      <g>
+        <circle class="cls-3" cx="112.42" cy="142.05" r="20.59"/>
+        <circle class="cls-4" cx="112.58" cy="142.21" r="13.53"/>
+      </g>
+      <g>
+        <circle class="cls-3" cx="165.28" cy="142.05" r="20.59"/>
+        <circle class="cls-4" cx="165.44" cy="142.21" r="13.53"/>
+      </g>
+    </g>
+    <path class="cls-5" d="M389.29,263.26A130.11,130.11,0,1,0,519.4,393.37,130.11,130.11,0,0,0,389.29,263.26Zm0,198.83A68.73,68.73,0,1,1,458,393.37,68.73,68.73,0,0,1,389.29,462.09Z" transform="translate(-250.03 -240.19)"/>
+    <g id="_00">
+      <path class="cls-6" d="M464.52,382h-7.61a69.45,69.45,0,0,1,.9,11.06c0,1.46-.06,2.9-.15,4.33h6.89a6.5,6.5,0,0,0,6.5-6.5v-2.36A6.53,6.53,0,0,0,464.52,382Z" transform="translate(-250.03 -240.19)"/>
+      <path class="cls-6" d="M320.57,393.08a68.54,68.54,0,0,1,.84-10.69H314.3a6.47,6.47,0,0,0-6.46,6.47v2.33a6.43,6.43,0,0,0,6.43,6.44h6.47C320.64,396.12,320.57,394.61,320.57,393.08Z" transform="translate(-250.03 -240.19)"/>
+    </g>
+    <g id="henry_tribble" data-name="henry tribble">
+      <text class="cls-7" transform="translate(56.85 140.16) rotate(-68.65)">H</text>
+      <text class="cls-7" transform="matrix(0.72, -0.69, 0.69, 0.72, 71.95, 104.77)">E</text>
+      <text class="cls-7" transform="matrix(0.95, -0.32, 0.32, 0.95, 96.16, 81.82)">N</text>
+      <text class="cls-7" transform="translate(132.77 70.44) rotate(7.09)">R</text>
+      <text class="cls-7" transform="matrix(0.86, 0.51, -0.51, 0.86, 167.84, 75.83)">Y</text>
+      <text class="cls-7" transform="matrix(0.67, 0.75, -0.75, 0.67, 194.55, 93.34)"> </text>
+      <text class="cls-7" transform="translate(44.97 229.01) rotate(44.4)">T</text>
+      <text class="cls-7" transform="translate(79.42 258.52) rotate(21.74)">R</text>
+      <text class="cls-7" transform="translate(125.23 272.59) rotate(2.66)">I</text>
+      <text class="cls-7" transform="translate(157.46 272.82) rotate(-16.69)">B</text>
+      <text class="cls-7" transform="translate(204.63 254.88) rotate(-40.51)">B</text>
+      <text class="cls-7" transform="matrix(0.45, -0.89, 0.89, 0.45, 239.82, 219.67)">L</text>
+      <text class="cls-7" transform="matrix(0.08, -1, 1, 0.08, 257.36, 178.18)">E</text>
+      <text class="cls-7" transform="translate(257.58 132.89) rotate(-103.31)"> </text>
+    </g>
+  </g>
+</svg>

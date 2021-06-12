@@ -1,0 +1,55 @@
+<svg id="Layer_4" data-name="Layer 4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297.28 315.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d4d4d;
+      }
+
+      .cls-2 {
+        fill: #b3b3b3;
+      }
+
+      .cls-3 {
+        fill: gray;
+      }
+
+      .cls-4 {
+        fill: #1a1a1a;
+      }
+
+      .cls-5 {
+        fill: #333;
+      }
+
+      .cls-6 {
+        font-size: 44.16px;
+        fill: #fe0;
+        font-family: ReggaeOne-Regular, Reggae One;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="130.01" cy="149.01" r="123.8"/>
+    <ellipse class="cls-2" cx="130.01" cy="129.27" rx="81.61" ry="58.2"/>
+    <g id="_-3" data-name="-3">
+      <circle class="cls-3" cx="130.46" cy="139.56" r="27.97"/>
+      <circle class="cls-4" cx="131.38" cy="139.08" r="18.38"/>
+    </g>
+    <path class="cls-5" d="M389.29,263.26A130.11,130.11,0,1,0,519.4,393.37,130.11,130.11,0,0,0,389.29,263.26Zm0,198.83A68.73,68.73,0,1,1,458,393.37,68.73,68.73,0,0,1,389.29,462.09Z" transform="translate(-258.73 -244.06)"/>
+    <g id="Leke_Popoola" data-name="Leke Popoola">
+      <text class="cls-6" transform="matrix(0.56, -0.83, 0.83, 0.56, 55.28, 115.1)">L</text>
+      <text class="cls-6" transform="matrix(0.84, -0.55, 0.55, 0.84, 73.01, 89.61)">E</text>
+      <text class="cls-6" transform="matrix(0.99, -0.16, 0.16, 0.99, 101.17, 71.69)">K</text>
+      <text class="cls-6" transform="matrix(0.97, 0.25, -0.25, 0.97, 135.91, 66.74)">E</text>
+      <text class="cls-6" transform="matrix(0.84, 0.54, -0.54, 0.84, 168.06, 76.9)"> </text>
+      <text class="cls-6" transform="matrix(0.6, 0.8, -0.8, 0.6, 24.64, 208.31)">P</text>
+      <text class="cls-6" transform="translate(57.34 246.18) rotate(28.4)">O</text>
+      <text class="cls-6" transform="translate(107.16 268.01) rotate(3.57)">P</text>
+      <text class="cls-6" transform="matrix(0.93, -0.37, 0.37, 0.93, 157.34, 267.55)">O</text>
+      <text class="cls-6" transform="translate(206.88 243.35) rotate(-47.66)">O</text>
+      <text class="cls-6" transform="translate(239.6 200.7) rotate(-71.38)">L</text>
+      <text class="cls-6" transform="translate(251.27 156.64) rotate(-94.35)">A</text>
+      <text class="cls-6" transform="translate(243.59 108.71) rotate(-113.47)"> </text>
+    </g>
+  </g>
+</svg>
