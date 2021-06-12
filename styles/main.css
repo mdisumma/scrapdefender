@@ -32,7 +32,6 @@ h2 {
 article {
   margin: 0 auto;
   max-width: 600px;
-  background-color: #4b4b4b;
 }
 
 #character {
@@ -55,7 +54,7 @@ main {
   min-height: 100vh;
   padding: 250px 150px 0 150px;
   background-size: 100%;
-  background-color: #323232;
+  background-color: #4b4b4b;
 }
 
 video {
