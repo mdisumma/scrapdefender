@@ -1,4 +1,4 @@
-const click = document.querySelector("footer");
+const click = document.querySelector("#about");
 const header = document.querySelector(".header");
 const title = document.querySelector("h1");
 const doorLeft = document.querySelector(".left");

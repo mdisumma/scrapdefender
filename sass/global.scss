@@ -29,6 +29,10 @@ h2 {
 	color: $textColorOver;
 	text-align: center;
 }
+article {
+	margin: 0 auto;
+	max-width: 600px;
+}
 #character {
 	margin: 0 auto;
 }
@@ -50,7 +54,7 @@ main {
 }
 video {
 	margin: 2em;
-	width: 60vw;
+	max-width: 600px;
 }
 /* header */
 header {
