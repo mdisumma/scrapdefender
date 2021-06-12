@@ -21,6 +21,7 @@ a:hover {
 }
 
 h2 {
+  text-transform: uppercase;
   margin: 0;
   padding: 0;
   font-family: "Reggae One", cursive;
@@ -48,10 +49,11 @@ main {
   min-height: 100vh;
   padding: 250px 150px 0 150px;
   background-size: 100%;
-  background-color: #d2d2d2;
+  background-color: #323232;
 }
 
 video {
+  margin: 2em;
   width: 60vw;
 }
 
