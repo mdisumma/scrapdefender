@@ -41,7 +41,8 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font-size: 3em;
-  color: rgba(0, 0, 0, 0.8);
+  margin: 24px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 h2 {
@@ -88,14 +89,14 @@ section video {
   max-width: 500px;
 }
 
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 2em;
+  }
+}
 @media only screen and (max-width: 600px) {
   h1 {
     font-size: 1.5em;
-  }
-}
-@media only screen and (max-width: 480px) {
-  h1 {
-    font-size: 1em;
   }
 }
 /* header */
@@ -124,6 +125,9 @@ header nav .navContainer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+header nav .navContainer ul li {
+  padding: 0.5em;
 }
 header nav .navContainer .audioSwich {
   font-size: 1.2em;

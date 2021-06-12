@@ -22,6 +22,9 @@ header {
 			display: flex;
 			justify-content: flex-start;
 			align-items: center;
+			ul li {
+				padding: 0.5em;
+			}
 			.audioSwich {
 				font-size: 1.2em;
 				background-color: transparent;
