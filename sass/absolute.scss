@@ -44,6 +44,7 @@ header {
 
 // MailChimp
 #mc_embed_signup_scroll {
+	padding-top: 10px;
 	width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
@@ -51,10 +52,6 @@ header {
 	justify-content: flex-start;
 	color: $textColor;
 }
-// #mc_embed_signup_scroll label {
-// 	width: 100%;
-// 	color: $textColor;
-// }
 
 #mc_embed_signup input.button {
 	background-color: rgb(75, 75, 75);

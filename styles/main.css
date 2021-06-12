@@ -144,6 +144,7 @@ header nav .navContainer .audioOff {
 }
 
 #mc_embed_signup_scroll {
+  padding-top: 10px;
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
