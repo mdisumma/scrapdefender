@@ -81,3 +81,14 @@ section video {
 	margin: 0 auto;
 	max-width: 500px;
 }
+
+@media only screen and (max-width: 600px) {
+	h1 {
+		font-size: 1.5em;
+	}
+}
+@media only screen and (max-width: 480px) {
+	h1 {
+		font-size: 1em;
+	}
+}

@@ -86,20 +86,29 @@ section video {
   max-width: 500px;
 }
 
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 1em;
+  }
+}
 /* header */
 header {
-  background-image: url(../images/castel-component.svg);
-  background-repeat: repeat-x;
-  background-size: auto 150px;
+  background-image: url(../images/brick-pattern.svg);
+  background-repeat: repeat;
+  background-size: auto 100px;
   background-position: bottom;
   position: fixed;
   top: 0;
   z-index: 6;
   color: #ffee00;
+  /* navigation */
 }
-
-/* navigation */
-nav {
+header nav {
   color: #ffee00;
   box-sizing: border-box;
   width: 100vw;
@@ -109,30 +118,25 @@ nav {
   justify-content: space-between;
   padding: 0 12vw;
 }
-
-.navContainer {
+header nav .navContainer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
-
-.audioSwich {
+header nav .navContainer .audioSwich {
   font-size: 1.2em;
   background-color: transparent;
   border: none;
   color: #ffee00;
 }
-
-.audioSwich:hover {
+header nav .navContainer .audioSwich:hover {
   transform: scale(1.2);
   color: #ffee00;
 }
-
-.audioOn {
+header nav .navContainer .audioOn {
   display: block;
 }
-
-.audioOff {
+header nav .navContainer .audioOff {
   display: none;
 }
 
@@ -200,6 +204,9 @@ footer {
 @media only screen and (max-width: 600px) {
   nav {
     justify-content: center;
+  }
+  nav .navContainer {
+    margin: 0 auto;
   }
   nav #mc_embed_signup_scroll {
     flex-wrap: wrap;
@@ -287,6 +294,24 @@ footer {
   top: 0;
   right: 20px;
   transition: 1.5s ease-out;
+}
+
+@media only screen and (max-width: 480px) {
+  .rightOpen {
+    top: 0;
+    right: -40%;
+    transition: 1.5s ease-out;
+  }
+
+  .leftOpen {
+    top: 0;
+    left: -40%;
+    transition: 1.5s ease-out;
+  }
+
+  #torchElement {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
