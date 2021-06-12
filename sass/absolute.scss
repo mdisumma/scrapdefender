@@ -22,9 +22,7 @@ header {
 			display: flex;
 			justify-content: flex-start;
 			align-items: center;
-			ul li {
-				padding: 0.5em;
-			}
+
 			.audioSwich {
 				font-size: 1.2em;
 				background-color: transparent;
@@ -32,7 +30,6 @@ header {
 				color: $textColor;
 			}
 			.audioSwich:hover {
-				transform: scale(1.2);
 				color: $textColor;
 			}
 			.audioOn {
@@ -64,11 +61,13 @@ header {
 	color: $textColor;
 	padding: 0;
 }
+
 #mc_embed_signup input.button:hover {
+	background-color: rgb(50, 50, 50);
+	transform: scale(1.1);
 	border: 1px solid $textColor;
 	color: $textColor;
 }
-
 /* side tower */
 .side {
 	width: 10vw;
@@ -100,6 +99,9 @@ footer {
 	position: fixed;
 	z-index: 15;
 	bottom: 0;
+	ul li {
+		margin: 12px 32px;
+	}
 }
 
 @media only screen and (max-width: 600px) {
