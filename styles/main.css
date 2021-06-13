@@ -77,8 +77,9 @@ article {
 }
 
 section {
+  max-width: 960px;
   padding: 1em;
-  margin: 2em;
+  margin: 2em auto;
   border-radius: 10px;
   background-color: rgba(50, 50, 50, 0.8);
 }
@@ -100,6 +101,11 @@ section video {
   display: block;
   margin: 0 auto;
   max-width: 500px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .team-member {
