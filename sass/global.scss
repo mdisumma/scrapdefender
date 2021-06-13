@@ -40,16 +40,22 @@ ul li a {
 	color: $textColor;
 }
 h1 {
-	font-family: "Reggae One", cursive;
+	font-family: $header;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 3em;
 	margin: 24px;
-	color: rgba(0, 0, 0, 0.6);
+	color: rgba(50, 50, 50, 0.7);
 }
 h2 {
-	text-transform: uppercase;
 	font-family: $header;
+	text-transform: uppercase;
+	color: $textColor;
+	text-align: center;
+}
+h3 {
+	font-family: $header;
+	text-transform: uppercase;
 	color: $textColor;
 	text-align: center;
 }
@@ -79,7 +85,7 @@ section:hover {
 
 section img {
 	display: block;
-	padding: 1em;
+	padding: 0.5em;
 	margin: 1em auto;
 	border-radius: 10px;
 	background-color: rgba(255, 255, 255, 0.6);
@@ -90,7 +96,31 @@ section video {
 	margin: 0 auto;
 	max-width: 500px;
 }
-
+.team-member {
+	margin: 0 auto;
+	width: 350px;
+	display: flex;
+	color: $textColor;
+	align-items: center;
+}
+.team-member:hover {
+	background-color: rgb(50, 50, 50);
+}
+.team-member a {
+	text-decoration: none;
+	font-family: $header;
+	color: $textColor;
+}
+.team-member a:hover {
+	text-decoration: underline;
+}
+.team-member img {
+	margin: 1em;
+}
+.team-contact * {
+	margin: 0 auto;
+	text-align: center;
+}
 @media only screen and (max-width: 1000px) {
 	h1 {
 		font-size: 2em;
