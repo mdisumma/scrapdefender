@@ -99,6 +99,15 @@ section video {
   max-width: 500px;
 }
 
+.narrative img {
+  display: block;
+  padding: 0.5em;
+  margin: 1em auto;
+  border-radius: 10px;
+  background-color: transparent;
+  max-width: 60%;
+}
+
 .team {
   display: flex;
   flex-wrap: wrap;
