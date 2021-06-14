@@ -24,6 +24,7 @@ ul li {
 }
 
 ul li:hover {
+  border: 1px solid #ffee00;
   background-color: #323232;
   transform: scale(1.1);
 }
@@ -209,6 +210,7 @@ header nav .navContainer .audioOff {
 #mc_embed_signup input.button:hover {
   background-color: #323232;
   transform: scale(1.1);
+  border: 1px solid #ffee00;
   color: #ffee00;
 }
 
