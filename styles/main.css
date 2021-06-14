@@ -72,10 +72,6 @@ main {
   padding: 200px 10vw 100px 10vw;
 }
 
-article {
-  background-color: transparent;
-}
-
 section {
   max-width: 800px;
   padding: 1em;
@@ -121,12 +117,15 @@ section video {
 }
 
 .team-member a {
+  display: inline-block;
   text-decoration: none;
   font-family: "Reggae One", cursive;
-  color: #ffee00;
+  color: #998f00;
+  width: 100%;
 }
 
 .team-member a:hover {
+  color: #ffee00;
   text-decoration: underline;
 }
 
