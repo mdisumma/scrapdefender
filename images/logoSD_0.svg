@@ -10,7 +10,7 @@
       }
 
       .cls-3 {
-        fill: gray;
+        fill: #fe0;
       }
 
       .cls-4 {
@@ -28,12 +28,12 @@
     <path class="cls-1" d="M150,201.3c-30.53,0-57.7-10.24-75.14-26.17a79.23,79.23,0,0,0,150.28,0C207.7,191.06,180.53,201.3,150,201.3Z" transform="translate(-55.76 -70.77)"/>
     <g id="_0">
       <g>
-        <circle class="cls-3" cx="63.71" cy="64.2" r="23.77"/>
-        <circle class="cls-4" cx="63.9" cy="64.38" r="15.62"/>
+        <circle class="cls-3" cx="58.3" cy="64.2" r="27.99"/>
+        <circle class="cls-4" cx="58.52" cy="64.41" r="18.39"/>
       </g>
       <g>
-        <circle class="cls-3" cx="124.76" cy="64.2" r="23.77"/>
-        <circle class="cls-4" cx="124.94" cy="64.38" r="15.62"/>
+        <circle class="cls-3" cx="130.17" cy="64.2" r="27.99"/>
+        <circle class="cls-4" cx="130.39" cy="64.41" r="18.39"/>
       </g>
     </g>
     <g id="_00">
