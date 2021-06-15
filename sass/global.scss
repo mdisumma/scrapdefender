@@ -116,9 +116,7 @@ section video {
 	padding: 1em;
 	width: 80%;
 }
-.production .small {
-	width: 40%;
-}
+
 .narrative img {
 	display: block;
 	padding: 0.5em;
@@ -162,6 +160,9 @@ section video {
 @media only screen and (max-width: 1000px) {
 	h1 {
 		font-size: 2em;
+	}
+	.production .small {
+		width: 40%;
 	}
 }
 @media only screen and (max-width: 600px) {
