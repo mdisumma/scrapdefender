@@ -106,8 +106,19 @@ section video {
 	margin: 0 auto;
 	max-width: 500px;
 }
-
-.production img,
+.production {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.production iframe {
+	box-sizing: border-box;
+	padding: 1em;
+	width: 80%;
+}
+.production .small {
+	width: 40%;
+}
 .narrative img {
 	display: block;
 	padding: 0.5em;
