@@ -163,12 +163,12 @@ section video {
 	h1 {
 		font-size: 2em;
 	}
+	.production .small {
+		width: 80%;
+	}
 }
 @media only screen and (max-width: 600px) {
 	h1 {
 		font-size: 1.5em;
-	}
-	.production .small {
-		width: 80%;
 	}
 }
