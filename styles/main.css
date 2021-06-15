@@ -341,26 +341,28 @@ footer ul li {
   width: 50vw;
   position: fixed;
   z-index: 5;
-  background-size: 100%;
-  background-image: url(../images/slide-short.svg);
+  background-repeat: repeat-y;
 }
 
 .leftOpen {
   top: 0;
   left: -40%;
   transition: 1.5s ease-out;
+  background-image: url(../images/door-left.svg);
 }
 
 .left {
   top: 0;
   left: 20px;
   transition: 1.5s ease-out;
+  background-image: url(../images/door-left.svg);
 }
 
 .rightOpen {
   top: 0;
   right: -40%;
   transition: 1.5s ease-out;
+  background-image: url(../images/door-right.svg);
 }
 
 .right {
@@ -368,6 +370,7 @@ footer ul li {
   top: 0;
   right: 20px;
   transition: 1.5s ease-out;
+  background-image: url(../images/door-right.svg);
 }
 
 @media only screen and (max-width: 1000px) {
