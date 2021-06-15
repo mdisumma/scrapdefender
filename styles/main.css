@@ -342,6 +342,7 @@ footer ul li {
   position: fixed;
   z-index: 5;
   background-repeat: repeat-y;
+  background-position: center;
 }
 
 .leftOpen {
@@ -366,7 +367,6 @@ footer ul li {
 }
 
 .right {
-  background-position: top;
   top: 0;
   right: 20px;
   transition: 1.5s ease-out;

@@ -48,6 +48,7 @@
 	position: fixed;
 	z-index: 5;
 	background-repeat: repeat-y;
+	background-position: center;
 }
 
 .leftOpen {
@@ -70,7 +71,6 @@
 	background-image: url(../images/door-right.svg);
 }
 .right {
-	background-position: top;
 	top: 0;
 	right: 20px;
 	transition: 1.5s ease-out;
