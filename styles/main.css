@@ -112,6 +112,7 @@ section video {
   max-width: 500px;
 }
 
+.production img,
 .narrative img {
   display: block;
   padding: 0.5em;
