@@ -31,10 +31,12 @@ ul li:hover {
 	background-color: rgb(50, 50, 50);
 	transform: scale(1.1);
 }
-#support {
+#support,
+#play {
 	color: darken($textColor, 20);
 }
-#support:hover {
+#support:hover,
+#play:hover {
 	color: darken($textColor, 20);
 	background-color: transparent;
 	transform: scale(1);

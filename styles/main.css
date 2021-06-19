@@ -30,11 +30,13 @@ ul li:hover {
   transform: scale(1.1);
 }
 
-#support {
+#support,
+#play {
   color: #998f00;
 }
 
-#support:hover {
+#support:hover,
+#play:hover {
   color: #998f00;
   background-color: transparent;
   transform: scale(1);
