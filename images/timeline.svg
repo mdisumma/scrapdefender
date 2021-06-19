@@ -1,0 +1,53 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 618.05 127.69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fe0;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fe0;
+      }
+
+      .cls-3 {
+        font-size: 14px;
+        font-family: ReggaeOne-Regular, Reggae One;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="8.52" y1="118.13" x2="608.52" y2="118.13"/>
+  <circle class="cls-2" cx="9" cy="118.36" r="9"/>
+  <circle class="cls-2" cx="58.87" cy="118.36" r="9"/>
+  <circle class="cls-2" cx="109.53" cy="118.36" r="9"/>
+  <circle class="cls-2" cx="159.18" cy="118.36" r="9"/>
+  <circle class="cls-2" cx="209.41" cy="118.38" r="9"/>
+  <circle class="cls-2" cx="259.15" cy="118.28" r="9"/>
+  <circle class="cls-2" cx="309.28" cy="118.19" r="9.5"/>
+  <circle class="cls-2" cx="359.04" cy="118.28" r="9"/>
+  <circle class="cls-2" cx="408.69" cy="118.28" r="9"/>
+  <circle class="cls-2" cx="458.99" cy="118.18" r="9"/>
+  <circle class="cls-2" cx="508.55" cy="118.19" r="9"/>
+  <circle class="cls-2" cx="559.01" cy="118.18" r="9"/>
+  <circle class="cls-2" cx="609.05" cy="118.38" r="9"/>
+  <g>
+    <circle class="cls-2" cx="9" cy="118.36" r="7.5"/>
+    <circle class="cls-2" cx="58.87" cy="118.36" r="7.5"/>
+    <circle class="cls-2" cx="109.53" cy="118.36" r="7.5"/>
+    <circle class="cls-2" cx="159.18" cy="118.36" r="7.5"/>
+    <circle class="cls-2" cx="209.41" cy="118.38" r="7.5"/>
+    <circle class="cls-2" cx="259.15" cy="118.28" r="7.5"/>
+    <circle class="cls-2" cx="309.28" cy="118.19" r="7.5"/>
+    <circle class="cls-2" cx="359.04" cy="118.28" r="7.5"/>
+    <circle class="cls-2" cx="408.69" cy="118.28" r="7.5"/>
+    <circle class="cls-2" cx="458.99" cy="118.18" r="7.5"/>
+    <circle class="cls-2" cx="508.55" cy="118.19" r="7.5"/>
+    <circle class="cls-2" cx="559.01" cy="118.18" r="7.5"/>
+    <circle class="cls-2" cx="609.05" cy="118.38" r="7.5"/>
+  </g>
+  <text class="cls-3" transform="translate(13.24 97.87) rotate(-90)">12 May 2021</text>
+  <text class="cls-3" transform="translate(613.49 97.87) rotate(-90)">76 July 2021</text>
+</svg>

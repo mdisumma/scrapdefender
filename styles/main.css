@@ -112,6 +112,11 @@ section video {
   max-width: 500px;
 }
 
+#timeline img {
+  max-width: 80%;
+  background-color: transparent;
+}
+
 .production {
   display: flex;
   justify-content: center;
