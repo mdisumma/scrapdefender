@@ -50,6 +50,10 @@ ul li a {
   color: #ffee00;
 }
 
+#play a {
+  font-size: 1em;
+}
+
 h1 {
   cursor: pointer;
   font-family: "Reggae One", cursive;
