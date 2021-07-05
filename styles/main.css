@@ -1,18 +1,444 @@
-/* Error: expected selector.
- *     ,
- * 117 | <<<<<<< HEAD
- *     | ^
- *     '
- *   sass/global.scss 117:1  @import
- *   sass/main.scss 2:9      root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected selector.\a     \2577 \a 117 \2502  <<<<<<< HEAD\a     \2502  ^\a     \2575 \a   sass/global.scss 117:1  @import\a   sass/main.scss 2:9      root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  display: inline-block;
+  font-family: "Reggae One", cursive;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+ul li:hover {
+  border: 1px solid #ffee00;
+  background-color: #323232;
+  transform: scale(1.1);
+}
+
+#support,
+#play {
+  color: #998f00;
+}
+
+#support:hover,
+#play:hover {
+  color: #998f00;
+  background-color: transparent;
+  transform: scale(1);
+  border: none;
+  cursor: default;
+}
+
+ul li a {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2em;
+  text-decoration: none;
+  color: #ffee00;
+}
+
+h1 {
+  font-family: "Reggae One", cursive;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  margin: 24px;
+  color: rgba(50, 50, 50, 0.7);
+}
+
+h2 {
+  font-family: "Reggae One", cursive;
+  text-transform: uppercase;
+  color: #ffee00;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Reggae One", cursive;
+  text-transform: uppercase;
+  color: #ffee00;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+main {
+  color: white;
+  background-color: transparent;
+  background-size: 100%;
+  background-image: url(../images/brick-pattern-dark.svg);
+  background-repeat: repeat;
+  background-size: auto 100px;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding: 200px 10vw 100px 10vw;
+}
+
+section {
+  max-width: 800px;
+  padding: 1em;
+  margin: 2em auto;
+  border-radius: 10px;
+  background-color: rgba(50, 50, 50, 0.8);
+}
+
+section:hover {
+  border: 1px solid #ffee00;
+}
+
+section img {
+  display: block;
+  padding: 0.5em;
+  margin: 1em auto;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  max-width: 100px;
+}
+
+section video {
+  display: block;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.timeline-nav-container img {
+  max-width: 80%;
+  background-color: transparent;
+}
+
+.timeline-nav {
+  margin: 3em;
+}
+
+.timeline,
+.week {
+  fill: #ffee00;
+}
+
+.week {
+  fill: #998f00;
+  font-size: 14px;
+  font-family: ReggaeOne-Regular, Reggae One;
+}
+
+.week:hover {
+  fill: #ffee00;
+}
+
+.production {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.production iframe {
+  box-sizing: border-box;
+  padding: 1em;
+  width: 80%;
+}
+
+.production .small {
+  width: 40%;
+}
+
+.narrative img {
+  display: block;
+  padding: 0.5em;
+  margin: 1em auto;
+  border-radius: 10px;
+  background-color: transparent;
+  max-width: 60%;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  margin: 0 auto;
+  width: 350px;
+  display: flex;
+  color: #ffee00;
+  align-items: center;
+}
+
+.team-member:hover {
+  background-color: #323232;
+}
+
+.team-member a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Reggae One", cursive;
+  color: #998f00;
+  width: 100%;
+}
+
+.team-member a:hover {
+  color: #ffee00;
+  text-decoration: underline;
+}
+
+.team-member img {
+  margin: 1em;
+}
+
+.team-contact * {
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .production .small {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+/* header */
+header {
+  background-image: url(../images/brick-pattern.svg);
+  background-repeat: repeat;
+  background-size: auto 100px;
+  background-position: bottom;
+  position: fixed;
+  top: 0;
+  z-index: 6;
+  color: #ffee00;
+  /* navigation */
+}
+header nav {
+  color: #ffee00;
+  box-sizing: border-box;
+  width: 100vw;
+  background-color: rgba(50, 50, 50, 0.8);
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  padding: 0 12vw;
+}
+header nav .navContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+header nav .navContainer .audioSwich {
+  font-size: 1.2em;
+  background-color: transparent;
+  border: none;
+  color: #ffee00;
+  cursor: pointer;
+}
+header nav .navContainer .audioSwich:hover {
+  color: #ffee00;
+}
+header nav .navContainer .audioOn {
+  display: block;
+}
+header nav .navContainer .audioOff {
+  display: none;
+}
+
+#mc_embed_signup_scroll {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ffee00;
+}
+
+#mc_embed_signup input.button {
+  background-color: #4b4b4b;
+  color: #ffee00;
+  padding: 0;
+}
+
+#mc_embed_signup input.button:hover {
+  background-color: #323232;
+  transform: scale(1.1);
+  border: 1px solid #ffee00;
+  color: #ffee00;
+}
+
+/* side tower */
+.side {
+  width: 10vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: 20;
+}
+
+.sideL {
+  background-position: right;
+  background-image: url(../images/castel-sideL.svg);
+  top: 0;
+  left: 0;
+}
+
+.sideR {
+  background-position: left;
+  background-image: url(../images/castel-sideR.svg);
+  top: 0;
+  right: 0;
+}
+
+footer {
+  background-color: rgba(50, 50, 50, 0.8);
+  width: 100%;
+  position: fixed;
+  z-index: 15;
+  bottom: 0;
+}
+footer ul li {
+  margin: 12px 32px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    justify-content: center;
+  }
+  nav .navContainer {
+    margin: 0 auto;
+  }
+  nav #mc_embed_signup_scroll {
+    flex-wrap: wrap;
+  }
+}
+/* torch */
+#torchElement {
+  display: block;
+  height: 130px;
+}
+
+.sideL #torchElement {
+  transform: translateX(-20%);
+}
+
+.sideR #torchElement {
+  transform: translateX(20%);
+}
+
+.torch {
+  fill: #323232;
+}
+
+#fireLeft {
+  margin-right: 40px;
+  animation: torchElement 1s infinite;
+}
+
+#fireRight {
+  padding-right: 20px;
+  animation: torchElement 1s infinite 0.5s;
+}
+
+.yellow {
+  fill: #ff0;
+}
+
+.opacity {
+  fill: #ff00089f;
+  opacity: 0.71;
+}
+
+.red {
+  fill: red;
+}
+
+@keyframes torchElement {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.door {
+  margin-top: 100px;
+  height: 100vh;
+  width: 50vw;
+  position: fixed;
+  z-index: 5;
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+.leftOpen {
+  top: 0;
+  left: -40%;
+  transition: 1.5s ease-out;
+  background-image: url(../images/door-left.svg);
+}
+
+.left {
+  top: 0;
+  left: 20px;
+  transition: 1.5s ease-out;
+  background-image: url(../images/door-left.svg);
+}
+
+.rightOpen {
+  top: 0;
+  right: -40%;
+  transition: 1.5s ease-out;
+  background-image: url(../images/door-right.svg);
+}
+
+.right {
+  top: 0;
+  right: 20px;
+  transition: 1.5s ease-out;
+  background-image: url(../images/door-right.svg);
+}
+
+@media only screen and (max-width: 1000px) {
+  .rightOpen {
+    top: 0;
+    right: -40%;
+    transition: 1.5s ease-out;
+  }
+
+  .leftOpen {
+    top: 0;
+    left: -40%;
+    transition: 1.5s ease-out;
+  }
+
+  #torchElement {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
