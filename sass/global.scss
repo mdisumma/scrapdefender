@@ -108,10 +108,27 @@ section video {
 	margin: 0 auto;
 	max-width: 500px;
 }
-.timeline img {
+.timeline-nav-container img {
 	max-width: 80%;
 	background-color: transparent;
 }
+//svg
+.timeline-nav {
+	margin: 3em;
+}
+.timeline,
+.week {
+	fill: $textColor;
+}
+.week {
+	fill: darken($textColor, 20);
+	font-size: 14px;
+	font-family: ReggaeOne-Regular, Reggae One;
+}
+.week:hover {
+	fill: $textColor;
+}
+
 .production {
 	display: flex;
 	justify-content: center;
