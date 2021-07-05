@@ -30,8 +30,6 @@ soundToogle.addEventListener("click", (e) => {
 function doorControl() {
 	doorLeft.classList.toggle("left");
 	doorRight.classList.toggle("right");
-	title.classList.toggle("titleDown");
-	header.classList.toggle("headerDisplay");
 }
 
 function playSound() {
