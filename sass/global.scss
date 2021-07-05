@@ -123,6 +123,7 @@ section video {
 	fill: $textColor;
 }
 .week {
+	cursor: pointer;
 	fill: darken($textColor, 20);
 	font-size: 14px;
 	font-family: ReggaeOne-Regular, Reggae One;
@@ -131,11 +132,6 @@ section video {
 	fill: $textColor;
 }
 
-.production {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
 .production iframe {
 	box-sizing: border-box;
 	padding: 1em;

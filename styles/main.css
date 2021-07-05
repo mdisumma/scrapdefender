@@ -133,6 +133,7 @@ section video {
 }
 
 .week {
+  cursor: pointer;
   fill: #998f00;
   font-size: 14px;
   font-family: ReggaeOne-Regular, Reggae One;
@@ -140,12 +141,6 @@ section video {
 
 .week:hover {
   fill: #ffee00;
-}
-
-.production {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .production iframe {
