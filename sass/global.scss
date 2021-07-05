@@ -55,7 +55,7 @@ h1 {
 	font-family: $header;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 3em;
+	font-size: 2em;
 	margin: 24px;
 	color: rgba(50, 50, 50, 0.7);
 }
@@ -83,13 +83,14 @@ main {
 	background-size: auto 100px;
 	background-position: bottom;
 	background-attachment: fixed;
-	padding: 200px 10vw 100px 10vw;
+	margin-top: 160px;
+	padding: 50px 10vw 50px 10vw;
 }
 
 section {
 	max-width: 800px;
 	padding: 1em;
-	margin: 2em auto;
+	margin: 160px auto;
 	border-radius: 10px;
 	background-color: rgba(50, 50, 50, 0.8);
 }
@@ -131,7 +132,9 @@ section video {
 .week:hover {
 	fill: $textColor;
 }
-
+.production {
+	padding-top: 160px;
+}
 .production iframe {
 	box-sizing: border-box;
 	padding: 1em;

@@ -1,5 +1,6 @@
 /* header */
 header {
+	height: 160px;
 	background-image: url(../images/brick-pattern.svg);
 	background-repeat: repeat;
 	background-size: auto 100px;
@@ -45,7 +46,6 @@ header {
 
 // MailChimp
 #mc_embed_signup_scroll {
-	padding-top: 10px;
 	width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
@@ -98,7 +98,7 @@ footer {
 	z-index: 15;
 	bottom: 0;
 	ul li {
-		margin: 12px 32px;
+		margin: 0 32px;
 	}
 }
 

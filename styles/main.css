@@ -56,7 +56,7 @@ h1 {
   font-family: "Reggae One", cursive;
   text-align: center;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 2em;
   margin: 24px;
   color: rgba(50, 50, 50, 0.7);
 }
@@ -88,13 +88,14 @@ main {
   background-size: auto 100px;
   background-position: bottom;
   background-attachment: fixed;
-  padding: 200px 10vw 100px 10vw;
+  margin-top: 160px;
+  padding: 50px 10vw 50px 10vw;
 }
 
 section {
   max-width: 800px;
   padding: 1em;
-  margin: 2em auto;
+  margin: 160px auto;
   border-radius: 10px;
   background-color: rgba(50, 50, 50, 0.8);
 }
@@ -141,6 +142,10 @@ section video {
 
 .week:hover {
   fill: #ffee00;
+}
+
+.production {
+  padding-top: 160px;
 }
 
 .production iframe {
@@ -217,6 +222,7 @@ section video {
 }
 /* header */
 header {
+  height: 160px;
   background-image: url(../images/brick-pattern.svg);
   background-repeat: repeat;
   background-size: auto 100px;
@@ -260,7 +266,6 @@ header nav .navContainer .audioOff {
 }
 
 #mc_embed_signup_scroll {
-  padding-top: 10px;
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
@@ -317,7 +322,7 @@ footer {
   bottom: 0;
 }
 footer ul li {
-  margin: 12px 32px;
+  margin: 0 32px;
 }
 
 @media only screen and (max-width: 600px) {
