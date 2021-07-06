@@ -26,9 +26,12 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="styles/main.css">
   <link rel="icon" type="image/svg" href="images/logoSD_0.svg" sizes="16x16">
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
   <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <script src="https://kit.fontawesome.com/45bfc94cb4.js" crossorigin="anonymous"></script>
+  <script src="game.js" defer></script>
   <script src="door.js" defer></script>
   <title>Scrap-Defenders</title>
   <script
@@ -125,8 +128,7 @@
               </audio>
             </button></li>
           <li id="about">About</li>
-          <li id="play"><a href="game/index.html">
-              Play</a></li>
+          <li id="play">Play</li>
           </a>
           <li id="support">Support</li>
         </ul>
@@ -153,6 +155,23 @@
     <h1><a href="#top">scrap defender</a></h1>
 
   </header>
+  <div id="unity-container" class="unity-desktop">
+    <canvas id="unity-canvas" width=960 height=600></canvas>
+    <div id="unity-loading-bar">
+      <div id="unity-logo"></div>
+      <div id="unity-progress-bar-empty">
+        <div id="unity-progress-bar-full"></div>
+      </div>
+    </div>
+    <div id="unity-mobile-warning">
+      WebGL builds are not supported on mobile devices.
+    </div>
+    <div id="unity-footer">
+      <div id="unity-webgl-logo"></div>
+      <div id="unity-fullscreen-button"></div>
+      <div id="unity-build-title">Scrap Defender</div>
+    </div>
+  </div>
   <main id="top">
     <article id="about">
       <section id="timeline-nav-container">
