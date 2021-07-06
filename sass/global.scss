@@ -88,13 +88,13 @@ main {
 	background-position: bottom;
 	background-attachment: fixed;
 	margin-top: 160px;
-	padding: 50px 10vw 50px 10vw;
+	padding: 12px 10vw 100px 10vw;
 }
 
 section {
 	max-width: 800px;
 	padding: 1em;
-	margin: 160px auto;
+	margin: 2em auto;
 	border-radius: 10px;
 	background-color: rgba(50, 50, 50, 0.8);
 }
@@ -106,8 +106,7 @@ section img {
 	display: block;
 	padding: 0.5em;
 	margin: 1em auto;
-	border-radius: 10px;
-	background-color: rgba(255, 255, 255, 0.6);
+
 	max-width: 100px;
 }
 section video {
@@ -139,11 +138,7 @@ section video {
 .production {
 	padding-top: 160px;
 }
-.production iframe {
-	box-sizing: border-box;
-	padding: 1em;
-	width: 80%;
-}
+
 .production .small {
 	width: 40%;
 }
