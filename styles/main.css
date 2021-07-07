@@ -153,6 +153,10 @@ section video {
   padding-top: 160px;
 }
 
+.production img {
+  max-width: 100%;
+}
+
 .production .small {
   width: 40%;
 }

@@ -1,5 +1,5 @@
 // $textColor: rgb(242, 255, 0);
-$textColor: #ffee00;
+$textColor: rgb(255, 238, 0);
 $black: rgb(50, 50, 50);
 $header: "Reggae One", cursive;
 
@@ -106,7 +106,6 @@ section img {
 	display: block;
 	padding: 0.5em;
 	margin: 1em auto;
-
 	max-width: 100px;
 }
 section video {
@@ -137,6 +136,9 @@ section video {
 }
 .production {
 	padding-top: 160px;
+}
+.production img {
+	max-width: 100%;
 }
 
 .production .small {
