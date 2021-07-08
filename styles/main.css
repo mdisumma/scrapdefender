@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-body {
+article {
   margin: 0;
   padding: 0;
+  position: relative;
+  top: 160px;
 }
 
 ul {

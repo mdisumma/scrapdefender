@@ -3,9 +3,11 @@ $textColor: #ffee00;
 $black: #323232;
 $header: "Reggae One", cursive;
 
-body {
+article {
 	margin: 0;
 	padding: 0;
+	position: relative;
+	top: 160px;
 }
 ul {
 	margin: 0;
