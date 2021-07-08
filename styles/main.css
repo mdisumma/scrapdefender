@@ -157,7 +157,13 @@ section video {
   max-width: 90%;
 }
 
+.production .video {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .production .small {
+  margin: 5%;
   width: 40%;
 }
 
