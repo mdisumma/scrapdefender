@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:300&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -70,6 +71,7 @@ h1 a {
 }
 
 h2 {
+  font-size: 2em;
   font-family: "Reggae One", cursive;
   text-transform: uppercase;
   color: #ffee00;
@@ -81,9 +83,13 @@ h3 {
   text-transform: uppercase;
   color: #ffee00;
   text-align: center;
+  font-size: 1.3em;
 }
 
 p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6em;
+  margin: 2em;
   text-align: center;
 }
 

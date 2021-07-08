@@ -64,6 +64,7 @@ h1 a {
 	color: $textColor;
 }
 h2 {
+	font-size: 2em;
 	font-family: $header;
 	text-transform: uppercase;
 	color: $textColor;
@@ -74,8 +75,12 @@ h3 {
 	text-transform: uppercase;
 	color: $textColor;
 	text-align: center;
+	font-size: 1.3em;
 }
 p {
+	font-family: "Montserrat", sans-serif;
+	line-height: 1.6em;
+	margin: 2em;
 	text-align: center;
 }
 main {
