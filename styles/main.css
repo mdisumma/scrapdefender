@@ -163,6 +163,11 @@ section video {
   max-width: 90%;
 }
 
+.production iframe {
+  margin: 2em auto;
+  width: 90%;
+}
+
 .production .video {
   display: flex;
   flex-wrap: wrap;
