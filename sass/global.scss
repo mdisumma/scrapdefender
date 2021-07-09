@@ -3,6 +3,18 @@ $textColor: #ffee00;
 $black: #323232;
 $header: "Reggae One", cursive;
 
+body {
+	background-color: transparent;
+	background-size: 100%;
+	background-image: url(../images/brick-pattern-dark.svg);
+	background-repeat: repeat;
+	background-size: auto 100px;
+	background-position: bottom;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
 article {
 	margin: 0;
 	padding: 0;
@@ -45,7 +57,7 @@ ul li:hover {
 ul li a {
 	cursor: pointer;
 	display: inline-block;
-	font-size: 2em;
+	font-size: 1em;
 	text-decoration: none;
 	color: $textColor;
 }
@@ -87,13 +99,6 @@ p {
 }
 main {
 	color: white;
-	background-color: transparent;
-	background-size: 100%;
-	background-image: url(../images/brick-pattern-dark.svg);
-	background-repeat: repeat;
-	background-size: auto 100px;
-	background-position: bottom;
-	background-attachment: fixed;
 
 	padding: 12px 10vw 300px 10vw;
 }
