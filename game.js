@@ -1,4 +1,4 @@
-const play = document.querySelector("#play");
+const play = document.querySelector("#play-game");
 console.log(play);
 play.addEventListener("click", (e) => {
 	console.log(e);
@@ -14,7 +14,7 @@ play.addEventListener("click", (e) => {
 		productVersion: "0.1",
 	};
 
-	var container = document.querySelector("#unity-container");
+	var container = document.querySelector(".unity-container");
 	var canvas = document.querySelector("#unity-canvas");
 	console.log(canvas);
 	var loadingBar = document.querySelector("#unity-loading-bar");

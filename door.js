@@ -1,4 +1,4 @@
-const click = document.querySelector("#about");
+const click = document.querySelector(".click");
 const header = document.querySelector(".header");
 const title = document.querySelector("h1");
 const doorLeft = document.querySelector(".left");
@@ -8,8 +8,12 @@ const soundToogle = document.querySelector(".audioSwich");
 const sound = document.querySelector("audio");
 
 click.addEventListener("click", (e) => {
-	playSound();
-	doorControl();
+	console.log(doorLeft.classList.length);
+	console.log(e);
+	if (doorLeft.classList.length == 3) {
+		playSound();
+		doorControl();
+	}
 });
 
 const audioOff = document.querySelector(".audioOff");

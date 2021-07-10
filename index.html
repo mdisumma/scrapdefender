@@ -126,9 +126,12 @@
                 <source src="audio/558216__msavioti__stone-push.wav" type="audio/wav">
               </audio>
             </button></li>
-          <li id="about"><a href="#top">About</a></li>
-          <li id="play"><a href="#unity-container">Play</a></li>
-          </a>
+          <div class="click">
+            <li><a href="#about">About</a></li>
+            <li><a id="play-game" href="#play">Play</a></li>
+            </a>
+          </div>
+
           <li id="support">Support</li>
         </ul>
       </div>
@@ -151,10 +154,10 @@
 
     </nav>
 
-    <h1><a href="#top">scrap defender</a></h1>
+    <h1><a href="#about">scrap defender</a></h1>
 
   </header>
-  <div id="unity-container">
+  <div class="unity-container" id="play">
     <canvas id="unity-canvas" width=960 height=600></canvas>
     <div id="unity-footer">
       <div id="unity-build-title">Scrap Defender</div>
@@ -170,10 +173,8 @@
       WebGL builds are not supported on mobile devices.
     </div>
   </div>
-
-
-  <main id="top">
-    <article id="about">
+  <main id="about">
+    <article>
       <section id="timeline-nav-container">
         <h2>support</h2>
 
