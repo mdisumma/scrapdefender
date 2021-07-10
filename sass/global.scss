@@ -58,6 +58,10 @@ h1 a {
 	cursor: pointer;
 	text-decoration: none;
 	color: $textColor;
+	border-radius: 6px;
+}
+h1 a:hover {
+	text-decoration: underline;
 }
 h2 {
 	font-size: 2em;

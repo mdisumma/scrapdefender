@@ -8,8 +8,6 @@ const soundToogle = document.querySelector(".audioSwich");
 const sound = document.querySelector("audio");
 
 click.addEventListener("click", (e) => {
-	console.log(doorLeft.classList.length);
-	console.log(e);
 	if (doorLeft.classList.length == 3) {
 		playSound();
 		doorControl();

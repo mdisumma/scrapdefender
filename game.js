@@ -1,5 +1,4 @@
 const play = document.querySelector("#play-game");
-console.log(play);
 play.addEventListener("click", (e) => {
 	console.log(e);
 	var buildUrl = "Build";

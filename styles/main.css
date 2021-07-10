@@ -63,6 +63,11 @@ h1 a {
   cursor: pointer;
   text-decoration: none;
   color: #ffee00;
+  border-radius: 6px;
+}
+
+h1 a:hover {
+  text-decoration: underline;
 }
 
 h2 {
