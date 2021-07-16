@@ -2,6 +2,26 @@
 <html lang="en-us">
 
 <head>
+
+  <title>Scrap Defenders - Tower defence game</title>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="description"
+    content="A thrilling 3D tower defence game, look over the shoulder of a robot defender, given the simple task of protecting a treasure room.">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Marco Di Summa">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" type="image/svg" href="images/logoSD_0.svg" sizes="16x16">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <script src="https://kit.fontawesome.com/45bfc94cb4.js" crossorigin="anonymous"></script>
+  <script src="game.js" defer></script>
+  <script src="door.js" defer></script>
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -18,26 +38,18 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-198779865-1');
   </script>
-
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <link rel="stylesheet" href="styles/main.css">
-  <link rel="icon" type="image/svg" href="images/logoSD_0.svg" sizes="16x16">
-  <link rel="stylesheet" href="TemplateData/style.css">
-  <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <script src="https://kit.fontawesome.com/45bfc94cb4.js" crossorigin="anonymous"></script>
-  <script src="game.js" defer></script>
-  <script src="door.js" defer></script>
-  <title>Scrap-Defenders</title>
+  <!-- End - Google Analytics -->
+  <!-- Mailchimp -->
   <script
     id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/ab400fc119b6c7bf06c2f09b3/4c62820812a56177828088d20.js");</script>
+  <!-- End - Mailchimp -->
+
 </head>
 
 <body>
+
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NM76ZXW" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
@@ -113,11 +125,12 @@
   </div>
   <div class="door right rightOpen">
   </div>
-  <header>
-    <nav>
-      <!-- navigation -->
-      <div class="navContainer">
 
+  <!-- header -->
+  <header>
+    <!-- navigation -->
+    <nav>
+      <div class="navContainer">
         <ul>
           <li><button class="audioSwich">
               <i class="fas fa-volume-up audioOn"></i>
@@ -131,11 +144,10 @@
             <li><a id="play-game" href="#play">Play</a></li>
             </a>
           </div>
-
           <li id="support">Support</li>
         </ul>
       </div>
-      <!--Mailchimp Signup Form-->
+      <!-- Mailchimp Signup Form -->
       <div id="mc_embed_signup">
         <form action="https://app.us6.list-manage.com/subscribe/post?u=ab400fc119b6c7bf06c2f09b3&amp;id=e1e1c4c9fb"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
@@ -151,7 +163,6 @@
           </div>
         </form>
       </div>
-
     </nav>
 
     <h1><a href="#anchor">Scrap defender</a></h1>
@@ -173,9 +184,11 @@
       WebGL builds are not supported on mobile devices.
     </div>
   </div>
+
+  <!-- Main -->
   <main id="about">
     <article>
-
+      <!-- game -->
       <section id="game">
         <h2>game</h2>
         <img src="images/logoScrapDefener.svg" alt="">
@@ -185,6 +198,7 @@
           those pesky clones.
         </p>
       </section>
+      <!-- narrative -->
       <section id="narrative">
         <div class="narrative">
           <h2>Narrative</h2>
@@ -224,6 +238,7 @@
 
         </div>
       </section>
+      <!-- timeline -->
       <section id="timeline-nav-container">
         <h2>Timeline</h2>
 
@@ -246,17 +261,19 @@
           <a href="#week-1"><text class="week" transform="translate(12.32 110.53) rotate(-90)">12 May 2021</text></a>
         </svg>
       </section>
-
+      <!-- production -->
       <section id="production">
         <h2>production</h2>
+        <!-- week 1 -->
         <div id="week-1" class="production">
           <h3>Week 1 - Gate House Beginnings</h3>
           <p>We put our heads together and brainstormed what we wanted to achieve, we set out standards high and let out
             dreams run wild!
           </p>
           <img src="images/brainstorm.svg" alt="brainstorm">
-        </div> <!-- week 1 -->
-        <hr>
+        </div>
+        <hr><!-- end week 1 -->
+        <!-- week 2 -->
         <div id="week-2" class="production">
           <h3>Week 2 - Concepts!
           </h3>
@@ -264,8 +281,9 @@
           </p>
           <img src="images/game-concept.png" alt="concept art">
           <img src="images/concept-art.svg" alt="characters">
-        </div> <!-- week 2 -->
-        <hr>
+        </div>
+        <hr><!-- end week 2 -->
+        <!-- week 3 -->
         <div id="week-3" class="production">
           <h3>Week 3 - It’s Alive! 🧟</h3>
           <p>We created animations for our hero as well as traps that we came up with and made a block out of a level!
@@ -297,9 +315,9 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
           </div>
-
-        </div> <!-- week 3 -->
-        <hr>
+        </div>
+        <hr><!-- end week 3 -->
+        <!-- week 4 -->
         <div id="week-4" class="production">
           <h3>Week 4 - A new threat approaches!
           </h3>
@@ -307,8 +325,9 @@
           <p>It's not going to be all sunshine and tequilas for our hero anymore!
           </p>
           <img src="images/flying-castle.png" alt="ship aproaching the castel">
-        </div> <!-- week 4 -->
-        <hr>
+        </div>
+        <hr><!-- end week 4 -->
+        <!-- week 5 -->
         <div id="week-5" class="production">
           <h3>Week 5 - We got movement
           </h3>
@@ -324,61 +343,69 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen></iframe>
           </div>
-        </div> <!-- week 5 -->
-        <hr>
+        </div>
+        <hr><!-- end week 5 -->
+        <!-- week 6 -->
         <div id="week-6" class="production">
           <h3>Week 6 - If you build it, they will come
           </h3>
           <p>We also started creating the ship that the pirates arrive on! Har har!
           </p>
           <img src="images/week6.png" alt="level and ship design">
-        </div> <!-- week 6 -->
-        <hr>
+        </div>
+        <hr><!-- end week 6 -->
+        <!-- week 7 -->
         <div id="week-7" class="production">
           <h3>Week 7 - Hey, who turned out the lights?
           </h3>
           <p>We plan on adding sensory deprivation if the player forgets to repair himself, you’re a robot too!
             We also plan to have a graphics mock-up done by now, come on guys, hurry up!
           </p>
-        </div> <!-- week 7 -->
-        <hr>
+        </div>
+        <hr> <!-- end week 7 -->
+        <!-- week 8 -->
         <div id="week-8" class="production">
           <h3>Week 8 - It’s the final countdown!
           </h3>
           <p>By this time we should have the final level in all its glory
           </p>
-        </div> <!-- week 8 -->
-        <hr>
+        </div>
+        <hr><!-- end week 8 -->
+        <!-- week 9 -->
         <div id="week-9" class="production">
           <h3>Week 9 - So beautiful!
           </h3>
-          <p>We should have all the lovely materials in place by now, it should be looking slick 😎
+          <p>We should have all the lovely materials in place by now, it should be looking slick
           </p>
-        </div> <!-- week 9 -->
-        <hr>
+        </div>
+        <hr><!-- end week 9 -->
+        <!-- week 10 -->
         <div id="week-10" class="production">
           <h3>Week 10 - nasty bugs!
           </h3>
           <p>This week is for uploading the game to the site, play testing and squashing any bugs that come with that,
             ew!
           </p>
-        </div> <!-- week 10 -->
-        <hr>
+        </div>
+        <hr><!-- end week 10 -->
+        <!-- week 11 -->
         <div id="week-11" class="production">
           <h3>Week 11 - 🏁🏁🏁
           </h3>
           <p>This is where the game is finished, all we need to do is create a tutorial animation and upload that sucka!
           </p>
-        </div> <!-- week 11 -->
-        <hr>
+        </div>
+        <hr> <!-- end week 11 -->
+        <!-- week 12 -->
         <div id="week-12" class="production">
           <h3>Week 12 - Finale 🍸
           </h3>
           <p>The game will be uploaded in a finished state for everyone to enjoy!
           </p>
-        </div> <!-- week 12 -->
-
-      </section>
+        </div>
+        <!-- end week 12 -->
+      </section> <!-- end production -->
+      <!-- team -->
       <section id="team">
         <h2>Team</h2>
         <div class="team">
@@ -421,8 +448,8 @@
           </div>
       </section>
     </article>
-
   </main>
+  <!-- footer - social -->
   <footer>
     <ul>
 
@@ -436,22 +463,6 @@
     </ul>
     </ul>
   </footer>
-  <!-- Matomo -->
-  <script type="text/javascript">
-    var _paq = window._paq = window._paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function () {
-      var u = "//209.97.132.185/";
-      _paq.push(['setTrackerUrl', u + 'matomo.php']);
-      _paq.push(['setSiteId', '1']);
-      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
-      g.type = 'text/javascript'; g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
-    })();
-  </script>
-  <!-- End Matomo Code -->
-
 </body>
 
 </html>
