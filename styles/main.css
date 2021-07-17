@@ -94,6 +94,7 @@ p {
 }
 
 body {
+  font-size: 1.2em;
   background-color: transparent;
   background-size: 100%;
   background-image: url(../images/assets/brick-pattern.svg);
