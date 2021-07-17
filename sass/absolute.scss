@@ -1,7 +1,7 @@
 /* header */
 header {
 	height: 160px;
-	background-image: url(../images/brick-pattern.svg);
+	background-image: url(../images/assets/brick-pattern.svg);
 	background-repeat: repeat;
 	background-size: auto 100px;
 	background-position: bottom;
@@ -80,13 +80,13 @@ header {
 }
 .sideL {
 	background-position: right;
-	background-image: url(../images/castel-sideL.svg);
+	background-image: url(../images/assets/castel-sideL.svg);
 	top: 0;
 	left: 0;
 }
 .sideR {
 	background-position: left;
-	background-image: url(../images/castel-sideR.svg);
+	background-image: url(../images/assets/castel-sideR.svg);
 	top: 0;
 	right: 0;
 }

@@ -96,7 +96,7 @@ p {
 body {
   background-color: transparent;
   background-size: 100%;
-  background-image: url(../images/brick-pattern-dark.svg);
+  background-image: url(../images/assets/brick-pattern.svg);
   background-repeat: repeat;
   background-size: auto 100px;
   background-position: bottom;
@@ -265,7 +265,7 @@ hr {
 /* header */
 header {
   height: 160px;
-  background-image: url(../images/brick-pattern.svg);
+  background-image: url(../images/assets/brick-pattern.svg);
   background-repeat: repeat;
   background-size: auto 100px;
   background-position: bottom;
@@ -344,14 +344,14 @@ header nav .navContainer .audioOff {
 
 .sideL {
   background-position: right;
-  background-image: url(../images/castel-sideL.svg);
+  background-image: url(../images/assets/castel-sideL.svg);
   top: 0;
   left: 0;
 }
 
 .sideR {
   background-position: left;
-  background-image: url(../images/castel-sideR.svg);
+  background-image: url(../images/assets/castel-sideR.svg);
   top: 0;
   right: 0;
 }
@@ -448,28 +448,28 @@ footer ul li a {
   top: 0;
   left: -40%;
   transition: 1.5s ease-out;
-  background-image: url(../images/door-left.svg);
+  background-image: url(../images/assets/door-left.svg);
 }
 
 .left {
   top: 0;
   left: 20px;
   transition: 1.5s ease-out;
-  background-image: url(../images/door-left.svg);
+  background-image: url(../images/assets/door-left.svg);
 }
 
 .rightOpen {
   top: 0;
   right: -40%;
   transition: 1.5s ease-out;
-  background-image: url(../images/door-right.svg);
+  background-image: url(../images/assets/door-right.svg);
 }
 
 .right {
   top: 0;
   right: 20px;
   transition: 1.5s ease-out;
-  background-image: url(../images/door-right.svg);
+  background-image: url(../images/assets/door-right.svg);
 }
 
 @media only screen and (max-width: 1000px) {
