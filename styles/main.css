@@ -40,23 +40,11 @@ ul li a {
 }
 
 h1 {
-  cursor: pointer;
   font-family: "Reggae One", cursive;
   text-align: center;
   text-transform: uppercase;
   font-size: 2em;
   margin: 24px;
-}
-
-h1 a {
-  cursor: pointer;
-  text-decoration: none;
-  color: #ffee00;
-  border-radius: 6px;
-}
-
-h1 a:hover {
-  text-decoration: underline;
 }
 
 h2 {
@@ -254,6 +242,7 @@ hr {
 
   h1 {
     font-size: 1.5em;
+    margin: 12px;
   }
 
   h2 {
