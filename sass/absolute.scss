@@ -23,7 +23,6 @@ header {
 			display: flex;
 			justify-content: flex-start;
 			align-items: center;
-
 			.audioSwich {
 				font-size: 1.2em;
 				background-color: transparent;
@@ -40,6 +39,17 @@ header {
 			.audioOff {
 				display: none;
 			}
+		}
+		#company-logo {
+			margin: 5px;
+			padding: 5px;
+			background-color: rgba(255, 255, 255, 0.9);
+			border-radius: 3px;
+		}
+		#company-logo:hover {
+			border: none;
+			background-color: rgba(255, 255, 255, 0.9);
+			transform: scale(1);
 		}
 	}
 }

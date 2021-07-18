@@ -26,16 +26,6 @@ ul li:hover {
 	background-color: rgb(50, 50, 50);
 	transform: scale(1.1);
 }
-#support {
-	color: darken($textColor, 20);
-}
-#support:hover {
-	color: darken($textColor, 20);
-	background-color: transparent;
-	transform: scale(1);
-	border: none;
-	cursor: default;
-}
 ul li a {
 	cursor: pointer;
 	display: inline-block;
