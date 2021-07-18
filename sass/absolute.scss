@@ -103,7 +103,7 @@ header {
 
 footer {
 	background-color: rgba(50, 50, 50, 0.8);
-	width: 100%;
+	width: 100vw;
 	position: fixed;
 	z-index: 15;
 	bottom: 0;
@@ -130,12 +130,31 @@ footer {
 
 @media only screen and (max-width: 600px) {
 	nav {
+		margin: 0;
+		padding: 0;
 		justify-content: center;
-		.navContainer {
-			margin: 0 auto;
+		.navContainer ul {
+			display: none;
 		}
 		#mc_embed_signup_scroll {
 			flex-wrap: wrap;
+		}
+	}
+	#company-logo {
+		display: none;
+	}
+
+	footer {
+		ul li {
+			margin: 3px 10px;
+			a {
+				margin: 3px;
+				cursor: pointer;
+				display: flex;
+				font-size: 1 em;
+				text-decoration: none;
+				color: $textColor;
+			}
 		}
 	}
 }

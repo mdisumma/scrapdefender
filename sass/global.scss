@@ -77,7 +77,6 @@ p {
 
 //body
 body {
-	font-size: 1.2em;
 	background-color: transparent;
 	background-size: 100%;
 	background-image: url(../images/assets/brick-pattern.svg);
@@ -222,7 +221,41 @@ hr {
 	}
 }
 @media only screen and (max-width: 600px) {
+	#play {
+		display: none;
+	}
 	h1 {
 		font-size: 1.5em;
+	}
+	h2 {
+		font-size: 1.3em;
+	}
+	p {
+		margin: 0;
+		font-size: 1.3em;
+	}
+	.production {
+		padding-top: 2em;
+	}
+	hr {
+		position: relative;
+		top: 2em;
+	}
+	.timeline-nav {
+		display: none;
+	}
+	#video {
+		display: none;
+	}
+	.team-member {
+		font-size: 0.8em;
+		margin: 1em auto;
+		width: 350px;
+		display: block;
+		color: $textColor;
+		align-items: center;
+		img {
+			margin: 0 auto;
+		}
 	}
 }

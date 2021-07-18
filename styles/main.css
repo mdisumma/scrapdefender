@@ -83,7 +83,6 @@ p {
 }
 
 body {
-  font-size: 1.2em;
   background-color: transparent;
   background-size: 100%;
   background-image: url(../images/assets/brick-pattern.svg);
@@ -248,8 +247,50 @@ hr {
   }
 }
 @media only screen and (max-width: 600px) {
+  #play {
+    display: none;
+  }
+
   h1 {
     font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  p {
+    margin: 0;
+    font-size: 1.3em;
+  }
+
+  .production {
+    padding-top: 2em;
+  }
+
+  hr {
+    position: relative;
+    top: 2em;
+  }
+
+  .timeline-nav {
+    display: none;
+  }
+
+  #video {
+    display: none;
+  }
+
+  .team-member {
+    font-size: 0.8em;
+    margin: 1em auto;
+    width: 350px;
+    display: block;
+    color: #ffee00;
+    align-items: center;
+  }
+  .team-member img {
+    margin: 0 auto;
   }
 }
 /* header */
@@ -359,7 +400,7 @@ header nav #company-logo:hover {
 
 footer {
   background-color: rgba(50, 50, 50, 0.8);
-  width: 100%;
+  width: 100vw;
   position: fixed;
   z-index: 15;
   bottom: 0;
@@ -378,13 +419,31 @@ footer ul li a {
 
 @media only screen and (max-width: 600px) {
   nav {
+    margin: 0;
+    padding: 0;
     justify-content: center;
   }
-  nav .navContainer {
-    margin: 0 auto;
+  nav .navContainer ul {
+    display: none;
   }
   nav #mc_embed_signup_scroll {
     flex-wrap: wrap;
+  }
+
+  #company-logo {
+    display: none;
+  }
+
+  footer ul li {
+    margin: 3px 10px;
+  }
+  footer ul li a {
+    margin: 3px;
+    cursor: pointer;
+    display: flex;
+    font-size: 1 em;
+    text-decoration: none;
+    color: #ffee00;
   }
 }
 /* torch */
