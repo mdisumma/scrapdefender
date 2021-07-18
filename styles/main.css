@@ -128,7 +128,7 @@ section img {
 section video {
   display: block;
   margin: 0 auto;
-  max-width: 500px;
+  max-width: 250px;
 }
 
 .timeline-nav-container img {
@@ -182,14 +182,15 @@ section video {
   width: 90%;
 }
 
-.production .video {
+.production #video {
+  max-width: 600px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 .production .small {
-  margin: 5%;
-  width: 40%;
+  width: 45%;
 }
 
 hr {
