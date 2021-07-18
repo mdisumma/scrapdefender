@@ -408,6 +408,10 @@ footer ul li a {
 }
 
 @media only screen and (max-width: 600px) {
+  header {
+    height: 120px;
+  }
+
   nav {
     margin: 0;
     padding: 0;
