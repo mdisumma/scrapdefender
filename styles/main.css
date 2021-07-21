@@ -463,12 +463,12 @@ footer ul li a {
   fill: #323232;
 }
 
-#fireLeft {
+.fireLeft {
   margin-right: 40px;
   animation: torchElement 1s infinite;
 }
 
-#fireRight {
+.fireRight {
   padding-right: 20px;
   animation: torchElement 1s infinite 0.5s;
 }
@@ -545,7 +545,7 @@ footer ul li a {
     transition: 1.5s ease-out;
   }
 
-  #torchElement {
+  .torchElement {
     display: none;
   }
 }
