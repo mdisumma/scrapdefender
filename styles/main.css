@@ -445,16 +445,16 @@ footer ul li a {
   }
 }
 /* torch */
-#torchElement {
+.torchElement {
   display: block;
   height: 130px;
 }
 
-.sideL #torchElement {
+.sideL .torchElement {
   transform: translateX(-20%);
 }
 
-.sideR #torchElement {
+.sideR .torchElement {
   transform: translateX(20%);
 }
 
