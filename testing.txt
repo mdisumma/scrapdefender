@@ -1,0 +1,20 @@
+HTML 5 Outliner
+https://gsnedders.html5.org/outliner/
+
+WC3.org
+HTML Cheker
+https://validator.w3.org/
+
+Google Search Console
+
+Structured data testing Tool
+https://search.google.com/structured-data/testing-tool/u/0/
+
+Rich Result Test
+https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=url
+
+Page Speed insights
+https://developers.google.com/speed/pagespeed/insights/
+
+Mobile-Friendly test
+https://search.google.com/test/mobile-friendly
