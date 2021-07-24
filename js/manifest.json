@@ -5,15 +5,15 @@
 	"icons": [
 		{
 		  "src": "../images/logoScrapDefener.png",
-		  "type": "image/svg",
+		  "type": "image/png",
 		  "sizes": "200x200",
 		  "purpose": "any"
 		},
 		{
 		  "src": "../images/logoScrapDefener.png",
-		  "type": "image/svg",
+		  "type": "image/png",
 		  "sizes": "200x200",
-		  "purpose": "maskable"
+		  "purpose": "any"
 		}
 	 ],
 	"start_url": "https://scrapdefender.netlify.app/",
@@ -32,7 +32,7 @@
 	  {
 		 "src": "../images/production/final-level-prospective.png",
 		 "type": "image/jpg",
-		 "sizes": "881x566"
+		 "sizes": "881x494"
 	  }
 	]
  }
