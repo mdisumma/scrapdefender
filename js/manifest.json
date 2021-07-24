@@ -1,0 +1,30 @@
+
+{
+	"short_name": "Scrap Defender",
+	"name": "Scrap defender - Tower defence game",
+	"icons": 
+	  {
+		 "src": "images/production/scrap-defender-logo.svg",
+		 "type": "image/svg",
+		 "sizes": "192x192"
+	  },
+	"start_url": "https://scrapdefender.netlify.app/",
+	"background_color": "#3367D6",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#ffee00",
+	
+	"description": "Weather forecast information",
+	"screenshots": [
+	  {
+		 "src": "images/production/final-level-render.png",
+		 "type": "image/png",
+		 "sizes": "540x720"
+	  },
+	  {
+		 "src": "images/production/final-level-prospective.png",
+		 "type": "image/jpg",
+		 "sizes": "540x720"
+	  }
+	]
+ }
