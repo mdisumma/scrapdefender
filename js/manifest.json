@@ -22,17 +22,17 @@
 	"scope": "/",
 	"theme_color": "#ffee00",
 	
-	"description": "A thrilling 3D tower defence game, look over the shoulder of a robot defender, given the simple task of protecting a treasure room, serving additionally as your home to replenish key supplies, through the use of fun, interactive, explosive traps and defences, on a level that requires feats of parkour, and evasion of those pesky clones.",
+	"description": "A thrilling 3D tower defence game, look over the shoulder of a robot defender, given the simple task of protecting a treasure room.",
 	"screenshots": [
 	  {
 		 "src": "../images/production/final-level-render.png",
 		 "type": "image/png",
-		 "sizes": "540x720"
+		 "sizes": "781x566"
 	  },
 	  {
 		 "src": "../images/production/final-level-prospective.png",
 		 "type": "image/jpg",
-		 "sizes": "540x720"
+		 "sizes": "881x566"
 	  }
 	]
  }
