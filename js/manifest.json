@@ -4,14 +4,14 @@
 	"name": "Scrap defender - Tower defence game",
 	"icons": [
 		{
-		  "src": "../images/logoSD_0.svg",
+		  "src": "../images/logoScrapDefener.png",
 		  "type": "image/svg",
-		  "sizes": "any"
+		  "sizes": "200x200"
 		},
 		{
-		  "src": "../images/logoSD_0.svg",
+		  "src": "../images/logoScrapDefener.png",
 		  "type": "image/svg",
-		  "sizes": "any"
+		  "sizes": "200x200"
 		}
 	 ],
 	"start_url": "https://scrapdefender.netlify.app/",
