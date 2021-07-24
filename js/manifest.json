@@ -13,7 +13,7 @@
 		  "src": "./images/logoScrapDefener.png",
 		  "type": "image/png",
 		  "sizes": "200x200",
-		  "purpose": "unset"
+		  "purpose": "any"
 		}
 	 ],
 	"start_url": "https://scrapdefender.netlify.app/",
