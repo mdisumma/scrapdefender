@@ -4,13 +4,13 @@
 	"name": "Scrap defender - Tower defence game",
 	"icons": [
 		{
-		  "src": "./images/logoScrapDefener.png",
+		  "src": "../images/logoScrapDefener.png",
 		  "type": "image/png",
 		  "sizes": "200x200",
 		  "purpose": "any"
 		},
 		{
-		  "src": "./images/logoScrapDefener.png",
+		  "src": "../images/logoScrapDefener.png",
 		  "type": "image/png",
 		  "sizes": "200x200",
 		  "purpose": "any"
