@@ -19,7 +19,7 @@
 	"start_url": "https://scrapdefender.netlify.app/",
 	"background_color": "#4b4b4b",
 	"display": "standalone",
-	"scope": "/",
+	"scope": "https://scrapdefender.netlify.app/#about",
 	"theme_color": "#ffee00",
 	
 	"description": "A thrilling 3D tower defence game, look over the shoulder of a robot defender, given the simple task of protecting a treasure room.",
