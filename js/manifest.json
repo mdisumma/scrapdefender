@@ -2,12 +2,11 @@
 {
 	"short_name": "Scrap Defender",
 	"name": "Scrap defender - Tower defence game",
-	"icons": 
-	  {
-		 "src": "images/production/scrap-defender-logo.svg",
-		 "type": "image/svg",
-		 "sizes": "192x192"
-	  },
+	"icons":[{
+		"src": "images/production/scrap-defender-logo.svg",
+		"type": "image/svg",
+		"sizes": "192x192"
+	 }],
 	"start_url": "https://scrapdefender.netlify.app/",
 	"background_color": "#323232",
 	"display": "standalone",
