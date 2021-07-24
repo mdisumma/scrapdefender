@@ -31,14 +31,14 @@
 	width: 141px;
 	height: 18px;
 	margin-top: 10px;
-	background: url("../Build/TemplateData/progress-bar-empty-dark.png") no-repeat
-		center;
+	background: url("../Build/TemplateData/progress-bar-empty-dark.webp")
+		no-repeat center;
 }
 #unity-progress-bar-full {
 	width: 0%;
 	height: 18px;
 	margin-top: 10px;
-	background: url("../Build/TemplateData/progress-bar-full-dark.png") no-repeat
+	background: url("../Build/TemplateData/progress-bar-full-dark.webp") no-repeat
 		center;
 }
 
