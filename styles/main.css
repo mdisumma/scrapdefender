@@ -347,28 +347,6 @@ header nav #company-logo:hover {
   transform: scale(1);
 }
 
-#mc_embed_signup_scroll {
-  width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: flex-start;
-  color: #ffee00;
-}
-
-#mc_embed_signup input.button {
-  background-color: #4b4b4b;
-  color: #ffee00;
-  padding: 0;
-}
-
-#mc_embed_signup input.button:hover {
-  background-color: #323232;
-  transform: scale(1.1);
-  border: 1px solid #ffee00;
-  color: #ffee00;
-}
-
 /* side tower */
 .side {
   width: 10vw;
