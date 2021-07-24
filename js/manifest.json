@@ -6,12 +6,14 @@
 		{
 		  "src": "../images/logoScrapDefener.png",
 		  "type": "image/svg",
-		  "sizes": "200x200"
+		  "sizes": "200x200",
+		  "purpose": "any"
 		},
 		{
 		  "src": "../images/logoScrapDefener.png",
 		  "type": "image/svg",
-		  "sizes": "200x200"
+		  "sizes": "200x200",
+		  "purpose": "maskable"
 		}
 	 ],
 	"start_url": "https://scrapdefender.netlify.app/",
