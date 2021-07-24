@@ -4,16 +4,16 @@
 	"name": "Scrap defender - Tower defence game",
 	"icons": [
 		{
-		  "src": "../images/logoScrapDefener.png",
+		  "src": "./images/logoScrapDefener.png",
 		  "type": "image/png",
 		  "sizes": "200x200",
 		  "purpose": "any"
 		},
 		{
-		  "src": "../images/logoScrapDefener.png",
+		  "src": "./images/logoScrapDefener.png",
 		  "type": "image/png",
 		  "sizes": "200x200",
-		  "purpose": "any"
+		  "purpose": "unset"
 		}
 	 ],
 	"start_url": "https://scrapdefender.netlify.app/",
@@ -23,16 +23,16 @@
 	"theme_color": "#ffee00",
 	
 	"description": "A thrilling 3D tower defence game, look over the shoulder of a robot defender, given the simple task of protecting a treasure room.",
-	"screenshots": [
-	  {
-		 "src": "../images/production/final-level-render.png",
-		 "type": "image/png",
-		 "sizes": "781x566"
-	  },
-	  {
-		 "src": "../images/production/final-level-prospective.png",
-		 "type": "image/jpg",
-		 "sizes": "881x566"
-	  }
-	]
+	// "screenshots": [
+	//   {
+	// 	 "src": "../images/production/final-level-render.png",
+	// 	 "type": "image/png",
+	// 	 "sizes": "781x566"
+	//   },
+	//   {
+	// 	 "src": "../images/production/final-level-prospective.png",
+	// 	 "type": "image/jpg",
+	// 	 "sizes": "881x566"
+	//   }
+	// ]
  }
