@@ -149,19 +149,24 @@ section video {
 	max-width: 60%;
 }
 //production
-.production {
+.internal-link {
+	text-decoration: none;
+	color: $textColor;
+	font-size: 0.8em;
+}
+.development {
 	padding-top: 160px;
 }
 
-.production img {
+.development img {
 	max-width: 90%;
 }
-.production iframe {
+.development iframe {
 	border: 0;
 	margin: 2em auto;
 	width: 90%;
 }
-.production #video {
+.development #video {
 	max-width: 600px;
 	margin: 0 auto;
 	display: flex;
@@ -173,7 +178,7 @@ section video {
 	display: flex;
 	flex-wrap: wrap;
 }
-.production .small {
+.development .small {
 	width: 45%;
 }
 hr {
