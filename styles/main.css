@@ -161,10 +161,17 @@ section video {
 }
 
 .internal-link {
+  cursor: text;
   display: block;
   text-decoration: none;
   color: #ffee00;
   font-size: 0.8em;
+}
+
+.internal-text {
+  cursor: text;
+  text-decoration: none;
+  color: white;
 }
 
 .development {

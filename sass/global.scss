@@ -150,10 +150,16 @@ section video {
 }
 //development
 .internal-link {
+	cursor: text;
 	display: block;
 	text-decoration: none;
 	color: $textColor;
 	font-size: 0.8em;
+}
+.internal-text {
+	cursor: text;
+	text-decoration: none;
+	color: white;
 }
 .development {
 	padding-top: 160px;
