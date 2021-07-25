@@ -161,6 +161,7 @@ section video {
 }
 
 .internal-link {
+  display: block;
   text-decoration: none;
   color: #ffee00;
   font-size: 0.8em;
