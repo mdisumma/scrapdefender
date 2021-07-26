@@ -260,11 +260,7 @@ footer ul li {
 }
 footer ul li a {
   margin: 3px;
-  cursor: pointer;
-  display: flex;
-  width: 2em;
   text-decoration: none;
-  color: #ffee00;
 }
 
 @media only screen and (max-width: 600px) {
