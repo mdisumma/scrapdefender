@@ -86,3 +86,8 @@
 	display: block;
 	height: 38px;
 }
+@media only screen and (max-width: 480px) {
+	.unity-container {
+		display: none;
+	}
+}
