@@ -812,4 +812,18 @@ hr {
   display: none;
 }
 
+#game-icon {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.game-icon img {
+  display: block;
+  height: 38px;
+}
+
 /*# sourceMappingURL=main.css.map */
