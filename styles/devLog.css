@@ -95,11 +95,11 @@ hr {
 	display: inline-block;
 	text-decoration: none;
 	font-family: "Reggae One", cursive;
-	color: #555555;
+	color: rgb(200, 200, 200);
 	width: 100%;
 }
 .team-member a:hover {
-	color: #434242;
+	color: #ffee00;
 	text-decoration: underline;
 }
 .team-member img {
