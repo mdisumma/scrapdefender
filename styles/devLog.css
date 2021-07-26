@@ -1,14 +1,9 @@
 /* timeline */
-.timeline-nav-container img {
-	max-width: 80%;
-	background-color: transparent;
-}
 
 .timeline-nav {
 	margin: 3em;
 }
-.timeline,
-.week {
+.timeline {
 	fill: #ffee00;
 }
 .week {
@@ -27,31 +22,30 @@
 	padding-top: 160px;
 }
 
-.development img {
-	max-width: 90%;
-}
-/* .development figure {
-	margin: 0 auto;
-} */
 .development iframe {
 	border: 0;
-	margin: 2em auto;
+	margin: 5%;
 	width: 90%;
 }
-.development #video {
-	max-width: 600px;
-	margin: 0 auto;
+.development figure img {
+	max-width: 100%;
+}
+.development .video {
+	max-width: 800px;
+
+	margin: 2em;
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
-.video {
-	max-width: 600px;
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
+
+.development iframe {
+	width: 50%;
 }
 .development .small {
-	width: 45%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 1em;
 }
 hr {
 	position: relative;
@@ -67,8 +61,11 @@ hr {
 	.development {
 		padding-top: 2em;
 	}
+	.development .video {
+		justify-content: center;
+	}
 
-	.development figure img {
+	.development figure {
 		padding: 0;
 		margin: 0;
 		max-width: 100%;
