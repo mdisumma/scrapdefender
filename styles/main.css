@@ -731,108 +731,85 @@ hr {
     margin: 0 auto;
   }
 }
-#home {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  margin: 200px auto 0;
-  color: white;
+.unity-container {
+  width: 100vw;
+  height: 100vh;
 }
 
-a {
-  text-decoration: none;
-  color: #ffee00;
-}
-
-.internal-text {
-  cursor: text;
-  text-decoration: none;
-  color: white;
-}
-
-#home figure {
-  width: 60%;
-  margin: 10% 20%;
-}
-
-#home figure img {
-  width: 100%;
-}
-
-/* narrative */
-#narrative {
-  display: flex;
-  flex-direction: column;
-  color: white;
-}
-
-a {
-  text-decoration: none;
-  color: #ffee00;
-}
-
-figure img {
-  width: 70%;
-  height: 100%;
-}
-
-/* team */
-.team {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.team-member {
+#unity-canvas {
+  position: relative;
   margin: 0 auto;
-  width: 350px;
+  top: calc(50vh - 300px);
+  left: calc(50vw - 480px);
+}
+
+#unity-footer {
   display: flex;
-  color: #ffee00;
-  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: calc(50vh - 250px);
 }
 
-.team-member:hover {
-  background-color: #323232;
+#unity-loading-bar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
 }
 
-.team-member a {
-  display: inline-block;
-  text-decoration: none;
+#unity-logo {
+  width: 154px;
+  height: 130px;
+  background: url("../Build/TemplateData/unity-logo-dark.png") no-repeat center;
+}
+
+#unity-progress-bar-empty {
+  width: 141px;
+  height: 18px;
+  margin-top: 10px;
+  background: url("../Build/TemplateData/progress-bar-empty-dark.webp") no-repeat center;
+}
+
+#unity-progress-bar-full {
+  width: 0%;
+  height: 18px;
+  margin-top: 10px;
+  background: url("../Build/TemplateData/progress-bar-full-dark.webp") no-repeat center;
+}
+
+.unity-mobile #unity-footer {
+  display: none;
+}
+
+#unity-build-title {
+  margin-right: 10px;
+  line-height: 38px;
   font-family: "Reggae One", cursive;
-  color: #c8c8c8;
-  width: 100%;
-}
-
-.team-member a:hover {
   color: #ffee00;
-  text-decoration: underline;
+  font-size: 18px;
 }
 
-.team-member img {
-  max-width: 100px;
-  margin: 1em;
+#unity-fullscreen-button {
+  width: 38px;
+  height: 38px;
+  background: url("../Build/TemplateData/fullscreen-button.svg") no-repeat center;
 }
 
-.team-contact * {
-  margin: 0 auto;
-  text-align: center;
+#unity-fullscreen-button:hover {
+  width: 38px;
+  height: 38px;
+  background: url("../Build/TemplateData/fullscreen-button-hover.svg") no-repeat center;
 }
 
-@media only screen and (max-width: 800px) {
-  .team-member {
-    display: flex;
-    justify-content: center;
-    font-size: 0.8em;
-    margin: 1em auto;
-    width: 350px;
-    display: block;
-    color: #434242;
-    align-items: center;
-  }
-
-  .team-member img {
-    display: block;
-    margin: 1em auto;
-  }
+#unity-mobile-warning {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%);
+  background: white;
+  padding: 10px;
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
