@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-198779865-1" defer></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-198779865-1');
+
+      gtag('event', 'play', {
+         'event_category': 'play-game',
+         'event_label': 'play-game-conversion',
+         'value': 1
+      });
+   </script> <!-- end - Google Analytics -->
+
+   <!-- Global site tag (gtag.js) - Google Analytics G4 -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2YHRSD8X3M"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-2YHRSD8X3M');
+   </script><!-- end - Google Analytics G4 -->
+
+   <!-- Google Tag Manager -->
+   <!-- <script defer>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NM76ZXW');</script> -->
+   <!-- End Google Tag Manager -->
+
+   <title>Scrap Defenders - Tower defence game</title>
+   <meta charset="utf-8">
+   <meta name="description"
+      content="A thrilling 3D tower defence game, look over the shoulder of a robot defender, given the simple task of protecting a treasure room.">
+   <meta name="keywords" content="HTML, CSS, JavaScript">
+   <meta name="author" content="Gate_house_studio">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   <link rel="canonical" href="https://scrapdefender.netlify.app/" />
+
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Reggae+One&display=swap"
+      rel="stylesheet">
+
+   <link rel="stylesheet" href="styles/main.css">
+   <link rel="icon" type="image/svg" href="images/logoSD_0.svg" sizes="16x16">
+
+   <link rel="manifest" href="js/manifest.json">
+   <meta name="theme-color" content="#ffee00" />
+
+   <link rel="stylesheet" href="styles/unity.css">
+   <link href="styles/mail.css" rel="stylesheet" type="text/css">
+
+   <script src="js/game.js" defer></script>
+   <script src="js/door.js" defer></script>
+
+
+
+
+
+   <!-- JSON-LD  -->
+   <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Scrap Defender",
+  "genre":"Tower-defence game",
+  "contentRating":"ESRB E",
+  "audience":{
+    "@type":"PeopleAudience",
+    "suggestedMinAge":"12"
+  },
+  "url": "https://scrapdefender.netlify.app/",
+  "playMode": "SinglePlayer",
+  "quest": "through the use of fun, interactive, explosive traps and defences, on a level that requires feats of parkour, and evasion of those pesky clones.",
+  "gamePlatform":"PC game ",
+  "image" : "https://scrapdefender.netlify.app/images/logoScrapDefener.svg",
+  "description" : "A thrilling 3D tower defence game, look over the shoulder of a robot defender, given the simple task of protecting a treasure room, serving additionally as your home to replenish key supplies,",
+  "applicationCategory":"{Game, Multimedia}",
+  "operatingSystem": "{Windows, OSX, Linux} ",
+  "offers":{
+  "@type":"Offer",
+  "price":"0",
+  "priceCurrency":"GBP",
+  "availability":"https://scrapdefender.netlify.app/#play"
+},
+"author":{
+  "@type":"Organization",
+  "name":"GateHouse",
+  "url":"https://scrapdefender.netlify.app/#play"
+},
+  "aggregateRating":{
+    "@type":"AggregateRating",
+    "ratingValue":"5",
+    "ratingCount":"1"  
+    }
+  }
+  </script>
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "author": "Marco Di Summa",
+      "contentRating": "Mature",
+      "image": "scrap-defender-logo.svg",
+      "name": "scrap-defender-logo"
+    }
+  </script>
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "author": "Marco Di Summa",
+      "contentRating": "Mature",
+      "image": "scrap-defender-narrative.svg",
+      "name": "scrap-defender-narrative"
+    }
+  </script>
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "author": "Marco Di Summa",
+      "contentRating": "Mature",
+      "image": "scrap-defender-character.svg",
+      "name": "scrap-defender-character"
+    }
+    </script>
+   <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "author": "Marco Di Summa",
+        "contentRating": "Mature",
+        "image": "gatehouse-logo.svg",
+        "name": "gatehouse-logo"
+      }
+      </script>
+   <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "CreativeWork",
+          "author": "Henry Tribble",
+          "contentRating": "Mature",
+          "image": "final-level.png",
+          "name": "final-level"
+        }
+        </script>
+
+   <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "author": "Henry Tribble",
+            "contentRating": "Mature",
+            "image": "final-level-render.png",
+            "name": "final-level-render"
+          }
+          </script>
+
+   <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "CreativeWork",
+          "author": "Henry Tribble",
+          "contentRating": "Mature",
+          "image": "final-level-prospective.png",
+          "name": "final-level-prospective"
+        }
+        </script>
+
+
+   <!-- The Open Graph protocol -->
+   <!-- https://ogp.me/ -->
+
+   <!-- Mailchimp -->
+   <script
+      id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/ab400fc119b6c7bf06c2f09b3/4c62820812a56177828088d20.js");</script>
+   <!-- End - Mailchimp -->
+</head>
+
+<body>
+
+
+
+   <!-- header -->
+   <header>
+      <!-- navigation -->
+      <nav>
+         <div class="navContainer">
+            <a href="https://scrapdefender.netlify.app/"><img id="company-logo" src="images/gatehouse-logo.svg"
+                  alt="company logo" width="35" height="35" loading="lazy"></a>
+            <ul>
+               <li><button class="audioSwich">
+                     <i class="fas fa-volume-up audioOn"></i>
+                     <i class="fas fa-volume-mute audioOff"></i>
+                     <audio id="myAudio">
+                        <source src="audio/558216__msavioti__stone-push.wav" type="audio/wav">
+                     </audio>
+                  </button></li>
+            </ul>
+            <ul class="click">
+               <li><a id="development" href="development.html">About</a></li>
+               <li><a id="play-game" href="play.html">Play</a></li>
+            </ul>
+
+         </div>
+         <!-- Mailchimp Signup Form -->
+         <div id="mc_embed_signup">
+            <form action="https://app.us6.list-manage.com/subscribe/post?u=ab400fc119b6c7bf06c2f09b3&amp;id=e1e1c4c9fb"
+               method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+               target="_blank" novalidate>
+               <div id="mc_embed_signup_scroll">
+                  <label for="mce-EMAIL"></label>
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address"
+                     required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_ab400fc119b6c7bf06c2f09b3_e1e1c4c9fb" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                        class="button"></div>
+               </div>
+            </form>
+         </div>
+
+      </nav>
+
+      <h1>Scrap defender</h1>
+
+   </header>
+   <div class="unity-container" id="play">
+      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <div id="unity-footer">
+         <div id="unity-build-title">Scrap Defender</div>
+         <div id="unity-fullscreen-button"></div>
+      </div>
+      <div id="unity-loading-bar">
+         <div id="unity-logo"></div>
+         <div id="unity-progress-bar-empty">
+            <div id="unity-progress-bar-full"></div>
+         </div>
+      </div>
+      <div id="unity-mobile-warning">
+         WebGL builds are not supported on mobile devices.
+      </div>
+   </div>
+
+
+   <!-- footer - social -->
+   <footer>
+      <ul>
+
+         <li><a href="https://www.youtube.com/channel/UCioC3kknLAHUqKB4IukV_KQ/featured" target="_blank"><i
+                  class="fab fa-youtube"></i></a></li>
+         <li><a href="https://www.instagram.com/gatehouse_game/" target="_blank"><i class="fab fa-instagram"></i></a>
+         </li>
+         <li><a href="https://www.reddit.com/user/Gate_house_studio" target="_blank"><i
+                  class="fab fa-reddit-alien"></i></a></li>
+         <li> <a href="mailto:gatehouseproduction1@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></li>
+
+      </ul>
+   </footer>
+
+   <!-- absolute element -->
+   <div class="side sideL">
+      <svg class="torchElement" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1000">
+         <g>
+            <rect class="torch" x="110.33" y="697.39" width="127.31" height="143.66" rx="20.57" />
+            <path class="torch"
+               d="M319.9,431.32a18.88,18.88,0,0,1-4,11.89,13.29,13.29,0,0,1-6.46,4.46L292.76,609.13c0,19.83-9.54,36.91-23.27,44.66a21.61,21.61,0,0,1,1.08,6.82v4.92c0,9.93-6.53,18-14.59,18h-6.56L220,878.68c6.54.72,11.22,7.5,11.66,15.74.55,10.22-9.29,15.8-12.83,15.8,0,0,8.89,2.86,9.63,14.2.61,9.35-8.35,14.2-11.53,14.2,0,0,8.39,3.35,8.89,12.76.4,7.61-7.57,13.11-10.46,13.11l-11.84,23.36c-.72,4.76-6.25,4.76-7,0l-11.6-23.36c-5.76,0-10.85-6.45-10.51-13.54.41-8.31,9-12.33,9-12.33-6.34,0-11.86-6.16-11.79-14,.11-11.84,9.88-14.43,9.88-14.43-7,0-13.32-6.82-13.08-15.46C168.69,883.25,177,879,180,878.68L150.58,683.5H144c-8.06,0-14.59-8-14.59-18v-4.92a21.67,21.67,0,0,1,1-6.42c-13.85-7.46-23.54-24.5-23.54-44.33L90.51,447.65c-6-1.78-10.41-8.42-10.41-16.33a18.87,18.87,0,0,1,4-11.88c2.47-3,69,13,113.71,13.3a319.21,319.21,0,0,0,108.45-18.22C314.15,417.57,319.9,424.18,319.9,431.32Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+         <g class="fireLeft">
+            <path class="yellow"
+               d="M44.29,360.7c34.08,67.06,87.71,73.22,163.52,72.41,72.28-.76,143.76-19.69,160-95.77,28.2-132-201.9-123.81-95.19-328.76C81.83,52.35-17.45,239.23,44.29,360.7Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="opacity"
+               d="M93.51,415.59c45.56,39.24,166.07,19.73,212.57,1.17,25.32-10.1,54.9-50.22,53.15-103.85-2.27-69.63-190.4-74.85-172.88-204.5C68.38,140-28.56,310.47,93.51,415.59Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="red"
+               d="M373.91,305.42c-2.58,78.64-54,127.69-131.06,132.37-34,2.06-108.63,4.67-144.89-29.75-73.47-69.72,219.3-98.89,179.49-297C277.45,111.05,377.16,206.62,373.91,305.42Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+         <g class="fireRight">
+            <path class="yellow"
+               d="M355.71,360.7c-34.08,67.06-87.71,73.22-163.52,72.41-72.28-.76-143.76-19.69-160-95.77C4,205.35,234.08,213.53,127.37,8.58,318.17,52.35,417.45,239.23,355.71,360.7Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="opacity"
+               d="M306.49,415.59c-45.56,39.24-166.07,19.73-212.57,1.17C68.6,406.66,39,366.54,40.77,312.91c2.27-69.63,190.4-74.85,172.88-204.5C331.62,140,428.56,310.47,306.49,415.59Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="red"
+               d="M26.09,305.42c2.58,78.64,54,127.69,131.06,132.37,34,2.06,108.63,4.67,144.89-29.75,73.47-69.72-219.3-98.89-179.49-297C122.55,111.05,22.84,206.62,26.09,305.42Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+      </svg>
+
+   </div>
+   <div class="side sideR">
+      <svg class="torchElement" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1000">
+         <g>
+            <rect class="torch" x="110.33" y="697.39" width="127.31" height="143.66" rx="20.57" />
+            <path class="torch"
+               d="M319.9,431.32a18.88,18.88,0,0,1-4,11.89,13.29,13.29,0,0,1-6.46,4.46L292.76,609.13c0,19.83-9.54,36.91-23.27,44.66a21.61,21.61,0,0,1,1.08,6.82v4.92c0,9.93-6.53,18-14.59,18h-6.56L220,878.68c6.54.72,11.22,7.5,11.66,15.74.55,10.22-9.29,15.8-12.83,15.8,0,0,8.89,2.86,9.63,14.2.61,9.35-8.35,14.2-11.53,14.2,0,0,8.39,3.35,8.89,12.76.4,7.61-7.57,13.11-10.46,13.11l-11.84,23.36c-.72,4.76-6.25,4.76-7,0l-11.6-23.36c-5.76,0-10.85-6.45-10.51-13.54.41-8.31,9-12.33,9-12.33-6.34,0-11.86-6.16-11.79-14,.11-11.84,9.88-14.43,9.88-14.43-7,0-13.32-6.82-13.08-15.46C168.69,883.25,177,879,180,878.68L150.58,683.5H144c-8.06,0-14.59-8-14.59-18v-4.92a21.67,21.67,0,0,1,1-6.42c-13.85-7.46-23.54-24.5-23.54-44.33L90.51,447.65c-6-1.78-10.41-8.42-10.41-16.33a18.87,18.87,0,0,1,4-11.88c2.47-3,69,13,113.71,13.3a319.21,319.21,0,0,0,108.45-18.22C314.15,417.57,319.9,424.18,319.9,431.32Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+         <g class="fireLeft">
+            <path class="yellow"
+               d="M44.29,360.7c34.08,67.06,87.71,73.22,163.52,72.41,72.28-.76,143.76-19.69,160-95.77,28.2-132-201.9-123.81-95.19-328.76C81.83,52.35-17.45,239.23,44.29,360.7Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="opacity"
+               d="M93.51,415.59c45.56,39.24,166.07,19.73,212.57,1.17,25.32-10.1,54.9-50.22,53.15-103.85-2.27-69.63-190.4-74.85-172.88-204.5C68.38,140-28.56,310.47,93.51,415.59Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="red"
+               d="M373.91,305.42c-2.58,78.64-54,127.69-131.06,132.37-34,2.06-108.63,4.67-144.89-29.75-73.47-69.72,219.3-98.89,179.49-297C277.45,111.05,377.16,206.62,373.91,305.42Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+         <g class="fireRight">
+            <path class="yellow"
+               d="M355.71,360.7c-34.08,67.06-87.71,73.22-163.52,72.41-72.28-.76-143.76-19.69-160-95.77C4,205.35,234.08,213.53,127.37,8.58,318.17,52.35,417.45,239.23,355.71,360.7Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="opacity"
+               d="M306.49,415.59c-45.56,39.24-166.07,19.73-212.57,1.17C68.6,406.66,39,366.54,40.77,312.91c2.27-69.63,190.4-74.85,172.88-204.5C331.62,140,428.56,310.47,306.49,415.59Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="red"
+               d="M26.09,305.42c2.58,78.64,54,127.69,131.06,132.37,34,2.06,108.63,4.67,144.89-29.75,73.47-69.72-219.3-98.89-179.49-297C122.55,111.05,22.84,206.62,26.09,305.42Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+      </svg>
+   </div>
+
+   <div class="door left leftOpen">
+   </div>
+   <div class="door right rightOpen">
+   </div>
+
+   <!-- end absolute element -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+   <script src="https://kit.fontawesome.com/45bfc94cb4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

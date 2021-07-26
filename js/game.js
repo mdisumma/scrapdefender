@@ -1,5 +1,5 @@
 const play = document.querySelector("#play-game");
-play.addEventListener("click", (e) => {
+window.addEventListener("load", (e) => {
 	console.log(e);
 	var buildUrl = "Build";
 	var loaderUrl = buildUrl + "/CMN5201.loader.js";

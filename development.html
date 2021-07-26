@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-198779865-1" defer></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-198779865-1');
+
+      gtag('event', 'play', {
+         'event_category': 'play-game',
+         'event_label': 'play-game-conversion',
+         'value': 1
+      });
+   </script> <!-- end - Google Analytics -->
+
+   <!-- Global site tag (gtag.js) - Google Analytics G4 -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2YHRSD8X3M"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-2YHRSD8X3M');
+   </script><!-- end - Google Analytics G4 -->
+   <title>Scrap Defenders - game development</title>
+   <meta charset="utf-8">
+   <meta name="description"
+      content="A thrilling 3D tower defence game, look over the shoulder of a robot defender, given the simple task of protecting a treasure room.">
+   <meta name="keywords" content="HTML, CSS, JavaScript">
+   <meta name="author" content="Gate_house_studio">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+   <link rel="canonical" href="https://scrapdefender.netlify.app/" />
+
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Reggae+One&display=swap"
+      rel="stylesheet">
+
+   <link rel="stylesheet" href="styles/main.css">
+   <link rel="icon" type="image/svg" href="images/logoSD_0.svg" sizes="16x16">
+
+   <link rel="manifest" href="js/manifest.json">
+   <meta name="theme-color" content="#ffee00" />
+
+   <link rel="stylesheet" href="styles/unity.css">
+   <link href="styles/mail.css" rel="stylesheet" type="text/css">
+
+   <script src="js/door.js" defer></script>
+
+
+
+
+
+   <!-- JSON-LD  -->
+   <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "VideoGame",
+  "name": "Scrap Defender",
+  "genre":"Tower-defence game",
+  "contentRating":"ESRB E",
+  "audience":{
+    "@type":"PeopleAudience",
+    "suggestedMinAge":"12"
+  },
+  "url": "https://scrapdefender.netlify.app/",
+  "playMode": "SinglePlayer",
+  "quest": "through the use of fun, interactive, explosive traps and defences, on a level that requires feats of parkour, and evasion of those pesky clones.",
+  "gamePlatform":"PC game ",
+  "image" : "https://scrapdefender.netlify.app/images/logoScrapDefener.svg",
+  "description" : "A thrilling 3D tower defence game, look over the shoulder of a robot defender, given the simple task of protecting a treasure room, serving additionally as your home to replenish key supplies,",
+  "applicationCategory":"{Game, Multimedia}",
+  "operatingSystem": "{Windows, OSX, Linux} ",
+  "offers":{
+  "@type":"Offer",
+  "price":"0",
+  "priceCurrency":"GBP",
+  "availability":"https://scrapdefender.netlify.app/#play"
+},
+"author":{
+  "@type":"Organization",
+  "name":"GateHouse",
+  "url":"https://scrapdefender.netlify.app/#play"
+},
+  "aggregateRating":{
+    "@type":"AggregateRating",
+    "ratingValue":"5",
+    "ratingCount":"1"  
+    }
+  }
+  </script>
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "author": "Marco Di Summa",
+      "contentRating": "Mature",
+      "image": "scrap-defender-logo.svg",
+      "name": "scrap-defender-logo"
+    }
+  </script>
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "author": "Marco Di Summa",
+      "contentRating": "Mature",
+      "image": "scrap-defender-narrative.svg",
+      "name": "scrap-defender-narrative"
+    }
+  </script>
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "author": "Marco Di Summa",
+      "contentRating": "Mature",
+      "image": "scrap-defender-character.svg",
+      "name": "scrap-defender-character"
+    }
+    </script>
+   <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "author": "Marco Di Summa",
+        "contentRating": "Mature",
+        "image": "gatehouse-logo.svg",
+        "name": "gatehouse-logo"
+      }
+      </script>
+   <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "CreativeWork",
+          "author": "Henry Tribble",
+          "contentRating": "Mature",
+          "image": "final-level.png",
+          "name": "final-level"
+        }
+        </script>
+
+   <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "CreativeWork",
+            "author": "Henry Tribble",
+            "contentRating": "Mature",
+            "image": "final-level-render.png",
+            "name": "final-level-render"
+          }
+          </script>
+
+   <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "CreativeWork",
+          "author": "Henry Tribble",
+          "contentRating": "Mature",
+          "image": "final-level-prospective.png",
+          "name": "final-level-prospective"
+        }
+        </script>
+
+
+   <!-- The Open Graph protocol -->
+   <!-- https://ogp.me/ -->
+
+   <!-- Mailchimp -->
+   <script
+      id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/ab400fc119b6c7bf06c2f09b3/4c62820812a56177828088d20.js");</script>
+   <!-- End - Mailchimp -->
+</head>
+
+<body>
+
+
+
+   <!-- header -->
+   <header>
+      <!-- navigation -->
+      <nav>
+         <div class="navContainer">
+            <a href="https://scrapdefender.netlify.app/"><img id="company-logo" src="images/gatehouse-logo.svg"
+                  alt="company logo" width="35" height="35" loading="lazy"></a>
+            <ul>
+               <li><button class="audioSwich">
+                     <i class="fas fa-volume-up audioOn"></i>
+                     <i class="fas fa-volume-mute audioOff"></i>
+                     <audio id="myAudio">
+                        <source src="audio/558216__msavioti__stone-push.wav" type="audio/wav">
+                     </audio>
+                  </button></li>
+            </ul>
+            <ul class="click">
+               <li><a id="development" href="development.html">About</a></li>
+               <li><a id="play-game" href="play.html">Play</a></li>
+            </ul>
+
+         </div>
+         <!-- Mailchimp Signup Form -->
+         <div id="mc_embed_signup">
+            <form action="https://app.us6.list-manage.com/subscribe/post?u=ab400fc119b6c7bf06c2f09b3&amp;id=e1e1c4c9fb"
+               method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+               target="_blank" novalidate>
+               <div id="mc_embed_signup_scroll">
+                  <label for="mce-EMAIL"></label>
+                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address"
+                     required>
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_ab400fc119b6c7bf06c2f09b3_e1e1c4c9fb" tabindex="-1" value=""></div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                        class="button"></div>
+               </div>
+            </form>
+         </div>
+
+      </nav>
+
+      <h1>Scrap defender</h1>
+
+   </header>
+   <!-- Main -->
+   <main id="development">
+      <div class="container">
+         <!-- game -->
+         <section id="game-description">
+            <h2>game description</h2>
+            <figure>
+               <img src="images/production/scrap-defender-logo.svg" alt="scrap defender logo" width="600" height="500"
+                  loading="lazy">
+               <figcaption><a class="internal-link"
+                     href="https://scrapdefender.netlify.app/images/production/scrap-defender-logo.svg"
+                     target="_blank">scrap-defender-logo</a></figcaption>
+            </figure>
+
+            <p>A thrilling 3D <a class="internal-text" href="https://scrapdefender.netlify.app/">tower defence game</a>,
+               look over the shoulder of a robot defender, given the simple task of
+               protecting a treasure room, serving additionally as your home to replenish key supplies, through the use
+               of
+               fun, interactive, explosive traps and defences, on a level that requires feats of parkour, and evasion of
+               those pesky clones.
+            </p>
+         </section>
+         <!-- narrative -->
+         <section id="game-narrative">
+            <div class="narrative">
+               <h2>game narrative</h2>
+               <figure>
+                  <img src="images/production/scrap-defender-narrative.svg" alt="robot illustrations" width="600"
+                     height="500" loading="lazy">
+                  <figcaption><a class="internal-link"
+                        href="https://scrapdefender.netlify.app/images/production/scrap-defender-narrative.svg"
+                        target="_blank">scrap-defender-narrative</a></figcaption>
+               </figure>
+
+               <p>
+                  Do robots dream of electric sheep? I'm sure our plucky little trash can was happy powered down and
+                  left to
+                  rust.
+                  Now a new threat approaches, A band of rust clad intrepid swash bucklers have come to plunder what is
+                  left
+                  of what our trash can calls home.
+                  Warning systems wake up from a long dozy sleep, shake off their weeds that have so lovingly encroached
+                  and
+                  snuggled up to them.
+                  A shrill klaxon starts to blare and our maintenance trash can starts to diligently rummage for any
+                  scrap or
+                  spare, searching for morsels of useful rust.
+                  The trashcan defends what was once home to many lords and ladies, but it is now the sole proprietor.
+                  The
+                  Trashcan is a relic of old systems, left behind and forgotten about on a castle in the sky...
+               </p>
+               <p>
+                  The threat crashes against the door, these pirates are no disorganized rabble, they think as one and
+                  are
+                  prepared to sacrifice the few for the hive. With a second crash they pour through the decrepit gate
+                  and run
+                  over the first of the castles defenses; these defenses have grown comfortable in the loving embrace of
+                  entropy and will require a stern talking to from the trashcan.
+                  There had been a portion of the castle courtyard that had been roasted by the sun day after day, and
+                  thus,
+                  no creeping vines or creepy crawly's had dared go near.
+                  This is where the threat starts to have trouble, this trap had remained germaphobic for just long
+                  enough to
+                  continue its function to fling would be attackers high into the air and right back onto their
+                  backside.
+                  This hero of trap is exactly what our trash can needs to buy some time, it finishes scrapping for nuts
+                  and
+                  bolts and gets to work repairing the whimsical traps left in store for the greedy attackers.
+               </p>
+               <p>
+                  The trash can fixes a spring boxing glove, that concertinas out of the wall, knocking the attackers
+                  back
+                  with bruised noses and scraped circuits. It then goes onto repair a bowler, that throws a heft ball
+                  and
+                  knocks the attackers over, getting a perfect strike.
+                  the trash can has repelled the attackers, and with that, its batteries are running low, its motors are
+                  failing, and that's when he hears the klaxon again... Once more into the breach.
+               </p>
+
+
+            </div>
+         </section>
+
+         <!-- production -->
+         <section id="timeline-navigation">
+            <h2><a class="internal-link" href="https://scrapdefender.netlify.app/">scrap defender game</a> development
+            </h2>
+            <svg class="timeline-nav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 615.78 138.53">
+               <path id="timeline" class="timeline"
+                  d="M940.08,299a7.49,7.49,0,0,0-7.28,5.75H897.38a7.5,7.5,0,0,0-14.68,0H846.92a7.5,7.5,0,0,0-14.68,0H797.36a7.5,7.5,0,0,0-14.68,0H747a7.5,7.5,0,0,0-14.63,0h-35a7.49,7.49,0,0,0-14.62,0H647.65a7.5,7.5,0,0,0-14.67,0H597.49a7.49,7.49,0,0,0-14.62,0H547.72a7.49,7.49,0,0,0-14.57,0H497.5a7.49,7.49,0,0,0-14.58,0H447.85a7.49,7.49,0,0,0-14.58,0H397.2a7.5,7.5,0,0,0-14.59,0H347.32a7.51,7.51,0,1,0,.09,3h35.11a7.49,7.49,0,0,0,14.77,0h35.88a7.49,7.49,0,0,0,14.77,0h34.88a7.49,7.49,0,0,0,14.77,0h35.46a7.49,7.49,0,0,0,14.77,0h35a7.49,7.49,0,0,0,14.74,0H633a7.5,7.5,0,0,0,14.71,0h35a7.49,7.49,0,0,0,14.74,0h34.91a7.5,7.5,0,0,0,14.75,0h35.57a7.5,7.5,0,0,0,14.71,0h34.84a7.5,7.5,0,0,0,14.72,0h35.74a7.5,7.5,0,0,0,14.71,0H932.7a7.49,7.49,0,1,0,7.38-8.75Z"
+                  transform="translate(-331.95 -175.42)" />
+               <a href="#game-production-week1"><text class="week" transform="translate(12.32 110.53) rotate(-90)">12
+                     May
+                     2021</text></a>
+               <a href="#game-production-week2"><text class="week"
+                     transform="translate(62.52 110.53) rotate(-90)">week-2</text></a>
+               <a href="#game-production-week3"><text class="week"
+                     transform="translate(112.72 110.53) rotate(-90)">week-3</text></a>
+               <a href="#game-production-week4"><text class="week"
+                     transform="translate(162.92 110.53) rotate(-90)">week-4</text></a>
+               <a href="#game-production-week5"><text class="week"
+                     transform="translate(213.13 110.53) rotate(-90)">week-5</text></a>
+               <a href="#game-production-week6"><text class="week"
+                     transform="translate(263.33 110.53) rotate(-90)">week-6</text></a>
+               <a href="#game-production-week7"><text class="week"
+                     transform="translate(313.53 110.53) rotate(-90)">week-7</text></a>
+               <a href="#game-production-week8"><text class="week"
+                     transform="translate(363.73 110.53) rotate(-90)">week-8</text></a>
+               <a href="#game-production-week9"><text class="week"
+                     transform="translate(413.93 110.53) rotate(-90)">week-9</text></a>
+               <a href="#game-production-week10"><text class="week"
+                     transform="translate(464.14 110.53) rotate(-90)">week-10</text></a>
+               <a href="#game-production-week11"><text class="week"
+                     transform="translate(514.34 110.53) rotate(-90)">week-11</text></a>
+               <a href="#game-production-week12"><text class="week"
+                     transform="translate(564.54 110.53) rotate(-90)">week-12</text></a>
+               <a href="#end"><text class="week" transform="translate(612.57 110.53) rotate(-90)">4 August
+                     2021</text></a>
+            </svg>
+            <!-- week 1 -->
+            <div id="game-production-week1" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 1 -
+                  Beginnings</h3>
+               <p>We put our heads together and brainstormed what we wanted to achieve, we set out standards high and
+                  let out
+                  dreams run wild!
+               </p>
+               <figure>
+                  <img src="images/production/brainstorm.svg" alt="game brainstorm ideas" width="600" height="500"
+                     loading="lazy">
+                  <figcaption><a href="https://scrapdefender.netlify.app/images/production/brainstorm.svg"
+                        target="_blank"></a></figcaption>
+               </figure>
+
+            </div>
+            <hr><!-- end week 1 -->
+            <!-- week 2 -->
+            <div id="game-production-week2" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 2 -
+                  Concepts!
+               </h3>
+               <p>We came up with visuals of what we wanted our ideas to look like and got creative with our
+                  inspiration.
+               </p>
+               <figure>
+                  <img src="images/production/game-concept.webp" alt="concept art" width="600" height="500"
+                     loading="lazy">
+               </figure>
+               <figure>
+                  <img src="images/production/scrap-defender-characters.svg" alt="scrap defender characters" width="600"
+                     height="500" loading="lazy">
+                  <figcaption><a class="internal-link"
+                        href="https://scrapdefender.netlify.app/images/production/scrap-defender-characters.svg"
+                        target="_blank">scrap-defender-characters</a></figcaption>
+               </figure>
+
+            </div>
+            <hr><!-- end week 2 -->
+            <!-- week 3 -->
+            <div id="game-production-week3" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 3 -
+                  It’s
+                  Alive! 🧟</h3>
+               <p>We created animations for our hero as well as traps that we came up with and made a block out of a
+                  level!
+               </p>
+               <figure>
+                  <img src="images/production/level-concept-design.png" alt="level concept design" width="600"
+                     height="500" loading="lazy">
+               </figure>
+
+               <div id="video">
+                  <iframe class="small" width="560" height="315" src="https://www.youtube.com/embed/xiVYbNjabc8"
+                     title="YouTube video player"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                     allowfullscreen loading="lazy"></iframe>
+                  <iframe class="small" width="560" height="315" src="https://www.youtube.com/embed/piJpavaZi18"
+                     title="YouTube video player"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                     allowfullscreen loading="lazy"></iframe>
+                  <iframe class="small" width="560" height="315" src="https://www.youtube.com/embed/erGED5s-q1I"
+                     title="YouTube video player"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                     allowfullscreen loading="lazy"></iframe>
+                  <iframe class="small" width="560" height="315" src="https://www.youtube.com/embed/7KFuv6OmTcQ"
+                     title="YouTube video player"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                     allowfullscreen loading="lazy"></iframe>
+               </div>
+            </div>
+            <hr><!-- end week 3 -->
+            <!-- week 4 -->
+            <div id="game-production-week4" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 4 -
+                  A new
+                  threat approaches!
+               </h3>
+               <p>We created some deadly robot pirates! And they have a brain 🧠 </p>
+               <p>It's not going to be all sunshine and tequilas for our hero anymore!
+               </p>
+               <figure>
+                  <img src="images/production/castle-and-ship.jpg" alt="a ship aproaching the castle" width="600"
+                     height="500" loading="lazy">
+               </figure>
+
+            </div>
+            <hr><!-- end week 4 -->
+            <!-- week 5 -->
+            <div id="game-production-week5" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 5 -
+                  We got
+                  movement
+               </h3>
+               <p>Our code monkeys got to work and created fun movements and animations! Look at that little trashcan
+                  go!
+               </p>
+            </div>
+            <hr><!-- end week 5 -->
+            <!-- week 6 -->
+            <div id="game-production-week6" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 6 -
+                  If you
+                  build it, they will come
+               </h3>
+               <p>We also started creating the ship that the pirates arrive on! Har har!
+               </p>
+            </div>
+            <hr><!-- end week 6 -->
+            <!-- week 7 -->
+            <div id="game-production-week7" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 7 -
+                  Demo
+                  day
+               </h3>
+               <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/aZTxK-iV26M"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen loading="lazy"></iframe>
+               <!-- <p>We plan on adding sensory deprivation if the player forgets to repair himself, you’re a robot too!
+            We also plan to have a graphics mock-up done by now, come on guys, hurry up!
+          </p> -->
+            </div>
+            <hr> <!-- end week 7 -->
+            <!-- week 8 -->
+            <div id="game-production-week8" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 8 -
+                  It’s
+                  the final countdown!
+               </h3>
+               <p>By this time we should have the final level in all its glory
+               </p>
+               <figure>
+                  <img src="images/production/final-level.png" alt="final level design" width="600" height="500"
+                     loading="lazy">
+                  <figcaption><a class="internal-link"
+                        href="https://scrapdefender.netlify.app/images/production/final-level.png"
+                        target="_blank">final-level-render</a></figcaption>
+               </figure>
+               <figure>
+                  <img src="images/production/final-level.png" alt="final level design render" width="600" height="500"
+                     loading="lazy">
+                  <figcaption><a class="internal-link"
+                        href="https://scrapdefender.netlify.app/images/production/final-level-render.png"
+                        target="_blank">final-level-render</a></figcaption>
+               </figure>
+
+            </div>
+            <hr><!-- end week 8 -->
+            <!-- week 9 -->
+            <div id="game-production-week9" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 9 -
+                  So
+                  beautiful!
+               </h3>
+               <p>We should have all the lovely materials in place by now, it should be looking slick
+               </p>
+               <figure>
+                  <img src="images/production/final-level-prospective.png" alt="final level design prospective"
+                     width="600" height="500" loading="lazy">
+                  <figcaption><a class="internal-link"
+                        href="https://scrapdefender.netlify.app/images/production/final-level-prospective.png"
+                        target="_blank">final-level-prospective</a></figcaption>
+               </figure>
+
+            </div>
+            <hr><!-- end week 9 -->
+            <!-- week 10 -->
+            <div id="game-production-week10" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 10
+                  - nasty
+                  bugs!
+               </h3>
+               <p>This week is for uploading the game to the site, play testing and squashing any bugs that come with
+                  that,
+                  ew!
+               </p>
+            </div>
+            <hr><!-- end week 10 -->
+            <!-- week 11 -->
+            <div id="game-production-week11" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 11
+                  - 🏁🏁🏁
+               </h3>
+               <p>This is where the game is finished, all we need to do is create a tutorial animation and upload that
+                  sucka!
+               </p>
+            </div>
+            <hr> <!-- end week 11 -->
+            <!-- week 12 -->
+            <div id="game-production-week12" class="development">
+               <h3><a class="internal-link" href="https://scrapdefender.netlify.app/">Scrap defender development</a>
+                  week 12
+                  - Finale
+                  🍸
+               </h3>
+               <p>The game will be uploaded in a finished state for everyone to enjoy!
+               </p>
+            </div>
+            <!-- end week 12 -->
+         </section> <!-- end production -->
+         <!-- team -->
+         <section id="GateHouse-team">
+            <h2>GateHouse Team</h2>
+            <div class="team">
+               <div class="team-member">
+                  <img src="images/team/henryTribble.svg" alt="name-infographic-henryTribble" width="100" height="100"
+                     loading="lazy">
+                  <div class="team-contact">
+                     <h3>Game development</h3>
+                     <a href="https://www.henrytribble.com/" target="_blank">henrytribble.com</a>
+                  </div>
+               </div>
+               <div class="team-member">
+                  <img src="images/team/marcoDiSumma.svg" alt="name-infographic-marcoDiSumma" width="100" height="100"
+                     loading="lazy">
+                  <div class="team-contact">
+                     <h3>Web development</h3>
+                     <a href="https://marcodisumma.com/" target="_blank">marcodisumma.com</a>
+                  </div>
+               </div>
+               <div class="team-member">
+                  <img src="images/team/chrisFreeman.svg" alt="name-infographic-chrisFreeman" width="100" height="100"
+                     loading="lazy">
+                  <div class="team-contact">
+                     <h3>Game programmer</h3>
+                     <a href="https://christian-freeman.weebly.com/" target="_blank">christian-freeman.weebly.com</a>
+                  </div>
+               </div>
+
+               <div class="team-member">
+                  <img src="images/team/georgepetrackhs.svg" alt="name-infographic-georgepetrackhs" width="100"
+                     height="100" loading="lazy">
+                  <div class="team-contact">
+                     <h3>Player programmer</h3>
+                     <a href="https://www.georgepetrakhs.com/" target="_blank">georgepetrakhs.com</a>
+                  </div>
+               </div>
+               <div class="team-member">
+                  <img src="images/team/lekePopoola.svg" alt="name-infographic-lekePopoola" width="100" height="100"
+                     loading="lazy">
+                  <div class="team-contact">
+                     <h3>Media production</h3>
+                     <a href="https://lekeadejosephp.wixsite.com/portfolio"
+                        target="_blank">lekeadejosephp.wixsite.com</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+   </main>
+   <!-- footer - social -->
+   <footer>
+      <ul>
+
+         <li><a href="https://www.youtube.com/channel/UCioC3kknLAHUqKB4IukV_KQ/featured" target="_blank"><i
+                  class="fab fa-youtube"></i></a></li>
+         <li><a href="https://www.instagram.com/gatehouse_game/" target="_blank"><i class="fab fa-instagram"></i></a>
+         </li>
+         <li><a href="https://www.reddit.com/user/Gate_house_studio" target="_blank"><i
+                  class="fab fa-reddit-alien"></i></a></li>
+         <li> <a href="mailto:gatehouseproduction1@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></li>
+
+      </ul>
+   </footer>
+
+   <!-- absolute element -->
+   <div class="side sideL">
+      <svg class="torchElement" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1000">
+         <g>
+            <rect class="torch" x="110.33" y="697.39" width="127.31" height="143.66" rx="20.57" />
+            <path class="torch"
+               d="M319.9,431.32a18.88,18.88,0,0,1-4,11.89,13.29,13.29,0,0,1-6.46,4.46L292.76,609.13c0,19.83-9.54,36.91-23.27,44.66a21.61,21.61,0,0,1,1.08,6.82v4.92c0,9.93-6.53,18-14.59,18h-6.56L220,878.68c6.54.72,11.22,7.5,11.66,15.74.55,10.22-9.29,15.8-12.83,15.8,0,0,8.89,2.86,9.63,14.2.61,9.35-8.35,14.2-11.53,14.2,0,0,8.39,3.35,8.89,12.76.4,7.61-7.57,13.11-10.46,13.11l-11.84,23.36c-.72,4.76-6.25,4.76-7,0l-11.6-23.36c-5.76,0-10.85-6.45-10.51-13.54.41-8.31,9-12.33,9-12.33-6.34,0-11.86-6.16-11.79-14,.11-11.84,9.88-14.43,9.88-14.43-7,0-13.32-6.82-13.08-15.46C168.69,883.25,177,879,180,878.68L150.58,683.5H144c-8.06,0-14.59-8-14.59-18v-4.92a21.67,21.67,0,0,1,1-6.42c-13.85-7.46-23.54-24.5-23.54-44.33L90.51,447.65c-6-1.78-10.41-8.42-10.41-16.33a18.87,18.87,0,0,1,4-11.88c2.47-3,69,13,113.71,13.3a319.21,319.21,0,0,0,108.45-18.22C314.15,417.57,319.9,424.18,319.9,431.32Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+         <g class="fireLeft">
+            <path class="yellow"
+               d="M44.29,360.7c34.08,67.06,87.71,73.22,163.52,72.41,72.28-.76,143.76-19.69,160-95.77,28.2-132-201.9-123.81-95.19-328.76C81.83,52.35-17.45,239.23,44.29,360.7Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="opacity"
+               d="M93.51,415.59c45.56,39.24,166.07,19.73,212.57,1.17,25.32-10.1,54.9-50.22,53.15-103.85-2.27-69.63-190.4-74.85-172.88-204.5C68.38,140-28.56,310.47,93.51,415.59Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="red"
+               d="M373.91,305.42c-2.58,78.64-54,127.69-131.06,132.37-34,2.06-108.63,4.67-144.89-29.75-73.47-69.72,219.3-98.89,179.49-297C277.45,111.05,377.16,206.62,373.91,305.42Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+         <g class="fireRight">
+            <path class="yellow"
+               d="M355.71,360.7c-34.08,67.06-87.71,73.22-163.52,72.41-72.28-.76-143.76-19.69-160-95.77C4,205.35,234.08,213.53,127.37,8.58,318.17,52.35,417.45,239.23,355.71,360.7Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="opacity"
+               d="M306.49,415.59c-45.56,39.24-166.07,19.73-212.57,1.17C68.6,406.66,39,366.54,40.77,312.91c2.27-69.63,190.4-74.85,172.88-204.5C331.62,140,428.56,310.47,306.49,415.59Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="red"
+               d="M26.09,305.42c2.58,78.64,54,127.69,131.06,132.37,34,2.06,108.63,4.67,144.89-29.75,73.47-69.72-219.3-98.89-179.49-297C122.55,111.05,22.84,206.62,26.09,305.42Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+      </svg>
+
+   </div>
+   <div class="side sideR">
+      <svg class="torchElement" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1000">
+         <g>
+            <rect class="torch" x="110.33" y="697.39" width="127.31" height="143.66" rx="20.57" />
+            <path class="torch"
+               d="M319.9,431.32a18.88,18.88,0,0,1-4,11.89,13.29,13.29,0,0,1-6.46,4.46L292.76,609.13c0,19.83-9.54,36.91-23.27,44.66a21.61,21.61,0,0,1,1.08,6.82v4.92c0,9.93-6.53,18-14.59,18h-6.56L220,878.68c6.54.72,11.22,7.5,11.66,15.74.55,10.22-9.29,15.8-12.83,15.8,0,0,8.89,2.86,9.63,14.2.61,9.35-8.35,14.2-11.53,14.2,0,0,8.39,3.35,8.89,12.76.4,7.61-7.57,13.11-10.46,13.11l-11.84,23.36c-.72,4.76-6.25,4.76-7,0l-11.6-23.36c-5.76,0-10.85-6.45-10.51-13.54.41-8.31,9-12.33,9-12.33-6.34,0-11.86-6.16-11.79-14,.11-11.84,9.88-14.43,9.88-14.43-7,0-13.32-6.82-13.08-15.46C168.69,883.25,177,879,180,878.68L150.58,683.5H144c-8.06,0-14.59-8-14.59-18v-4.92a21.67,21.67,0,0,1,1-6.42c-13.85-7.46-23.54-24.5-23.54-44.33L90.51,447.65c-6-1.78-10.41-8.42-10.41-16.33a18.87,18.87,0,0,1,4-11.88c2.47-3,69,13,113.71,13.3a319.21,319.21,0,0,0,108.45-18.22C314.15,417.57,319.9,424.18,319.9,431.32Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+         <g class="fireLeft">
+            <path class="yellow"
+               d="M44.29,360.7c34.08,67.06,87.71,73.22,163.52,72.41,72.28-.76,143.76-19.69,160-95.77,28.2-132-201.9-123.81-95.19-328.76C81.83,52.35-17.45,239.23,44.29,360.7Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="opacity"
+               d="M93.51,415.59c45.56,39.24,166.07,19.73,212.57,1.17,25.32-10.1,54.9-50.22,53.15-103.85-2.27-69.63-190.4-74.85-172.88-204.5C68.38,140-28.56,310.47,93.51,415.59Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="red"
+               d="M373.91,305.42c-2.58,78.64-54,127.69-131.06,132.37-34,2.06-108.63,4.67-144.89-29.75-73.47-69.72,219.3-98.89,179.49-297C277.45,111.05,377.16,206.62,373.91,305.42Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+         <g class="fireRight">
+            <path class="yellow"
+               d="M355.71,360.7c-34.08,67.06-87.71,73.22-163.52,72.41-72.28-.76-143.76-19.69-160-95.77C4,205.35,234.08,213.53,127.37,8.58,318.17,52.35,417.45,239.23,355.71,360.7Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="opacity"
+               d="M306.49,415.59c-45.56,39.24-166.07,19.73-212.57,1.17C68.6,406.66,39,366.54,40.77,312.91c2.27-69.63,190.4-74.85,172.88-204.5C331.62,140,428.56,310.47,306.49,415.59Z"
+               transform="translate(-26.01 -8.58)" />
+            <path class="red"
+               d="M26.09,305.42c2.58,78.64,54,127.69,131.06,132.37,34,2.06,108.63,4.67,144.89-29.75,73.47-69.72-219.3-98.89-179.49-297C122.55,111.05,22.84,206.62,26.09,305.42Z"
+               transform="translate(-26.01 -8.58)" />
+         </g>
+      </svg>
+   </div>
+
+   <div class="door left leftOpen">
+   </div>
+   <div class="door right rightOpen">
+   </div>
+
+   <!-- end absolute element -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+   <script src="https://kit.fontawesome.com/45bfc94cb4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
