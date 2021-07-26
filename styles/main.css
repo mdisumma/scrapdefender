@@ -91,6 +91,11 @@ section figure img {
   height: 100%;
 }
 
+section figure a {
+  display: block;
+  text-align: center;
+}
+
 .container {
   margin: 0;
   padding: 0;
@@ -198,6 +203,25 @@ header nav #company-logo:hover {
   transform: scale(1);
 }
 
+#home {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  max-width: 600px;
+  position: relative;
+  margin: 200px auto;
+  color: white;
+  z-index: 100;
+}
+#home figure img {
+  width: 100%;
+  height: 100%;
+}
+#home a {
+  text-decoration: none;
+  color: #ffee00;
+}
+
 #mc_embed_signup_scroll {
   width: 100%;
   display: flex;
@@ -276,11 +300,7 @@ footer ul li a {
     padding: 0;
     justify-content: center;
   }
-  nav .navContainer ul {
-    display: none;
-  }
-
-  #company-logo {
+  nav .navContainer ul #play-game {
     display: none;
   }
 
