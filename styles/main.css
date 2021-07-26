@@ -816,6 +816,7 @@ hr {
 
 .game-icon img {
   display: block;
+  padding: 10px 20px;
   height: 38px;
 }
 
