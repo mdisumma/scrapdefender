@@ -7,7 +7,7 @@ const sound = document.querySelector("audio");
 window.addEventListener("load", (e) => {
 	console.log(e);
 	if (doorLeft.classList.length == 3) {
-		playSound();
+		// playSound();
 		doorControl();
 	}
 });
@@ -32,6 +32,6 @@ function doorControl() {
 	doorRight.classList.toggle("right");
 }
 
-function playSound() {
-	sound.play();
-}
+// function playSound() {
+// 	sound.play();
+// }
