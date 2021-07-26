@@ -45,6 +45,12 @@ h1 {
   margin: 24px;
 }
 
+h3 .internal-link,
+h2 .internal-link,
+h1 .internal-link {
+  display: none;
+}
+
 h2 {
   font-size: 2em;
   font-family: "Reggae One", cursive;

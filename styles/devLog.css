@@ -26,11 +26,7 @@
 .development {
 	padding-top: 160px;
 }
-h3 .internal-link,
-h2 .internal-link,
-h1 .internal-link {
-	display: none;
-}
+
 .development img {
 	max-width: 90%;
 }
