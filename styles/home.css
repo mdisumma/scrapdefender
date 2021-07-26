@@ -70,3 +70,19 @@ figure img {
 	margin: 0 auto;
 	text-align: center;
 }
+@media only screen and (max-width: 800px) {
+	.team-member {
+		display: flex;
+		justify-content: center;
+		font-size: 0.8em;
+		margin: 1em auto;
+		width: 350px;
+		display: block;
+		color: #434242;
+		align-items: center;
+	}
+	.team-member img {
+		display: block;
+		margin: 1em auto;
+	}
+}
