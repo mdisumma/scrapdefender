@@ -20,9 +20,6 @@
 .week:hover {
 	fill: #ffee00;
 }
-#game-description img {
-	width: 50%;
-}
 /* narrative */
 .narrative img {
 	display: block;
@@ -112,13 +109,19 @@ hr {
 }
 
 @media only screen and (max-width: 1000px) {
-	.production .small {
+	.development .small {
 		width: 80%;
 	}
 }
 @media only screen and (max-width: 600px) {
-	.production {
+	.development {
 		padding-top: 2em;
+	}
+	.narrative img,
+	.development figure img {
+		padding: 0;
+		margin: 0;
+		max-width: 100%;
 	}
 	hr {
 		position: relative;
