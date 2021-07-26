@@ -45,6 +45,7 @@ h1 {
 	font-size: 2em;
 	margin: 24px;
 }
+
 h2 {
 	font-size: 2em;
 	font-family: $header;
@@ -107,18 +108,6 @@ section {
 section:hover {
 	border: 1px solid $textColor;
 }
-
-section img {
-	display: block;
-	padding: 0.5em;
-	margin: 1em auto;
-}
-section video {
-	display: block;
-	margin: 0 auto;
-	max-width: 250px;
-}
-
 @media only screen and (max-width: 1000px) {
 	h1 {
 		font-size: 2em;
