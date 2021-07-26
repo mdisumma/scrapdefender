@@ -285,11 +285,11 @@ footer ul li a {
   }
   footer ul li a {
     margin: 3px;
-    cursor: pointer;
-    display: flex;
-    font-size: 1 em;
     text-decoration: none;
-    color: #ffee00;
+  }
+  footer ul li a img {
+    width: 28px;
+    height: 28px;
   }
 }
 /* torch */

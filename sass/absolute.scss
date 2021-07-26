@@ -137,11 +137,11 @@ footer {
 			margin: 3px 10px;
 			a {
 				margin: 3px;
-				cursor: pointer;
-				display: flex;
-				font-size: 1 em;
 				text-decoration: none;
-				color: $textColor;
+				img {
+					width: 28px;
+					height: 28px;
+				}
 			}
 		}
 	}
