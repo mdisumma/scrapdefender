@@ -262,7 +262,7 @@ footer ul li a {
   margin: 3px;
   cursor: pointer;
   display: flex;
-  font-size: 2em;
+  width: 2em;
   text-decoration: none;
   color: #ffee00;
 }
