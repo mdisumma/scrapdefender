@@ -77,16 +77,6 @@
 	background-image: url(../images/assets/door-right.svg);
 }
 @media only screen and (max-width: 1000px) {
-	.rightOpen {
-		top: 0;
-		right: -40%;
-		transition: 1.5s ease-out;
-	}
-	.leftOpen {
-		top: 0;
-		left: -40%;
-		transition: 1.5s ease-out;
-	}
 	.torchElement {
 		display: none;
 	}

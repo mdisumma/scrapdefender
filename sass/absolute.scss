@@ -141,6 +141,9 @@ footer {
 @media only screen and (max-width: 600px) {
 	header {
 		height: 120px;
+		h1 {
+			display: none;
+		}
 	}
 	nav {
 		margin: 0;
