@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 ul {
   margin: 0;
   padding: 0;
@@ -520,6 +522,317 @@ footer ul li a {
   margin-left: 1.05em;
   text-align: left;
   padding: 0.5em 0;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: 200px auto 0;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #ffee00;
+}
+
+.internal-text {
+  cursor: text;
+  text-decoration: none;
+  color: white;
+}
+
+#home figure {
+  width: 60%;
+  margin: 10% 20%;
+}
+
+#home figure img {
+  width: 100%;
+}
+
+/* narrative */
+#narrative {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #ffee00;
+}
+
+figure img {
+  width: 70%;
+  height: 100%;
+}
+
+/* team */
+.team {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  margin: 0 auto;
+  width: 350px;
+  display: flex;
+  color: #ffee00;
+  align-items: center;
+}
+
+.team-member:hover {
+  background-color: #323232;
+}
+
+.team-member a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Reggae One", cursive;
+  color: #c8c8c8;
+  width: 100%;
+}
+
+.team-member a:hover {
+  color: #ffee00;
+  text-decoration: underline;
+}
+
+.team-member img {
+  max-width: 100px;
+  margin: 1em;
+}
+
+.team-contact * {
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .team-member {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    margin: 1em auto;
+    width: 350px;
+    display: block;
+    color: #434242;
+    align-items: center;
+  }
+
+  .team-member img {
+    display: block;
+    margin: 1em auto;
+  }
+}
+/* timeline */
+.timeline-nav {
+  margin: 3em;
+}
+
+.timeline {
+  fill: #ffee00;
+}
+
+.week {
+  cursor: pointer;
+  fill: #c8c8c8;
+  font-size: 14px;
+  font-family: "Reggae One", cursive;
+}
+
+.week:hover {
+  fill: #ffee00;
+}
+
+/* development */
+.development {
+  padding-top: 160px;
+}
+
+.development iframe {
+  border: 0;
+  margin: 5%;
+  width: 90%;
+}
+
+.development figure img {
+  max-width: 100%;
+}
+
+.development .video {
+  max-width: 800px;
+  margin: 2em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.development iframe {
+  width: 50%;
+}
+
+.development .small {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1em;
+}
+
+hr {
+  position: relative;
+  top: 160px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .development .small {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .development {
+    padding-top: 2em;
+  }
+
+  .development .video {
+    justify-content: center;
+  }
+
+  .development figure {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  hr {
+    position: relative;
+    top: 2em;
+  }
+
+  .timeline-nav {
+    display: none;
+  }
+
+  .development #video {
+    display: none;
+  }
+
+  .team-member {
+    font-size: 0.8em;
+    margin: 1em auto;
+    width: 350px;
+    display: block;
+    color: #434242;
+    align-items: center;
+  }
+
+  .team-member img {
+    margin: 0 auto;
+  }
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  margin: 200px auto 0;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #ffee00;
+}
+
+.internal-text {
+  cursor: text;
+  text-decoration: none;
+  color: white;
+}
+
+#home figure {
+  width: 60%;
+  margin: 10% 20%;
+}
+
+#home figure img {
+  width: 100%;
+}
+
+/* narrative */
+#narrative {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #ffee00;
+}
+
+figure img {
+  width: 70%;
+  height: 100%;
+}
+
+/* team */
+.team {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  margin: 0 auto;
+  width: 350px;
+  display: flex;
+  color: #ffee00;
+  align-items: center;
+}
+
+.team-member:hover {
+  background-color: #323232;
+}
+
+.team-member a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Reggae One", cursive;
+  color: #c8c8c8;
+  width: 100%;
+}
+
+.team-member a:hover {
+  color: #ffee00;
+  text-decoration: underline;
+}
+
+.team-member img {
+  max-width: 100px;
+  margin: 1em;
+}
+
+.team-contact * {
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .team-member {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    margin: 1em auto;
+    width: 350px;
+    display: block;
+    color: #434242;
+    align-items: center;
+  }
+
+  .team-member img {
+    display: block;
+    margin: 1em auto;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
