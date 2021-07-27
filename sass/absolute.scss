@@ -63,6 +63,15 @@ header {
 	justify-content: flex-start;
 	color: $textColor;
 }
+#mc_embed_signup_scroll label {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	color: $textColor;
+	font-family: "Montserrat", sans-serif;
+}
 
 #mc_embed_signup input.button {
 	background-color: rgb(75, 75, 75);
@@ -142,5 +151,10 @@ footer {
 				}
 			}
 		}
+	}
+}
+@media only screen and (max-width: 400px) {
+	#mc_embed_signup_scroll label {
+		display: none;
 	}
 }

@@ -209,6 +209,16 @@ header nav #company-logo:hover {
   color: #ffee00;
 }
 
+#mc_embed_signup_scroll label {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  color: #ffee00;
+  font-family: "Montserrat", sans-serif;
+}
+
 #mc_embed_signup input.button {
   background-color: #4b4b4b;
   color: #ffee00;
@@ -287,6 +297,11 @@ footer ul li a {
   footer ul li a img {
     width: 25px;
     height: 25px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #mc_embed_signup_scroll label {
+    display: none;
   }
 }
 /* torch */
