@@ -299,7 +299,7 @@ footer ul li a {
     height: 25px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   #mc_embed_signup_scroll label {
     display: none;
   }
