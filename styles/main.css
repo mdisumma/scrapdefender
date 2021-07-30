@@ -9,7 +9,8 @@ ul {
   justify-content: center;
 }
 
-ul li {
+footer ul li,
+header ul li {
   display: inline-block;
   font-family: "Reggae One", cursive;
   font-size: 1em;
@@ -21,10 +22,10 @@ ul li {
   transition: 0.4s;
 }
 
-ul li:hover {
+footer ul li:hover,
+header ul li:hover {
   border: 1px solid #ffee00;
   background-color: #323232;
-  transform: scale(1.1);
 }
 
 ul li a {
@@ -266,11 +267,8 @@ footer {
   z-index: 15;
   bottom: 0;
 }
-footer ul li {
-  margin: 3px 32px;
-}
-footer ul li a {
-  margin: 3px;
+footer a {
+  margin: 0px 20px;
   text-decoration: none;
 }
 
@@ -295,7 +293,7 @@ footer ul li a {
   }
 
   footer ul li {
-    margin: 10px 20px;
+    margin: 0px 20px;
   }
   footer ul li a img {
     width: 25px;
@@ -792,18 +790,10 @@ hr {
 }
 
 #game-support {
+  background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.game-icon:hover {
-  border: 1px solid #ffee00;
-  background-color: #323232;
-}
-
-#game-support {
-  background-color: rgba(0, 0, 0, 0.6);
 }
 
 #game-support .label {
@@ -834,12 +824,29 @@ hr {
 #game-icon {
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.game-icon {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.showInfo {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  position: absolute;
+  opacity: 0%;
+}
+
+.showInfo:hover {
+  transform: translate(0px, -60px);
 }
 
 .game-icon img {
   display: block;
-  padding: 5px;
   height: 38px;
 }
 

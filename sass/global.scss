@@ -13,7 +13,8 @@ ul {
 	align-items: center;
 	justify-content: center;
 }
-ul li {
+footer ul li,
+header ul li {
 	display: inline-block;
 	font-family: $header;
 	font-size: 1em;
@@ -24,10 +25,10 @@ ul li {
 	border-radius: 3px;
 	transition: 0.4s;
 }
-ul li:hover {
+footer ul li:hover,
+header ul li:hover {
 	border: 1px solid $textColor;
 	background-color: rgb(50, 50, 50);
-	transform: scale(1.1);
 }
 ul li a {
 	cursor: pointer;

@@ -52,16 +52,10 @@
 }
 
 #game-support {
+	background-color: rgba(0, 0, 0, 0.6);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-}
-.game-icon:hover {
-	border: 1px solid $textColor;
-	background-color: rgb(50, 50, 50);
-}
-#game-support {
-	background-color: rgba(0, 0, 0, 0.6);
 }
 
 #game-support .label {
@@ -90,11 +84,25 @@
 #game-icon {
 	background-color: rgba(0, 0, 0, 0.6);
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
+}
+.game-icon {
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.showInfo {
+	font-family: "Montserrat", sans-serif;
+	background-color: white;
+	padding: 10px 20px;
+	margin-bottom: 1em;
+	position: absolute;
+	opacity: 0%;
+}
+.showInfo:hover {
+	transform: translate(0px, -60px);
 }
 .game-icon img {
 	display: block;
-	padding: 5px;
 	height: 38px;
 }
 @media only screen and (max-width: 480px) {
