@@ -1,4 +1,4 @@
-if (screen.width > 600) {
+if (screen.width > 960) {
 	var buildUrl = "Build";
 	var loaderUrl = buildUrl + "/CMN5201.loader.js";
 	var config = {
