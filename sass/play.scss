@@ -57,7 +57,6 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-
 #game-support .label {
 	padding: 5px 0;
 	background-color: rgb(50, 50, 50);
@@ -71,7 +70,6 @@
 #game-support .label:hover {
 	border: 1px solid $textColor;
 }
-
 #unity-mobile-warning {
 	position: absolute;
 	left: 50%;
@@ -84,10 +82,11 @@
 #game-icon {
 	background-color: rgba(0, 0, 0, 0.6);
 	display: flex;
+	padding: 1em 0;
 	justify-content: center;
 }
 .game-icon {
-	padding: 10px 20px;
+	padding: 10px;
 	cursor: pointer;
 }
 .showInfo {
@@ -96,9 +95,7 @@
 	padding: 20px;
 	position: absolute;
 	opacity: 0%;
-}
-.showInfo:hover {
-	transform: translate(-10px -10px);
+	transform: translate(-15px, -20px);
 }
 .game-icon img {
 	display: block;

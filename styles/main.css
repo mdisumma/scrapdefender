@@ -824,11 +824,12 @@ hr {
 #game-icon {
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
+  padding: 1em 0;
   justify-content: center;
 }
 
 .game-icon {
-  padding: 10px 20px;
+  padding: 10px;
   cursor: pointer;
 }
 
@@ -838,10 +839,7 @@ hr {
   padding: 20px;
   position: absolute;
   opacity: 0%;
-}
-
-.showInfo:hover {
-  transform: translate(-10px -10px);
+  transform: translate(-15px, -20px);
 }
 
 .game-icon img {
