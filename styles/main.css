@@ -847,8 +847,12 @@ hr {
   height: 38px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 960px) {
   .unity-container {
+    display: none;
+  }
+
+  #unity-footer {
     display: none;
   }
 }

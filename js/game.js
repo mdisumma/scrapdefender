@@ -1,4 +1,5 @@
-if (screen.width > 960) {
+const mq = window.matchMedia("(min-width: 960px)");
+if (mq.matches) {
 	var buildUrl = "Build";
 	var loaderUrl = buildUrl + "/CMN5201.loader.js";
 	var config = {
@@ -58,19 +59,21 @@ if (screen.width > 960) {
 			});
 	};
 	document.body.appendChild(script);
+
+	const supportIcon = document.querySelector("#game-icon");
+
+	supportIcon.addEventListener("mouseover", (e) => {
+		const targetIcon = e.path[0].classList.value;
+		if (targetIcon === "showInfo") {
+			e.path[0].style.opacity = "100%";
+		}
+	});
+	supportIcon.addEventListener("mouseout", (e) => {
+		const targetIcon = e.path[0].classList.value;
+		if (targetIcon === "showInfo") {
+			e.path[0].style.opacity = "0%";
+		}
+	});
+} else {
+	alert("minimum size required 960 x 600");
 }
-
-const supportIcon = document.querySelector("#game-icon");
-
-supportIcon.addEventListener("mouseover", (e) => {
-	const targetIcon = e.path[0].classList.value;
-	if (targetIcon === "showInfo") {
-		e.path[0].style.opacity = "100%";
-	}
-});
-supportIcon.addEventListener("mouseout", (e) => {
-	const targetIcon = e.path[0].classList.value;
-	if (targetIcon === "showInfo") {
-		e.path[0].style.opacity = "0%";
-	}
-});
