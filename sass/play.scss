@@ -42,48 +42,42 @@
 }
 
 #unity-footer {
-	background-color: rgba(0, 0, 0, 0.6);
 	max-width: 960px;
-	display: flex;
 	margin: 0 auto;
-	padding: 10px;
 	border-radius: 10px;
 	justify-content: space-evenly;
 	align-items: center;
 	position: relative;
-	top: calc(50vh - 250px);
+	top: calc(50vh - 300px);
 }
 
 #game-support {
 	display: flex;
-	justify-content: space-evenly;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-#game-support .label {
-	padding: 10px;
-	display: flex;
+.game-icon:hover {
+	border: 1px solid $textColor;
+	background-color: rgb(50, 50, 50);
+}
+#game-support {
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
-#bags-reports-title,
-#unity-build-title {
-	margin-right: 10px;
-	line-height: 38px;
-	font-family: "Reggae One", cursive;
+#game-support .label {
+	padding: 5px 0;
+	background-color: rgb(50, 50, 50);
+	border: none;
+	width: 33%;
+	font-family: "Montserrat", sans-serif;
 	color: #ffee00;
 	font-size: 18px;
+	cursor: pointer;
 }
-#bags-reports,
-#unity-fullscreen-button {
-	width: 38px;
-	height: 38px;
-	background: url("../Build/TemplateData/fullscreen-button.svg") no-repeat
-		center;
+#game-support .label:hover {
+	border: 1px solid $textColor;
 }
-#unity-fullscreen-button:hover {
-	width: 38px;
-	height: 38px;
-	background: url("../Build/TemplateData/fullscreen-button-hover.svg") no-repeat
-		center;
-}
+
 #unity-mobile-warning {
 	position: absolute;
 	left: 50%;
@@ -94,12 +88,13 @@
 	display: none;
 }
 #game-icon {
+	background-color: rgba(0, 0, 0, 0.6);
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 .game-icon img {
 	display: block;
-	padding: 10px;
+	padding: 5px;
 	height: 38px;
 }
 @media only screen and (max-width: 480px) {
