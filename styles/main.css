@@ -842,7 +842,7 @@ hr {
 }
 
 .showInfo:hover {
-  transform: translate(0px, -60px);
+  transform: translate(0px, -30px);
 }
 
 .game-icon img {
