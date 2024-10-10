@@ -60,9 +60,6 @@ The game is hosted on Netlify and can be accessed at [Scrap Defender](https://sc
 - Explore expanding to mobile platforms for broader accessibility.
 - Implement additional levels and traps for enhanced gameplay variety.
 
-## Contributing
-For contributions, please fork the repository, make changes, and submit a pull request.
-
 ## Acknowledgments
 - **Team Members**:
   - **Henry Tribble**: Game Development
@@ -70,9 +67,3 @@ For contributions, please fork the repository, make changes, and submit a pull r
   - **Christian Freeman**: Game Programmer
   - **George Petrakhs**: Player Programmer
   - **Leke Popoola**: Media Production
-
-## License
-MIT License.
-
-## Screenshots and/or Demo
-![Scrap Defender Gameplay](link-to-screenshot.png)
